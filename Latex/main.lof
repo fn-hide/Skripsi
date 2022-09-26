@@ -1,0 +1,38 @@
+\babel@toc {bahasa}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {bahasa}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Kanker kulit \textit {melanoma}\relax }}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Kanker kulit \textit {actinic keratosis}\relax }}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Kanker kulit \textit {melanocytic nevus}\relax }}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Kanker kulit \textit {basal cell carcinoma}\relax }}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Kanker kulit \textit {squamous cell carcinoma}\relax }}{15}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Kanker kulit \textit {dermatofibroma}\relax }}{16}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Kanker kulit \textit {benign keratosis lesion}\relax }}{17}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Kanker kulit \textit {vascular lesion}\relax }}{18}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Citra warna beserta nilai pikselnya\relax }}{20}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Citra \textit {grayscale} beserta nilai pikselnya\relax }}{21}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Citra biner beserta nilai pikselnya\relax }}{22}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Citra \textit {dermoscopy} yang mengandung kanker kulit \textit {melanoma}\relax }}{23}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces (a) Citra sebelum diubah berukuran $500\times 500$ piksel (b) Citra setelah diubah berukuran $200\times 200$ piksel\relax }}{23}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Arsitektur dasar dari CNN\relax }}{25}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Cara kerja kernel pada \textit {convolutional layer}\relax }}{26}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Cara kerja \textit {pooling layer} (a) \textit {Max pooling}; (b) \textit {Average pooling}\relax }}{27}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces YOLO dapat mendeteksi objek manusia, anjing, kuda\relax }}{29}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Modifikasi arsitektur DenseNet menjadi CSP DenseNet (a) DenseNet; (b) CSP DenseNet\relax }}{30}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Struktur SPP pada sebuah jaringan\relax }}{31}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Proses \textit {shortcut connection} pada PANet\relax }}{32}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Proses \textit {adaptive feature pooling} pada jaringan PANet\relax }}{33}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Proses \textit {fully-connected fusion} pada jaringan PANet\relax }}{34}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces (a) Jaringan PANet Asli (b) Jaringan PANet modifikasi pada YOLO-v4\relax }}{34}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces (a) Arsitektur ELAN; (b) Modifikasi ELAN menjadi E-ELAN\relax }}{35}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Penskalaan model terhadap model \textit {concatenation-based} (a) Model \textit {concatention-based}; (b) \textit {Scaling-up} pada model \textit {concatenation-based}; (c) \textit {Compound scaling} pada \textit {concatenation-based} model\relax }}{36}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Menunjukkan kondisi kotak pembatas (a) IoU; (b) \textit {Overlapped area}; (c) \textit {Union area}\relax }}{38}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Menunjukkan kondisi nilai IoU (a) Nilai IoU kurang baik; (b) Nilai IoU baik; (c) Nilai IoU sangat baik\relax }}{39}{figure.caption.43}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Dataset citra dermoskopi kanker kulit (a) AK; (b) BCC; (c) BKL; (d) DF; (e) MEL; (f) NV; (g) SCC; (h) VASC;\relax }}{42}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagram alir pada penelitian ini\relax }}{43}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Tahap \textit {pre-processing} (a) Citra asli; (b) Citra yang sudah dianotasi; (c) Citra yang sudah diubah ukurannya\relax }}{44}{figure.caption.46}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

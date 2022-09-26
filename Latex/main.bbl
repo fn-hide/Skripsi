@@ -1,0 +1,306 @@
+\begin{thebibliography}{}
+
+\bibitem[Adyanti et~al., 2017]{Adyanti2017}
+Adyanti, D.~A., Asyhar, A.~H., Novitasari, D. C.~R., Lubab, A., \&
+  Hafiyusholeh, M. (2017).
+\newblock {Forecasts marine weather on java sea using hybrid methods:
+  Ts-anfis}.
+\newblock {\em International Conference on Electrical Engineering, Computer
+  Science and Informatics (EECSI)}, 4(September), 492--497.
+
+\bibitem[Alasadi \& Alsafy, 2015]{Alasadi2015a}
+Alasadi, A.~H. \& Alsafy, B. (2015).
+\newblock {Early Detection and Classification of Melanoma Skin Cancer}.
+\newblock {\em I.J. Information Technology and Computer Science}, 12, 67--74.
+
+\bibitem[Baranwal et~al., 2021]{Baranwal2021}
+Baranwal, N., Doravari, P., \& Kachhoria, R. (2021).
+\newblock {Classification of Histopathology Images of Lung Cancer Using
+  Convolutional Neural Network (CNN)}.
+\newblock 2, 1--25.
+
+\bibitem[Bhimavarapu \& Battineni, 2022]{Bhimavarapu2022}
+Bhimavarapu, U. \& Battineni, G. (2022).
+\newblock {Skin Lesion Analysis for Melanoma Detection Using the Novel Deep
+  Learning Model Fuzzy GC-SCNN}.
+\newblock {\em Healthcare}, 10(5), 962.
+
+\bibitem[Blackledge, 2005]{Blackledge2005}
+Blackledge, J.~M. (2005).
+\newblock {\em {Digital Image Processing: Mathematical and Computational
+  Methods}}.
+\newblock Chichester.
+
+\bibitem[Bochkovskiy et~al., 2020]{Bochkovskiy2020}
+Bochkovskiy, A., Wang, C.-Y., \& Liao, H.-Y.~M. (2020).
+\newblock {YOLOv4: Optimal Speed and Accuracy of Object Detection}.
+
+\bibitem[Celebi et~al., 2019]{Celebi2019}
+Celebi, M.~E., Codella, N., \& Halpern, A. (2019).
+\newblock {Dermoscopy Image Analysis: Overview and Future Directions}.
+\newblock {\em IEEE Journal of Biomedical and Health Informatics}, 23(2),
+  474--478.
+
+\bibitem[Chhatlani et~al., 2022]{Chhatlani2022a}
+Chhatlani, J., Mahajan, T., Rijhwani, R., Bansode, A., \& Bhatia, G. (2022).
+\newblock {DermaGenics - Early Detection of Melanoma using YOLOv5 Deep
+  Convolutional Neural Networks}.
+\newblock {\em 2022 IEEE Delhi Section Conference, DELCON 2022}.
+
+\bibitem[Codella et~al., 2018]{Codella2018}
+Codella, N.~C., Gutman, D., Celebi, M.~E., Helba, B., Marchetti, M.~A., Dusza,
+  S.~W., Kalloo, A., Liopyris, K., Mishra, N., Kittler, H., \& Halpern, A.
+  (2018).
+\newblock {Skin lesion analysis toward melanoma detection: A challenge at the
+  2017 International symposium on biomedical imaging (ISBI), hosted by the
+  international skin imaging collaboration (ISIC)}.
+\newblock {\em Proceedings - International Symposium on Biomedical Imaging},
+  2018-April, 168--172.
+
+\bibitem[Combalia et~al., 2019]{Combalia2019}
+Combalia, M., Codella, N. C.~F., Rotemberg, V., Helba, B., Vilaplana, V.,
+  Reiter, O., Carrera, C., Barreiro, A., Halpern, A.~C., Puig, S., \& Malvehy,
+  J. (2019).
+\newblock {BCN20000: Dermoscopic Lesions in the Wild}.
+\newblock (pp.\ 3--5).
+
+\bibitem[Cowton et~al., 2019]{Cowton2019}
+Cowton, J., Kyriazakis, I., \& Bacardit, J. (2019).
+\newblock {Automated Individual Pig Localisation, Tracking and Behaviour Metric
+  Extraction Using Deep Learning}.
+\newblock {\em IEEE Access}, 7, 108049--108060.
+
+\bibitem[Davis et~al., 2019]{Davis2019}
+Davis, L.~E., Shalin, S.~C., \& Tackett, A.~J. (2019).
+\newblock {Current state of melanoma diagnosis and treatment}.
+\newblock {\em Cancer Biology and Therapy}, 20(11), 1366--1379.
+
+\bibitem[Dianzani et~al., 2020]{Dianzani2020}
+Dianzani, C., Conforti, C., Giuffrida, R., Corneli, P., di~Meo, N., Farinazzo,
+  E., Moret, A., {Magaton Rizzi}, G., \& Zalaudek, I. (2020).
+\newblock {Current therapies for actinic keratosis}.
+\newblock {\em International Journal of Dermatology}, 59(6), 677--684.
+
+\bibitem[Fu'adah et~al., 2020]{Fuadah2020a}
+Fu'adah, Y.~N., Pratiwi, N.~C., Pramudito, M.~A., \& Ibrahim, N. (2020).
+\newblock {Convolutional Neural Network (CNN) for Automatic Skin Cancer
+  Classification System}.
+\newblock {\em IOP Conference Series: Materials Science and Engineering},
+  982(1).
+
+\bibitem[Gavrilov et~al., 2019]{Gavrilov2019a}
+Gavrilov, D., Lazarenko, L., \& Zakirov, E. (2019).
+\newblock {AI Recognition in Skin Pathologies Detection}.
+\newblock {\em Proceedings - 2019 International Conference on Artificial
+  Intelligence: Applications and Innovations, IC-AIAI 2019}, (pp.\ 54--56).
+
+\bibitem[Hall, 2019]{Hall2019}
+Hall, A. (2019).
+\newblock {Atlas of Male Genital Dermatology}.
+\newblock {\em Atlas of Male Genital Dermatology}, (pp.\ 157--159).
+
+\bibitem[He et~al., 2014]{He2014}
+He, K., Zhang, X., Ren, S., \& Sun, J. (2014).
+\newblock {Spatial pyramid pooling in deep convolutional networks for visual
+  recognition}.
+\newblock {\em Lecture Notes in Computer Science (including subseries Lecture
+  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 8691
+  LNCS(PART 3), 346--361.
+
+\bibitem[Janda et~al., 2022]{Janda2022}
+Janda, M., Olsen, C.~M., Mar, V.~J., \& Cust, A.~E. (2022).
+\newblock {Early detection of skin cancer in Australia – current approaches
+  and new opportunities}.
+\newblock {\em Public Health Research and Practice}, 32(1), 1--7.
+
+\bibitem[Kusumanto \& Tompunu, 2011]{Kusumanto2011}
+Kusumanto, R.~D. \& Tompunu, A.~N. (2011).
+\newblock {Pengolahan Citra Digital untuk Mendeteksi Obyek Menggunakan
+  Pengolahan Warna Model Normalisasi RGB}.
+\newblock {\em Semantik}, 1(1).
+
+\bibitem[Li et~al., 2022]{li2022epidemiology}
+Li, Y., Lin, B., Liang, S., Tao, J., Zhang, L., Wang, J., \& Zheng, J. (2022).
+\newblock {Epidemiology and survival of patients with malignant carotid body
+  tumors in the SEER database}.
+\newblock {\em Journal of Vascular Surgery}.
+
+\bibitem[Liu et~al., 2018]{Liu2018}
+Liu, S., Qi, L., Qin, H., Shi, J., \& Jia, J. (2018).
+\newblock {Path Aggregation Network for Instance Segmentation}.
+\newblock {\em Proceedings of the IEEE Computer Society Conference on Computer
+  Vision and Pattern Recognition}, (pp.\ 8759--8768).
+
+\bibitem[Morsy, 2018]{Morsy2018}
+Morsy, H.~A. (2018).
+\newblock {Comparison of Commonly Used Non-Adaptive Image Scaling Techniques}.
+\newblock {\em Ciit Digital Image Processing}, 10(9), 177--180.
+
+\bibitem[Muaziroh \& Sholiha, 2018]{Muaziroh2018}
+Muaziroh, U. \& Sholiha, Z.~A. (2018).
+\newblock {Aktualisasi Konsep Sabar dalam Perspektif Alquran (Studi Terhadap
+  Kisah Nabi Ayyub)}.
+\newblock {\em At-Tibyan}, 3(2), 1--15.
+
+\bibitem[Nersisson et~al., 2021]{Nersisson2021a}
+Nersisson, R., Iyer, T.~J., Noel, A. N.~J., \& Rajangam, V. (2021).
+\newblock {A Dermoscopic Skin Lesion Classification Technique Using YOLO-CNN
+  and Traditional Feature Model}.
+\newblock {\em Arabian Journal for Science and Engineering}, 46(10),
+  9797--9808.
+
+\bibitem[Nugroho et~al., 2019]{Nugroho2019}
+Nugroho, A.~A., Slamet, I., \& Sugiyanto (2019).
+\newblock {Skins cancer identification system of HAMl0000 skin cancer dataset
+  using convolutional neural network}.
+\newblock {\em AIP Conference Proceedings}, 2202(December), 0--6.
+
+\bibitem[Nurlitasari et~al., 2022]{Nurlitasari2022}
+Nurlitasari, D.~A., Fuadah, R. Y.~N., \& Magdalena, R. (2022).
+\newblock {Skin Cancer Classification Systems Using Convolutional Neural
+  Network with Alexnet Architecture}.
+\newblock In T. Triwiyanto, A. Rizal, \& W. Caesarendra (Eds.), {\em
+  Proceedings of the 2nd International Conference on Electronics, Biomedical
+  Engineering, and Health Informatics}  (pp.\ 227--236).  Singapore: Springer
+  Nature Singapore.
+
+\bibitem[O'Shea \& Nash, 2015]{OShea2015}
+O'Shea, K. \& Nash, R. (2015).
+\newblock {An Introduction to Convolutional Neural Networks}.
+\newblock (pp.\ 1--11).
+
+\bibitem[Park et~al., 2022]{Park2022}
+Park, M.~Y., Kim, Y., Ha, S.~E., Kim, H.~H., Bhosale, P.~B., Abusaliya, A.,
+  Jeong, S.~H., \& Kim, G.~S. (2022).
+\newblock {Function and Application of Flavonoids in the Breast Cancer}.
+\newblock {\em International Journal of Molecular Sciences}, 23(14), 1--16.
+
+\bibitem[Pathak et~al., 2021]{Balas2018}
+Pathak, P., Punetha, Y., \& Kratika (2021).
+\newblock {Identification of Skin Diseases Using Convolutional Neural Network}.
+\newblock {\em Soft Computing: Theories and Applications}, (pp.\ 171--180).
+
+\bibitem[Ramdhan, 2019]{Ramdhan2019}
+Ramdhan, T.~W. (2019).
+\newblock {Desain Kurikulum Pendidikan Islam Berbasis Tauhid}.
+\newblock {\em Al-Insyiroh: Jurnal Studi Keislaman}, 5(1), 118--134.
+
+\bibitem[Rastogi et~al., 2020]{Rastogi2020}
+Rastogi, K., Singh, L., Khan, N.~A., Goyal, S., Khatri, A., \& Gupta, N.
+  (2020).
+\newblock {Benign vascular anomalies: A transition from morphological to
+  etiological classification}.
+\newblock {\em Annals of Diagnostic Pathology}, 46.
+
+\bibitem[Ratna, 2020]{Ratna2020}
+Ratna, S. (2020).
+\newblock {Pengolahan Citra Digital Dan Histogram Dengan Phyton Dan Text Editor
+  Phycharm}.
+\newblock {\em Technologia: Jurnal Ilmiah}, 11(3), 181.
+
+\bibitem[Redmon et~al., 2016]{Redmon2016a}
+Redmon, J., Divvala, S., Girshick, R., \& Farhadi, A. (2016).
+\newblock {You Only Look Once: Unified, Real-Time Object Detection}.
+\newblock {\em Proceedings of the IEEE Computer Society Conference on Computer
+  Vision and Pattern Recognition}, 2016-Decem, 779--788.
+
+\bibitem[Saherish \& Megha, 2020]{Saherish2020a}
+Saherish, F. \& Megha, J.~V. (2020).
+\newblock {A Survey on Melanoma Skin Cancer Detection using CNN}.
+\newblock (pp.\ 1--4).
+
+\bibitem[Sang \& Deng, 2019]{Sang2019}
+Sang, Y. \& Deng, Y. (2019).
+\newblock {Current insights into the epigenetic mechanisms of skin cancer}.
+\newblock {\em Dermatologic Therapy}, 32(4), 1--7.
+
+\bibitem[Septiaji \& Firdausy, 2018]{Septiaji2018}
+Septiaji, K.~D. \& Firdausy, K. (2018).
+\newblock {Deteksi Kematangan Daun Selada (Lactuca Sativa L) Berbasis Android
+  Menggunakan Nilai RGB Citra}.
+\newblock {\em Jurnal Ilmiah Teknik Elektro Komputer dan Informatika}, 4(1),
+  20.
+
+\bibitem[Shedden-Mora et~al., 2020]{Shedden-Mora2020}
+Shedden-Mora, M.~C., Pan, Y., Heisig, S.~R., von Blanckenburg, P., Rief, W.,
+  Witzel, I., Albert, U.~S., \& Nestoriuc, Y. (2020).
+\newblock {Optimizing expectations about endocrine treatment for breast cancer:
+  Results of the randomized controlled psy-breast trial}.
+\newblock {\em Clinical Psychology in Europe}, 2(1).
+
+\bibitem[Shultz \& Fahlman, 2017]{Shultz2017}
+Shultz, T.~R. \& Fahlman, S.~E. (2017).
+\newblock {\em {Encyclopedia of Machine Learning and Data Mining}}.
+
+\bibitem[Strobel et~al., 2019]{Strobel2019}
+Strobel, O., Neoptolemos, J., J{\"{a}}ger, D., \& B{\"{u}}chler, M.~W. (2019).
+\newblock {Optimizing the outcomes of pancreatic cancer surgery}.
+\newblock {\em Nature Reviews Clinical Oncology}, 16(1), 11--26.
+
+\bibitem[Supaha et~al., 2020]{AhmedThaajwer2020a}
+Supaha, S., Jirange, Y.~S., \& Kumar, A. (2020).
+\newblock {Melanoma Skin Cancer Detection using Image Processing}.
+\newblock {\em Mukt Shabd Journal}, IX(VI), 363--368.
+
+\bibitem[Susmaga, 2004]{Susmaga2004}
+Susmaga, R. (2004).
+\newblock {Confusion Matrix Visualization}.
+\newblock {\em Intelligent Information Processing and Web Mining}, (pp.\
+  107--116).
+
+\bibitem[Tschandl et~al., 2018]{Tschandl2018}
+Tschandl, P., Rosendahl, C., \& Kittler, H. (2018).
+\newblock {Data descriptor: The HAM10000 dataset, a large collection of
+  multi-source dermatoscopic images of common pigmented skin lesions}.
+\newblock {\em Scientific Data}, 5, 1--9.
+
+\bibitem[Umamaheswari \& Geetha, 2018]{Umamaheswari2018}
+Umamaheswari, D. \& Geetha, S. (2018).
+\newblock {Digital Image Processing and ML Techniques}.
+\newblock {\em 2018 Second International Conference on Intelligent Computing
+  and Control Systems (ICICCS)}, (Iciccs), 1336--1341.
+
+\bibitem[Waks \& Winer, 2019]{Waks2019}
+Waks, A.~G. \& Winer, E.~P. (2019).
+\newblock {Breast Cancer Treatment: A Review}.
+\newblock {\em JAMA - Journal of the American Medical Association}, 321(3),
+  288--300.
+
+\bibitem[Wang et~al., 2022]{Wang2022}
+Wang, C.-Y., Bochkovskiy, A., \& Liao, H.-Y.~M. (2022).
+\newblock {YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for
+  real-time object detectors}.
+\newblock (pp.\ 1--15).
+
+\bibitem[Wang et~al., 2020]{Wang2020}
+Wang, C.~Y., {Mark Liao}, H.~Y., Wu, Y.~H., Chen, P.~Y., Hsieh, J.~W., \& Yeh,
+  I.~H. (2020).
+\newblock {CSPNet: A New Backbone that can Enhance Learning Capability of CNN}.
+\newblock {\em IEEE Computer Society Conference on Computer Vision and Pattern
+  Recognition Workshops}, 2020-June, 1571--1580.
+
+\bibitem[Wu et~al., 2021a]{Wu2021b}
+Wu, P., Gao, W., Su, M., Nice, E.~C., Zhang, W., Lin, J., \& Xie, N. (2021a).
+\newblock {Adaptive Mechanisms of Tumor Therapy Resistance Driven by Tumor
+  Microenvironment}.
+\newblock {\em Frontiers in Cell and Developmental Biology}, 9(March), 1--23.
+
+\bibitem[Wu et~al., 2021b]{Wu2021}
+Wu, Y., Su, L., Yuan, M., Chen, T., Ye, J., Jiang, Y., Song, J., \& Yang, H.
+  (2021b).
+\newblock {In Vivo X‐ray Triggered Catalysis of H 2 Generation for Cancer
+  Synergistic Gas Radiotherapy}.
+\newblock {\em Angewandte Chemie}, 133(23), 12978--12985.
+
+\bibitem[Yani et~al., 2019]{Yani2019}
+Yani, M., Irawan, B., \& Setiningsih, C. (2019).
+\newblock {Application of Transfer Learning Using Convolutional Neural Network
+  Method for Early Detection of Terry's Nail}.
+\newblock {\em Journal of Physics: Conference Series}, 1201(1).
+
+\bibitem[Zou et~al., 2019]{Zou2019}
+Zou, Z., Shi, Z., Guo, Y., \& Ye, J. (2019).
+\newblock {Object Detection in 20 Years: A Survey}.
+\newblock (pp.\ 1--39).
+
+\end{thebibliography}

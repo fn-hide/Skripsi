@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: apalike2.bst
+Database file #1: Skripsi.bib
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Warning--empty journal in Baranwal2021
+Warning--empty publisher in Blackledge2005
+Warning--empty journal in Bochkovskiy2020
+Warning--empty journal in Combalia2019
+Warning--empty journal in OShea2015
+Warning--empty journal in Saherish2020a
+Warning--empty publisher in Shultz2017
+Warning--there's a number but no volume in Umamaheswari2018
+Warning--empty journal in Wang2022
+Warning--empty journal in Zou2019
+You've used 50 entries,
+            2229 wiz_defined-function locations,
+            837 strings with 14788 characters,
+and the built_in function-call counts, 22328 in all, are:
+= -- 2163
+> -- 1110
+< -- 28
++ -- 386
+- -- 385
+* -- 2008
+:= -- 3872
+add.period$ -- 148
+call.type$ -- 50
+change.case$ -- 439
+chr.to.int$ -- 49
+cite$ -- 60
+duplicate$ -- 775
+empty$ -- 1413
+format.name$ -- 457
+if$ -- 4307
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 52
+newline$ -- 251
+num.names$ -- 152
+pop$ -- 380
+preamble$ -- 1
+purify$ -- 441
+quote$ -- 0
+skip$ -- 619
+stack$ -- 0
+substring$ -- 1513
+swap$ -- 122
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 296
+warning$ -- 10
+while$ -- 189
+width$ -- 0
+write$ -- 639
+(There were 10 warnings)

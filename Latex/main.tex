@@ -1,0 +1,167 @@
+\documentclass[]{mathuinsa}
+
+\titleind{
+    SISTEM DIAGNOSIS KANKER KULIT BERDASARKAN CITRA DERMOSKOPI MENGGUNAKAN METODE YOLO-V7
+    }
+
+\titleeng{
+    SKIN CANCER DIAGNOSIS SYSTEM BASED ON DERMOSCOPY IMAGES USING YOLO-V7 METHOD
+    }
+
+\fullname{HUDA FEBRIANTO NURROHMAN}
+\NIM{H02219010}
+\semester{VII}
+\examdate{13 Januari 2021}
+\degree{Sarjana Matematika}
+\yearsubmit{2022}
+
+\firstsupervisor{Dian Candra Rini Novitasari, M. Kom}
+\nipfirstsupervisor{198511242014032001}
+
+\firstexaminer{Ahmad Hanif Asyhar, M.Si}
+\nipfirstexaminer{19860123201403001}
+
+\secondexaminer{PENGUJI KEDUA}
+\nipsecondexaminer{NIP PENGUJI KEDUA}
+
+\thirdexaminer{PENGUJI KETIGA}
+\nipthirdexaminer{NIP PENGUJI KETIGA}
+
+\dean{Dr. A. Saepul Hamdani, M.Pd}
+\nipdean{197312272005012003}
+
+\tanggalpersetujuan{13 Januari 2021}
+
+
+
+\begin{document}
+    \cover\titlepage
+
+    % TODO: betulkan hbox yang tumpah-tumpah di sini!
+    \approvalpageBeforeExam
+    \approvalpage
+    \declarepage
+    %Setelah Anda selesai Ujian Akhir Skripsi, scan halaman pengesahan yang telah ditandatangani dosen pembimbing, scan juga halaman pernyataan yang telah Anda tandatangani. Selanjutnya simpan hasil scan tersebut dalam bentuk PDF dengan nama pengesahanskripsi.pdf dan pernyataan.pdf (file disimpan di folder yang sama dengan folder dimana file skripsimath.tex tersimpan)
+    %Hilangkan karakter % sebelum perintah "\approvalpagescan" dan "\declarepagescan" di bawah ini, dan tambahkan karakter % sebelum perintah "\approvalpage" dan "\declarepage" di atas.
+    %\approvalpagescan
+    %\declarepagescan
+
+
+    %-----------------------------------------------------------------
+    % motto page \ halaman motto
+    %-----------------------------------------------------------------
+    \motto
+    % \begin{figure}[h] 
+    %     \begin{center} 
+    %         \includegraphics[scale=0.5]{img/motto.png} 
+    %     \end{center}
+
+    % \end{figure}
+
+    \begin{center}
+        % Here is the word ``Arabic'' written in Arabic:  \<اَلْعَرَبِيَّةُ>. You can also use the command \verb|\RL{arabic text}| like this: \RL{اَلْعَرَبيَّةُ}.
+        $\ldots$ \<ومن يتوكل على الله فهو حسبه> $\ldots$ \\
+        {"}Dan barangsiapa yang bertawakkal kepada Allah niscaya Allah akan mencukupkan (keperluan) nya{"}
+        (QS. Ath-Thalaq: 3)
+    \end{center}
+
+
+    %-----------------------------------------------------------------
+    % preface page \ halaman persembahan
+    %-----------------------------------------------------------------
+    \acknowledment
+    \begin{center}
+        \emph\cal{Karya sederhana ini penulis persembahkan \\
+        untuk diri sendiri}
+    \end{center}
+
+    % awal masukan prakata
+    \preface
+    Segala puji dan syukur penulis panjatkan kepada Allah SWT., yang telah memberikan nikmat karunia dan hidayah-Nya sehingga skripsi dengan judul “SISTEM DIAGNOSIS KANKER KULIT BERDASARKAN CITRA DERMOSKOPI MENGGUNAKAN METODE YOLO-V7”, dapat selesai dengan baik. Berdasarkan hal tersebut, penulis mengucapkan terima kasih yang tak terhingga kepada:
+
+    \begin{enumerate}
+        \item Bapak Prof. Akh. Muzakki, M.Ag, Grad.Dip.SEA., M.Phil, Ph.D., selaku rektor Universitas Islam Negeri Sunan Ampel Surabaya.
+        \item Bapak Dr. A. Saepul Hamdani, M.Pd., selaku Dekan Fakultas Sains dan Teknologi, Universitas Islam Negeri Sunan Ampel Surabaya.
+        \item Ibu Yuniar Farida, M.T., selaku Ketua Program Studi Matematika, Fakultas Sains dan Teknologi, Universitas Islam Negeri Sunan Ampel Surabaya.
+        \item Ibu Dian Candra Rini Novitasari, M.Kom., selaku dosen pembimbing skripsi yang senantiasa mengarahkan dan mengingatkan penulis.
+        \item Bapak dan Ibu dosen Program Studi Matematika, Fakultas Sains dan Teknologi, Universitas Islam Negeri Sunan Ampel Surabaya.
+        \item Seluruh pihak yang terlibat dalam proses pembuatan skripsi ini.
+    \end{enumerate}
+
+    Penulis sangat menyadari bahwa karya skripsi ini masih jauh dari kata sempurna. Oleh karena itu, kritik dan saran yang bersifat membangun sangat diharapkan oleh penulis untuk menyempurnakan penulisan skripsi ini. Penulis mengharapkan agar skripsi ini dapat memberikan manfaat pada dunia sains dan masyarakat.
+    \vspace{0.8cm}
+
+    \begin{tabular}{p{7cm}c}
+        &Surabaya, 13 Januari 2022\\
+        &\\
+        &\\
+        &Penulis
+    \end{tabular}
+
+
+    %-----------------------------------------------------------------
+    % table of contents \ daftar isi
+    %-----------------------------------------------------------------
+    \newpage\phantomsection\addcontentsline{toc}{chapter}{DAFTAR ISI}
+    \makeatletter\renewcommand\l@chapter[2]{\ifnum \c@tocdepth >\z@\addpenalty\@secpenalty\addvspace{0em}\setlength\@tempdima{1.4em}\begingroup\parindent \z@ \rightskip \@pnumwidth\parfillskip -\@pnumwidth\leavevmode \bfseries\advance\leftskip\@tempdima\hskip -\leftskip#1\nobreak\ \leaders\hbox{$\m@th\mkern \@dotsep mu\hbox{.}\mkern \@dotsep mu$}\hfil\nobreak\hb@xt@\@pnumwidth{\hss #2}\par\endgroup\fi}\makeatother
+    \begin{onehalfspacing}\tableofcontents\end{onehalfspacing}
+
+
+    %-----------------------------------------------------------------
+    % list of tables \ daftar tabel
+    %-----------------------------------------------------------------
+    % note: jika diperlukan, hapus karakter % sebelum \newpage & \begin
+    \newpage\phantomsection\addcontentsline{toc}{chapter}{DAFTAR TABEL}
+    \begin{onehalfspacing}\listoftables\end{onehalfspacing}
+
+
+    %-----------------------------------------------------------------
+    % list of figures \ daftar gambar 
+    %-----------------------------------------------------------------
+    \newpage\phantomsection\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
+    \begin{onehalfspacing}\listoffigures\end{onehalfspacing}
+
+
+    %-----------------------------------------------------------------
+    % indonesian abstract version \ abstrak versi indonesia
+    %-----------------------------------------------------------------
+    \begin{abstractind}
+        Tuliskan abstrak versi indonesia anda di sini!\\
+        \noindent
+        \textbf{Kata kunci}: Keyword 1, Keyword 2, Keyword 3, Keyword 4, Keyword 5
+    \end{abstractind}
+    
+    
+    %-----------------------------------------------------------------
+    % english abstract version \ abstrak versi inggris
+    %-----------------------------------------------------------------
+    \begin{abstracteng}
+        Write your indonesian version of abstract here!\\
+        \noindent
+        \textbf{Kata kunci}: Keyword 1, Keyword 2, Keyword 3, Keyword 4, Keyword 5
+    \end{abstracteng}
+
+    %-----------------------------------------------------------------
+    % chapters \ bab-bab
+    %-----------------------------------------------------------------
+    % note: isi BAB I dapat diedit pada file bab1.tex, dst...
+    \input{bab1.tex}
+    \input{bab2.tex}
+    \input{bab3.tex}
+    \input{bab4.tex}
+    \input{bab5.tex}
+
+
+    %-----------------------------------------------------------------
+    %Disini awal masukan untuk Daftar Pustaka (ISI SESUAI DENGAN DATA ANDA!)
+    %-----------------------------------------------------------------
+    \addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+    \bibliography{Skripsi.bib}
+
+
+    %-----------------------------------------------------------------
+    %Disini awal masukan untuk Lampiran (JIKA DIPERLUKAN)
+    %-----------------------------------------------------------------
+    \appendix
+    \label{appendix: filter}
+\end{document}
