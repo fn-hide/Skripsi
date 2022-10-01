@@ -1640,6 +1640,11 @@ INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ../img/Object Detection - Latex.PNG
+INPUT ../img/Object Detection - Latex.PNG
+INPUT ../img/Object Detection - Latex.PNG
+INPUT ../img/Object Detection - Latex.PNG
+INPUT ../img/Object Detection - Latex.PNG
 INPUT ../img/CNN Basic - Latex.PNG
 INPUT ../img/CNN Basic - Latex.PNG
 INPUT ../img/CNN Basic - Latex.PNG
@@ -1660,11 +1665,6 @@ INPUT ../img/CNN Average Pooling - Latex.PNG
 INPUT ../img/CNN Average Pooling - Latex.PNG
 INPUT ../img/CNN Average Pooling - Latex.PNG
 INPUT ../img/CNN Average Pooling - Latex.PNG
-INPUT ../img/Object Detection - Latex.PNG
-INPUT ../img/Object Detection - Latex.PNG
-INPUT ../img/Object Detection - Latex.PNG
-INPUT ../img/Object Detection - Latex.PNG
-INPUT ../img/Object Detection - Latex.PNG
 INPUT ../img/DenseNet - Latex.PNG
 INPUT ../img/DenseNet - Latex.PNG
 INPUT ../img/DenseNet - Latex.PNG

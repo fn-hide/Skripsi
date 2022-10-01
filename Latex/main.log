@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.17)  24 SEP 2022 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.17)  2 OCT 2022 01:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1055,41 +1055,41 @@ File: ../img/Resize - Latex.JPG Graphic file (type jpg)
 Package pdftex.def Info: ../img/Resize - Latex.JPG  used on input line 181.
 (pdftex.def)             Requested size: 56.9055pt x 56.90504pt.
  [23 <../img/Dermoscopy - Latex.jpg> <../img/Resize - Latex.JPG>]
-<../img/CNN Basic - Latex.png, id=798, 464.4853pt x 252.19218pt>
-File: ../img/CNN Basic - Latex.png Graphic file (type png)
-<use ../img/CNN Basic - Latex.png>
-Package pdftex.def Info: ../img/CNN Basic - Latex.png  used on input line 196.
-(pdftex.def)             Requested size: 341.43306pt x 185.38403pt.
- [24]
-<../img/CNN Convolutional Layer - Latex.png, id=806, 545.03625pt x 182.93344pt>
-File: ../img/CNN Convolutional Layer - Latex.png Graphic file (type png)
-<use ../img/CNN Convolutional Layer - Latex.png>
-Package pdftex.def Info: ../img/CNN Convolutional Layer - Latex.png  used on input line 208.
-(pdftex.def)             Requested size: 341.43306pt x 114.59549pt.
- [25 <../img/CNN Basic - Latex.PNG>]
-<../img/CNN Max Pooling - Latex.PNG, id=816, 221.82875pt x 423.5825pt>
-File: ../img/CNN Max Pooling - Latex.PNG Graphic file (type png)
-<use ../img/CNN Max Pooling - Latex.PNG>
-Package pdftex.def Info: ../img/CNN Max Pooling - Latex.PNG  used on input line 221.
-(pdftex.def)             Requested size: 85.35826pt x 162.98604pt.
-<../img/CNN Average Pooling - Latex.PNG, id=817, 227.85126pt x 423.5825pt>
-File: ../img/CNN Average Pooling - Latex.PNG Graphic file (type png)
-<use ../img/CNN Average Pooling - Latex.PNG>
-Package pdftex.def Info: ../img/CNN Average Pooling - Latex.PNG  used on input line 223.
-(pdftex.def)             Requested size: 85.35826pt x 158.68793pt.
- [26 <../img/CNN Convolutional Layer - Latex.PNG>] [27 <../img/CNN Max Pooling - Latex.PNG> <../img/CNN Average Pooling - Latex.PNG>]
-<../img/Object Detection - Latex.png, id=840, 224.33812pt x 145.29282pt>
+<../img/Object Detection - Latex.png, id=800, 224.33812pt x 145.29282pt>
 File: ../img/Object Detection - Latex.png Graphic file (type png)
 <use ../img/Object Detection - Latex.png>
-Package pdftex.def Info: ../img/Object Detection - Latex.png  used on input line 252.
+Package pdftex.def Info: ../img/Object Detection - Latex.png  used on input line 194.
 (pdftex.def)             Requested size: 227.62204pt x 147.42519pt.
- [28] [29 <../img/Object Detection - Latex.PNG>]
-<../img/DenseNet - Latex.PNG, id=856, 550.30594pt x 158.84344pt>
+ [24 <../img/Object Detection - Latex.PNG>]
+<../img/CNN Basic - Latex.png, id=810, 464.4853pt x 252.19218pt>
+File: ../img/CNN Basic - Latex.png Graphic file (type png)
+<use ../img/CNN Basic - Latex.png>
+Package pdftex.def Info: ../img/CNN Basic - Latex.png  used on input line 208.
+(pdftex.def)             Requested size: 341.43306pt x 185.38403pt.
+ [25 <../img/CNN Basic - Latex.PNG>]
+<../img/CNN Convolutional Layer - Latex.png, id=820, 545.03625pt x 182.93344pt>
+File: ../img/CNN Convolutional Layer - Latex.png Graphic file (type png)
+<use ../img/CNN Convolutional Layer - Latex.png>
+Package pdftex.def Info: ../img/CNN Convolutional Layer - Latex.png  used on input line 223.
+(pdftex.def)             Requested size: 341.43306pt x 114.59549pt.
+ [26]
+<../img/CNN Max Pooling - Latex.PNG, id=829, 221.82875pt x 423.5825pt>
+File: ../img/CNN Max Pooling - Latex.PNG Graphic file (type png)
+<use ../img/CNN Max Pooling - Latex.PNG>
+Package pdftex.def Info: ../img/CNN Max Pooling - Latex.PNG  used on input line 236.
+(pdftex.def)             Requested size: 85.35826pt x 162.98604pt.
+<../img/CNN Average Pooling - Latex.PNG, id=830, 227.85126pt x 423.5825pt>
+File: ../img/CNN Average Pooling - Latex.PNG Graphic file (type png)
+<use ../img/CNN Average Pooling - Latex.PNG>
+Package pdftex.def Info: ../img/CNN Average Pooling - Latex.PNG  used on input line 238.
+(pdftex.def)             Requested size: 85.35826pt x 158.68793pt.
+ [27 <../img/CNN Convolutional Layer - Latex.PNG>] [28 <../img/CNN Max Pooling - Latex.PNG> <../img/CNN Average Pooling - Latex.PNG>]
+<../img/DenseNet - Latex.PNG, id=850, 550.30594pt x 158.84344pt>
 File: ../img/DenseNet - Latex.PNG Graphic file (type png)
 <use ../img/DenseNet - Latex.PNG>
 Package pdftex.def Info: ../img/DenseNet - Latex.PNG  used on input line 268.
 (pdftex.def)             Requested size: 199.16928pt x 57.48898pt.
-<../img/CSP DenseNet - Latex.PNG, id=857, 536.75531pt x 169.38281pt>
+<../img/CSP DenseNet - Latex.PNG, id=851, 536.75531pt x 169.38281pt>
 File: ../img/CSP DenseNet - Latex.PNG Graphic file (type png)
 <use ../img/CSP DenseNet - Latex.PNG>
 Package pdftex.def Info: ../img/CSP DenseNet - Latex.PNG  used on input line 270.
@@ -1099,13 +1099,13 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 267--273
  [][] 
  []
 
-[30 <../img/DenseNet - Latex.PNG> <../img/CSP DenseNet - Latex.PNG>]
-<../img/Spatial Pyramid Pooling - Latex.png, id=872, 461.47406pt x 312.41719pt>
+[29 <../img/DenseNet - Latex.PNG> <../img/CSP DenseNet - Latex.PNG>]
+<../img/Spatial Pyramid Pooling - Latex.png, id=868, 461.47406pt x 312.41719pt>
 File: ../img/Spatial Pyramid Pooling - Latex.png Graphic file (type png)
 <use ../img/Spatial Pyramid Pooling - Latex.png>
 Package pdftex.def Info: ../img/Spatial Pyramid Pooling - Latex.png  used on input line 285.
 (pdftex.def)             Requested size: 227.62204pt x 154.09637pt.
- [31 <../img/Spatial Pyramid Pooling - Latex.PNG>]
+ [30] [31 <../img/Spatial Pyramid Pooling - Latex.PNG>]
 <../img/PANet Shortcut Connection - Latex.png, id=887, 434.37282pt x 234.1247pt>
 File: ../img/PANet Shortcut Connection - Latex.png Graphic file (type png)
 <use ../img/PANet Shortcut Connection - Latex.png>
@@ -1117,33 +1117,33 @@ File: ../img/PANet Adaptive Feature Pooling - Latex.png Graphic file (type png)
 Package pdftex.def Info: ../img/PANet Adaptive Feature Pooling - Latex.png  used on input line 312.
 (pdftex.def)             Requested size: 113.81102pt x 118.77325pt.
  [32 <../img/PANet Shortcut Connection - Latex.png>]
-<../img/PANet Fully Connected Fusion - Latex.png, id=902, 412.54124pt x 222.07968pt>
+<../img/PANet Fully Connected Fusion - Latex.png, id=903, 412.54124pt x 222.07968pt>
 File: ../img/PANet Fully Connected Fusion - Latex.png Graphic file (type png)
 <use ../img/PANet Fully Connected Fusion - Latex.png>
 Package pdftex.def Info: ../img/PANet Fully Connected Fusion - Latex.png  used on input line 323.
 (pdftex.def)             Requested size: 227.62204pt x 122.53389pt.
- [33 <../img/PANet Adaptive Feature Pooling - Latex.png>]
-<../img/PANet Original - Latex.PNG, id=914, 288.3272pt x 255.95625pt>
+ [33 <../img/PANet Adaptive Feature Pooling - Latex.png> <../img/PANet Fully Connected Fusion - Latex.PNG>]
+<../img/PANet Original - Latex.PNG, id=915, 288.3272pt x 255.95625pt>
 File: ../img/PANet Original - Latex.PNG Graphic file (type png)
 <use ../img/PANet Original - Latex.PNG>
 Package pdftex.def Info: ../img/PANet Original - Latex.PNG  used on input line 335.
 (pdftex.def)             Requested size: 113.81102pt x 101.03325pt.
-<../img/PANet Modified - Latex.PNG, id=915, 292.09125pt x 255.20343pt>
+<../img/PANet Modified - Latex.PNG, id=916, 292.09125pt x 255.20343pt>
 File: ../img/PANet Modified - Latex.PNG Graphic file (type png)
 <use ../img/PANet Modified - Latex.PNG>
 Package pdftex.def Info: ../img/PANet Modified - Latex.PNG  used on input line 337.
 (pdftex.def)             Requested size: 113.81102pt x 99.43936pt.
- [34 <../img/PANet Fully Connected Fusion - Latex.PNG> <../img/PANet Original - Latex.PNG> <../img/PANet Modified - Latex.PNG>]
-<../img/ELAN - Latex.PNG, id=927, 248.42813pt x 336.50719pt>
+<../img/ELAN - Latex.PNG, id=920, 248.42813pt x 336.50719pt>
 File: ../img/ELAN - Latex.PNG Graphic file (type png)
 <use ../img/ELAN - Latex.PNG>
 Package pdftex.def Info: ../img/ELAN - Latex.PNG  used on input line 353.
 (pdftex.def)             Requested size: 113.81102pt x 154.1636pt.
-<../img/E-ELAN - Latex.PNG, id=928, 246.1697pt x 335.75438pt>
+<../img/E-ELAN - Latex.PNG, id=921, 246.1697pt x 335.75438pt>
 File: ../img/E-ELAN - Latex.PNG Graphic file (type png)
 <use ../img/E-ELAN - Latex.PNG>
 Package pdftex.def Info: ../img/E-ELAN - Latex.PNG  used on input line 355.
 (pdftex.def)             Requested size: 113.81102pt x 155.2276pt.
+ [34 <../img/PANet Original - Latex.PNG> <../img/PANet Modified - Latex.PNG>]
 <../img/Compound Scaling Concatenation-Based Model - Latex.PNG, id=932, 185.19188pt x 153.57375pt>
 File: ../img/Compound Scaling Concatenation-Based Model - Latex.PNG Graphic file (type png)
 <use ../img/Compound Scaling Concatenation-Based Model - Latex.PNG>
@@ -1159,94 +1159,94 @@ File: ../img/Compound Scaling Up Depth and Width - Latex.PNG Graphic file (type 
 <use ../img/Compound Scaling Up Depth and Width - Latex.PNG>
 Package pdftex.def Info: ../img/Compound Scaling Up Depth and Width - Latex.PNG  used on input line 373.
 (pdftex.def)             Requested size: 170.71652pt x 62.10231pt.
- [35 <../img/ELAN - Latex.PNG> <../img/E-ELAN - Latex.PNG>] [36 <../img/Compound Scaling Concatenation-Based Model - Latex.PNG> <../img/Compound Scaling Scaled Up - Latex.PNG> <../img/Compound Scaling Up Depth and Width - Latex.PNG>]
-<../img/IoU Bounding Box - Latex.png, id=967, 196.735pt x 248.59541pt>
+ [35 <../img/ELAN - Latex.PNG> <../img/E-ELAN - Latex.PNG> <../img/Compound Scaling Concatenation-Based Model - Latex.PNG> <../img/Compound Scaling Scaled Up - Latex.PNG> <../img/Compound Scaling Up Depth and Width - Latex.PNG>] [36]
+<../img/IoU Bounding Box - Latex.png, id=968, 196.735pt x 248.59541pt>
 File: ../img/IoU Bounding Box - Latex.png Graphic file (type png)
 <use ../img/IoU Bounding Box - Latex.png>
 Package pdftex.def Info: ../img/IoU Bounding Box - Latex.png  used on input line 419.
 (pdftex.def)             Requested size: 85.35826pt x 107.85742pt.
-<../img/IoU Overlapped Area - Latex.png, id=968, 196.735pt x 248.59541pt>
+<../img/IoU Overlapped Area - Latex.png, id=969, 196.735pt x 248.59541pt>
 File: ../img/IoU Overlapped Area - Latex.png Graphic file (type png)
 <use ../img/IoU Overlapped Area - Latex.png>
 Package pdftex.def Info: ../img/IoU Overlapped Area - Latex.png  used on input line 421.
 (pdftex.def)             Requested size: 85.35826pt x 107.85742pt.
-<../img/IoU Union Area - Latex.png, id=969, 196.40042pt x 248.59541pt>
+<../img/IoU Union Area - Latex.png, id=970, 196.40042pt x 248.59541pt>
 File: ../img/IoU Union Area - Latex.png Graphic file (type png)
 <use ../img/IoU Union Area - Latex.png>
 Package pdftex.def Info: ../img/IoU Union Area - Latex.png  used on input line 423.
 (pdftex.def)             Requested size: 85.35826pt x 108.04329pt.
- [37] [38 <../img/IoU Bounding Box - Latex.png> <../img/IoU Overlapped Area - Latex.png> <../img/IoU Union Area - Latex.png>]
-<../img/IoU Poor - Latex.PNG, id=998, 234.8775pt x 229.60782pt>
+ [37 <../img/IoU Bounding Box - Latex.png> <../img/IoU Overlapped Area - Latex.png> <../img/IoU Union Area - Latex.png>]
+<../img/IoU Poor - Latex.PNG, id=987, 234.8775pt x 229.60782pt>
 File: ../img/IoU Poor - Latex.PNG Graphic file (type png)
 <use ../img/IoU Poor - Latex.PNG>
 Package pdftex.def Info: ../img/IoU Poor - Latex.PNG  used on input line 453.
 (pdftex.def)             Requested size: 56.9055pt x 55.62901pt.
-<../img/IoU Good - Latex.PNG, id=999, 200.24812pt x 201.00093pt>
+<../img/IoU Good - Latex.PNG, id=988, 200.24812pt x 201.00093pt>
 File: ../img/IoU Good - Latex.PNG Graphic file (type png)
 <use ../img/IoU Good - Latex.PNG>
 Package pdftex.def Info: ../img/IoU Good - Latex.PNG  used on input line 455.
 (pdftex.def)             Requested size: 56.9055pt x 57.11716pt.
-<../img/IoU Excellent - Latex.PNG, id=1000, 194.22563pt x 192.72pt>
+<../img/IoU Excellent - Latex.PNG, id=989, 194.22563pt x 192.72pt>
 File: ../img/IoU Excellent - Latex.PNG Graphic file (type png)
 <use ../img/IoU Excellent - Latex.PNG>
 Package pdftex.def Info: ../img/IoU Excellent - Latex.PNG  used on input line 457.
 (pdftex.def)             Requested size: 56.9055pt x 56.46373pt.
- [39 <../img/IoU Poor - Latex.PNG> <../img/IoU Good - Latex.PNG> <../img/IoU Excellent - Latex.PNG>]) (./bab3.tex [40]
+ [38]) (./bab3.tex [39 <../img/IoU Poor - Latex.PNG> <../img/IoU Good - Latex.PNG> <../img/IoU Excellent - Latex.PNG>]
 BAB III.
-<../img/Dataset - AK.png, id=1033, 72.27pt x 72.27pt>
+<../img/Dataset - AK.png, id=1025, 72.27pt x 72.27pt>
 File: ../img/Dataset - AK.png Graphic file (type png)
 <use ../img/Dataset - AK.png>
 Package pdftex.def Info: ../img/Dataset - AK.png  used on input line 12.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - BCC.png, id=1034, 72.27pt x 72.27pt>
+<../img/Dataset - BCC.png, id=1026, 72.27pt x 72.27pt>
 File: ../img/Dataset - BCC.png Graphic file (type png)
 <use ../img/Dataset - BCC.png>
 Package pdftex.def Info: ../img/Dataset - BCC.png  used on input line 14.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - BKL.png, id=1035, 72.27pt x 72.27pt>
+<../img/Dataset - BKL.png, id=1027, 72.27pt x 72.27pt>
 File: ../img/Dataset - BKL.png Graphic file (type png)
 <use ../img/Dataset - BKL.png>
 Package pdftex.def Info: ../img/Dataset - BKL.png  used on input line 16.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - DF.png, id=1036, 72.27pt x 72.27pt>
+<../img/Dataset - DF.png, id=1028, 72.27pt x 72.27pt>
 File: ../img/Dataset - DF.png Graphic file (type png)
 <use ../img/Dataset - DF.png>
 Package pdftex.def Info: ../img/Dataset - DF.png  used on input line 18.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - MEL.png, id=1037, 72.27pt x 72.27pt>
+<../img/Dataset - MEL.png, id=1029, 72.27pt x 72.27pt>
 File: ../img/Dataset - MEL.png Graphic file (type png)
 <use ../img/Dataset - MEL.png>
 Package pdftex.def Info: ../img/Dataset - MEL.png  used on input line 21.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - NV.png, id=1038, 72.27pt x 72.27pt>
+<../img/Dataset - NV.png, id=1030, 72.27pt x 72.27pt>
 File: ../img/Dataset - NV.png Graphic file (type png)
 <use ../img/Dataset - NV.png>
 Package pdftex.def Info: ../img/Dataset - NV.png  used on input line 23.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - SCC.png, id=1039, 72.27pt x 72.27pt>
+<../img/Dataset - SCC.png, id=1031, 72.27pt x 72.27pt>
 File: ../img/Dataset - SCC.png Graphic file (type png)
 <use ../img/Dataset - SCC.png>
 Package pdftex.def Info: ../img/Dataset - SCC.png  used on input line 25.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - VASC.png, id=1040, 72.27pt x 72.27pt>
+<../img/Dataset - VASC.png, id=1032, 72.27pt x 72.27pt>
 File: ../img/Dataset - VASC.png Graphic file (type png)
 <use ../img/Dataset - VASC.png>
 Package pdftex.def Info: ../img/Dataset - VASC.png  used on input line 27.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-[41
+[40
 
 ]
-<../img/Flowchart.png, id=1046, 3668.70625pt x 2966.08125pt>
+<../img/Flowchart.png, id=1038, 3668.70625pt x 2966.08125pt>
 File: ../img/Flowchart.png Graphic file (type png)
 <use ../img/Flowchart.png>
 Package pdftex.def Info: ../img/Flowchart.png  used on input line 39.
 (pdftex.def)             Requested size: 369.88582pt x 299.02422pt.
- [42 <../img/Dataset - AK.png> <../img/Dataset - BCC.png> <../img/Dataset - BKL.png> <../img/Dataset - DF.png> <../img/Dataset - MEL.png> <../img/Dataset - NV.png> <../img/Dataset - SCC.png> <../img/Dataset - VASC.png>]
+ [41 <../img/Dataset - AK.png> <../img/Dataset - BCC.png> <../img/Dataset - BKL.png> <../img/Dataset - DF.png> <../img/Dataset - MEL.png> <../img/Dataset - NV.png> <../img/Dataset - SCC.png> <../img/Dataset - VASC.png>]
 File: ../img/Dermoscopy - Latex.jpg Graphic file (type jpg)
 <use ../img/Dermoscopy - Latex.jpg>
 Package pdftex.def Info: ../img/Dermoscopy - Latex.jpg  used on input line 51.
 (pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
-<../img/Annotation - Latex.png, id=1052, 416.22166pt x 419.5675pt>
+<../img/Annotation - Latex.png, id=1044, 416.22166pt x 419.5675pt>
 File: ../img/Annotation - Latex.png Graphic file (type png)
 <use ../img/Annotation - Latex.png>
 Package pdftex.def Info: ../img/Annotation - Latex.png  used on input line 53.
@@ -1255,17 +1255,17 @@ File: ../img/Annotation - Latex.png Graphic file (type png)
 <use ../img/Annotation - Latex.png>
 Package pdftex.def Info: ../img/Annotation - Latex.png  used on input line 55.
 (pdftex.def)             Requested size: 42.67912pt x 43.02194pt.
- [43 <../img/Flowchart.png>]) (./bab4.tex [44 <../img/Annotation - Latex.png>]
+ [42 <../img/Flowchart.png>]) (./bab4.tex [43 <../img/Annotation - Latex.png>]
 BAB IV.
-) (./bab5.tex [45
+) (./bab5.tex [44
 
 ]
 BAB V.
-) (./main.bbl [46
+) (./main.bbl [45
 
-] [47
+] [46
 
-] [48] [49] [50] [51] [52]) [53] (./main.aux)
+] [47] [48] [49] [50] [51]) [52] (./main.aux)
 
  *File List*
 mathuinsa.cls    
@@ -1432,11 +1432,11 @@ logouinsa.png    Graphic file (type png)
 ../img/Dermoscopy - Latex.jpg
 ../img/Resize - Latex.JPG
 ../img/Resize - Latex.JPG
+../img/Object Detection - Latex.png
 ../img/CNN Basic - Latex.png
 ../img/CNN Convolutional Layer - Latex.png
 ../img/CNN Max Pooling - Latex.PNG
 ../img/CNN Average Pooling - Latex.PNG
-../img/Object Detection - Latex.png
 ../img/DenseNet - Latex.PNG
 ../img/CSP DenseNet - Latex.PNG
 ../img/Spatial Pyramid Pooling - Latex.png
@@ -1475,25 +1475,25 @@ logouinsa.png    Graphic file (type png)
  ***********
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EAD43413ADCEA81BA8FC3E9E0693518E;8547.
+(rerunfilecheck)             Checksum: BAE68B26C60F73FAA766619FC1F316C3;8618.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 37 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31313 strings out of 478286
- 567726 string characters out of 5850726
- 936465 words of memory out of 5000000
+ 31312 strings out of 478286
+ 567719 string characters out of 5850726
+ 936430 words of memory out of 5000000
  48574 multiletter control sequences out of 15000+600000
  490518 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,94p,3219b,2639s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/arabtex/xnsh14.pfb>
-Output written on main.pdf (69 pages, 7197364 bytes).
+Output written on main.pdf (68 pages, 7197000 bytes).
 PDF statistics:
- 1229 PDF objects out of 1440 (max. 8388607)
- 1041 compressed objects within 11 object streams
- 260 named destinations out of 1000 (max. 500000)
+ 1221 PDF objects out of 1440 (max. 8388607)
+ 1034 compressed objects within 11 object streams
+ 259 named destinations out of 1000 (max. 500000)
  709 words of extra memory for PDF output out of 10000 (max. 10000000)
 

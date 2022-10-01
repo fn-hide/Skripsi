@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1663989675 "main.aux" "main.bbl" "main" 1664000822
-  "Skripsi.bib" 1663931085 126214 7f3174f34f68bc0d2c4e8302691c0afe ""
+["bibtex main"] 1664649877 "main.aux" "main.bbl" "main" 1664649893
+  "Skripsi.bib" 1664288479 126476 234338d7e0ec9ed6c80c878c97015c31 ""
   "c:/texlive/2021/texmf-dist/bibtex/bst/apalike2/apalike2.bst" 1642374651 26644 77647ad43a99e9d8b2661f2ca815cba7 ""
-  "main.aux" 1664000820 24462 f9f4c8e4cf5a876c9ef58fadf1715d8d "pdflatex"
+  "main.aux" 1664649891 24475 328a975855030f2d017dca2303b8f08f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1664000809 "e:/Skripsi/Latex/main.tex" "main.pdf" "main" 1664000822
+["pdflatex"] 1664649879 "e:/Skripsi/Latex/main.tex" "main.pdf" "main" 1664649893
   "../img/Annotation - Latex.png" 1663311633 1303232 325c5d254b9494f4452fe01ae30d2865 ""
   "../img/Binary - Latex.png" 1663310352 40026 b802eef1549c17a196655e8b27af35b3 ""
   "../img/CNN Average Pooling - Latex.PNG" 1663989178 58169 2dc580e4bcb94bfe9040c3eff39c2fe0 ""
@@ -55,7 +55,7 @@
   "../img/Skin Cancer VASC - Latex.jpg" 1595198194 136546 82202b808eb452c192ab6ff50966788c ""
   "../img/Spatial Pyramid Pooling - Latex.PNG" 1663334654 44137 913dbcbcb7afb3733d0930ef3c6f3034 ""
   "bab1.tex" 1663999472 14619 883814cf38fafef28a85a4e8b2b09940 ""
-  "bab2.tex" 1663989524 42395 3e1ba7e91b9966f7525e5899fd566343 ""
+  "bab2.tex" 1664649855 42425 b5563a014418f0077dd1fd747c953d94 ""
   "bab3.tex" 1663999889 5381 85720ae2e3bdc19ffb15bde0e0cfff99 ""
   "bab4.tex" 1663892604 175 439a00cf8fee2bd2f63caa90c07b6d26 ""
   "bab5.tex" 1663892595 62 f843ecb28b8d9ed9bf6ba557fc5e9c55 ""
@@ -310,13 +310,13 @@
   "c:/texlive/2021/texmf.cnf" 1642403858 713 e69b156964470283e0530f5060668171 ""
   "e:/Skripsi/Latex/main.tex" 1663998611 7670 715e2e26e1dc0cf1e93544e3314c8819 ""
   "logouinsa.png" 1564037836 61952 698773f75688d2299a303e50e04f234a ""
-  "main.aux" 1664000820 24462 f9f4c8e4cf5a876c9ef58fadf1715d8d "pdflatex"
-  "main.bbl" 1663989676 13232 0ea54c70e21e327b5ca760d318c7b93c "bibtex main"
-  "main.lof" 1664000821 4821 d73bc48edac5896be93c832ef806bdf3 "pdflatex"
-  "main.lot" 1664000821 301 367b4c6affdc41e2918338cdc6ded12d "pdflatex"
-  "main.out" 1664000821 8547 ead43413adcea81ba8fc3e9e0693518e "pdflatex"
+  "main.aux" 1664649891 24475 328a975855030f2d017dca2303b8f08f "pdflatex"
+  "main.bbl" 1664649878 13232 0ea54c70e21e327b5ca760d318c7b93c "bibtex main"
+  "main.lof" 1664649891 4821 db3d34b83c2ed529922fcdcb832b4b70 "pdflatex"
+  "main.lot" 1664649891 301 367b4c6affdc41e2918338cdc6ded12d "pdflatex"
+  "main.out" 1664649891 8618 bae68b26c60f73faa766619fc1f316c3 "pdflatex"
   "main.tex" 1663998611 7670 715e2e26e1dc0cf1e93544e3314c8819 ""
-  "main.toc" 1664000821 4781 5659938f4e6531e34a4a9088d0e1f790 "pdflatex"
+  "main.toc" 1664649891 4794 77c363719656f448ce8f557253ea6537 "pdflatex"
   "mathuinsa.cls" 1663998612 18914 82a22597128782fa8f01e0f5eb917c2f ""
   (generated)
   "main.aux"

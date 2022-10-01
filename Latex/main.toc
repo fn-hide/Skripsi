@@ -37,24 +37,24 @@
 \contentsline {subsection}{\numberline {2.3.3.}Citra Biner}{21}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4.}Citra Dermoskopi}{22}{subsection.2.3.4}%
 \contentsline {section}{\numberline {2.4.}\textit {Resize}}{23}{section.2.4}%
-\contentsline {section}{\numberline {2.5.}\textit {Convolutional Neural Networks} (CNN)}{24}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1.}\textit {Convolutional Layer}}{25}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2.}\textit {Pooling Layer}}{26}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3.}\textit {Fully-Connected Layer}}{27}{subsection.2.5.3}%
-\contentsline {section}{\numberline {2.6.}Deteksi Objek}{28}{section.2.6}%
-\contentsline {section}{\numberline {2.7.}\textit {You Only Look Once} (YOLO)}{29}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1.}CSPDarknet53}{29}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2.}\textit {Spatial Pyramid Pooling} (SPP)}{30}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3.}PANet}{32}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4.}\textit {Extended Efficient Layer Aggregation Network} (E-ELAN)}{34}{subsection.2.7.4}%
-\contentsline {subsection}{\numberline {2.7.5.}\textit {Compound Scaling}}{35}{subsection.2.7.5}%
+\contentsline {section}{\numberline {2.5.}Deteksi Objek}{24}{section.2.5}%
+\contentsline {section}{\numberline {2.6.}\textit {Convolutional Neural Networks} (CNN)}{24}{section.2.6}%
+\contentsline {section}{\numberline {2.7.}\textit {You Only Look Once version 7} (YOLO-v7)}{25}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1.}\textit {Convolutional Layer}}{26}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2.}\textit {Pooling Layer}}{27}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3.}\textit {Fully-Connected Layer}}{28}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4.}CSPDarknet53}{29}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5.}\textit {Spatial Pyramid Pooling} (SPP)}{30}{subsection.2.7.5}%
+\contentsline {subsection}{\numberline {2.7.6.}PANet}{31}{subsection.2.7.6}%
+\contentsline {subsection}{\numberline {2.7.7.}\textit {Extended Efficient Layer Aggregation Network} (E-ELAN)}{34}{subsection.2.7.7}%
+\contentsline {subsection}{\numberline {2.7.8.}\textit {Compound Scaling}}{35}{subsection.2.7.8}%
 \contentsline {section}{\numberline {2.8.}\textit {Confusion Matrix}}{36}{section.2.8}%
 \contentsline {section}{\numberline {2.9.}\textit {Intersection over Union} (IoU)}{37}{section.2.9}%
 \contentsline {section}{\numberline {2.10.}\textit {mean Average Precision} (mAP)}{39}{section.2.10}%
-\contentsline {chapter}{\numberline {III}METODE PENELITIAN}{41}{chapter.3}%
-\contentsline {section}{\numberline {3.1.}Jenis Penelitian}{41}{section.3.1}%
-\contentsline {section}{\numberline {3.2.}Jenis dan Sumber Data}{41}{section.3.2}%
-\contentsline {section}{\numberline {3.3.}Kerangka Penelitian}{42}{section.3.3}%
-\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{45}{chapter.4}%
-\contentsline {chapter}{\numberline {V}PENUTUP}{46}{chapter.5}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{46}{chapter.5}%
+\contentsline {chapter}{\numberline {III}METODE PENELITIAN}{40}{chapter.3}%
+\contentsline {section}{\numberline {3.1.}Jenis Penelitian}{40}{section.3.1}%
+\contentsline {section}{\numberline {3.2.}Jenis dan Sumber Data}{40}{section.3.2}%
+\contentsline {section}{\numberline {3.3.}Kerangka Penelitian}{41}{section.3.3}%
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{44}{chapter.4}%
+\contentsline {chapter}{\numberline {V}PENUTUP}{45}{chapter.5}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{45}{chapter.5}%

@@ -186,6 +186,18 @@ Dalam citra digital, \textit{resize} atau penskalaan gambar merupakan proses rek
     Sumber: \citep{Morsy2018}
 \end{figure}
 
+\section{Deteksi Objek}
+Deteksi objek merupakan salah satu proses penting dalam \textit{computer vision} dengan mendeteksi sebuah objek pada sebuah citra dengan kelas tertentu, misalnya mobil, manusia, hewan secara spesifik, atau yang lainnya. Sebagai salah satu bagian penting dalam \textit{computer vision}, deteksi objek merupakan dasar dari beberapa tugas \textit{computer vision} seperti melacak objek, segmentasi objek, dan mengambil teks dalam gambar \citep{Zou2019}. Contoh deteksi objek seperti terlihat pada Gambar \ref{fig:obj-det}.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=8cm]{../img/Object Detection - Latex.png}
+        \caption{YOLO dapat mendeteksi objek manusia, anjing, kuda}
+        \label{fig:obj-det}
+        Sumber: \citep{Redmon2016a}
+    \end{center}
+\end{figure}
+
 \section{\textit{Convolutional Neural Networks} (CNN)}
 CNN merupakan salah satu bagian dari deep learning dan pengembangan dari \textit{Multi Layer Perceptron} (MLP). CNN merupakan algoritma yang mirip dengan \textit{Artificial Neural Network} (ANN). Bahkan karena kemiripannya, strategi pengembangan ANN dapat diterapkan pada CNN. Data masukan pada CNN berupa matriks dari citra sehingga menghasilkan keluaran berupa skor atau bobot tertentu. Layer terakhir pada sebuah CNN mengandung loss function yang diasosiasikan dengan kelas tertentu. Pada umumnya, perbedaan ANN dan CNN terletak pada CNN yang lebih mengutamakan pengenalan pola pada sebuah citra. Hal ini dapat mengeluarkan fitur spesifik pada sebuah citra sehingga diolah pada arsitektur CNN.
 
@@ -200,8 +212,11 @@ Berdasarkan kemampuan CNN yang dapat mengolah data citra, neuron pada CNN terdir
     \end{center}
 \end{figure}
 
+\section{\textit{You Only Look Once version 7} (YOLO-v7)}
+YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek secara \textit{real time}. Algoritma ini bekerja dengan membagi citra ke dalam beberapa kotak sehingga YOLO memprediksi batas kotak pada sebuah objek. Hasil prediksi tersebut kemudian diklasifikasikan ke dalam kelas tertentu dengan memilih batas kotak yang memiliki nilai paling tinggi. YOLO merupakan algoritma deteksi objek berdasarkan \textit{Fully Connected Neural Network} (FCNN). Secara umum, terdapat tiga komponen utama pada YOLO, yaitu \textit{backbone}, \textit{neck}, dan \textit{head}. \textit{Backbone} melakukan ekstraksi fitur yang sangat esensial pada sebuah citra kemudian diteruskan ke \textit{neck}. Bagian \textit{neck} mengumpulkan \textit{feature map} yang diekstraksi dari \textit{backbone} dan membuat \textit{feature pyramid}. Pada akhirnya, \textit{head} melakukan deteksi untuk terakhir kalinya.
+
     \subsection{\textit{Convolutional Layer}}
-    \textit{Convolutional Layer} merupakan layer utama dari CNN karena pada layer ini citra diolah dan dipelajari oleh CNN. \textit{Convolutional layer} menerapkan operasi konvolusi dengan tujuan mendapatkan fitur-fitur yang ada pada citra, seperti \textit{edge}, \textit{color}, dan \textit{shape}. Operasi konvolusi terjadi antara matriks dari data masukan, yaitu citra dan matriks kernel. Kernel merupakan matriks berisi nilai $-1$ atau $1$ dengan ukuran tertentu yang berguna untuk mendapatkan fitur dari citra sesuai dengan ukuran matriks kernel. Kernel memproses citra masukan dengan cara bergeser sebanyak \textit{stride} yang ditentukan. Hasil keluaran dari \textit{convolutional layer} berupa \textit{feature map} yang didapatkan dari sebuah citra masukan. Gambar \ref{fig:conv} menunjukkan representasi dari \textit{convolutional layer}.
+    \textit{Convolutional Layer} merupakan layer utama dari CNN karena pada layer ini citra diolah dan dipelajari oleh CNN. \textit{Convolutional layer} menerapkan operasi konvolusi dengan tujuan mendapatkan fitur-fitur yang ada pada citra, seperti \textit{edge}, \textit{color}, \textit{shape}, dan fitur lainnya. Operasi konvolusi terjadi antara matriks dari data masukan, yaitu citra dan matriks kernel. Kernel merupakan matriks berisi nilai $-1$ atau $1$ dengan ukuran tertentu yang berguna untuk mendapatkan fitur dari citra sesuai dengan ukuran matriks kernel. Kernel memproses citra masukan dengan cara bergeser sebanyak \textit{stride} yang ditentukan. Hasil keluaran dari \textit{convolutional layer} berupa \textit{feature map} yang didapatkan dari sebuah citra masukan. Gambar \ref{fig:conv} menunjukkan representasi dari \textit{convolutional layer}.
 
     \begin{figure}[H]
         \begin{center}
@@ -243,21 +258,6 @@ Berdasarkan kemampuan CNN yang dapat mengolah data citra, neuron pada CNN terdir
     \end{align}
 
     $S(y)_i$ merupakan nilai probabilitas $y_i$, $n$ merupakan jumlah kelas, $y_i$ merupakan vektor masukan pada fungsi aktivasi \textit{softmax}. Hasil dari fungsi aktivasi \textit{softmax} berupa nilai antara $0$ sampai $1$ sehingga membuat distribusi probabilitas yang valid.
-
-\section{Deteksi Objek}
-Deteksi objek merupakan salah satu proses penting dalam \textit{computer vision} dengan mendeteksi sebuah objek pada sebuah citra dengan kelas tertentu, misalnya mobil, manusia, hewan secara spesifik, atau yang lainnya. Sebagai salah satu bagian penting dalam \textit{computer vision}, deteksi objek merupakan dasar dari beberapa tugas \textit{computer vision} seperti melacak objek, segmentasi objek, dan mengambil teks dalam gambar \citep{Zou2019}. Contoh deteksi objek seperti terlihat pada Gambar \ref{fig:obj-det}.
-
-\begin{figure}[H]
-    \begin{center}
-        \includegraphics[width=8cm]{../img/Object Detection - Latex.png}
-        \caption{YOLO dapat mendeteksi objek manusia, anjing, kuda}
-        \label{fig:obj-det}
-        Sumber: \citep{Redmon2016a}
-    \end{center}
-\end{figure}
-
-\section{\textit{You Only Look Once} (YOLO)}
-YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek secara \textit{real time}. Algoritma ini bekerja dengan membagi citra ke dalam beberapa kotak sehingga YOLO memprediksi batas kotak pada sebuah objek. Hasil prediksi tersebut kemudian diklasifikasikan ke dalam kelas tertentu dengan memilih batas kotak yang memiliki nilai paling tinggi. YOLO merupakan algoritma deteksi objek berdasarkan \textit{Fully Connected Neural Network} (FCNN). Secara umum, terdapat tiga komponen utama pada YOLO, yaitu \textit{backbone}, \textit{neck}, dan \textit{head}. \textit{Backbone} melakukan ekstraksi fitur yang sangat esensial pada sebuah citra kemudian diteruskan ke \textit{neck}. Bagian \textit{neck} mengumpulkan \textit{feature map} yang diekstraksi dari \textit{backbone} dan membuat \textit{feature pyramid}. Pada akhirnya, \textit{head} melakukan deteksi untuk terakhir kalinya.
 
     \subsection{CSPDarknet53}
     CSPDarknet53 merupakan salah satu jenis CNN dan \textit{backbone} dari sebuah deteksi objek yang menggunakan arsitektur Darknet53 dengan \textit{Cross Stage Partial Network} (CSPNet). CSPDarknet53 terdiri dari \textit{based convolution layer} dan jaringan CSP. CSPDarknet53 menggunakan CSPNet untuk melakukan partisi \textit{feature map} pada \textit{based layer} menjadi dua bagian kemudian menggabungkannya secara \textit{cross-stage hierarchy}. Arsitektur CSP seperti terlihat pada Gambar \ref{fig:cspnet}.
@@ -474,4 +474,6 @@ mAP merupakan salah satu metode evaluasi model terutama pada model deteksi objek
     \label{eq:map}
     mAP &= \frac{1}{n}\sum_{i=1}^{n} AP_i
 \end{align}
+
+
 
