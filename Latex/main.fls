@@ -1525,12 +1525,12 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/arabtex/Uxnsh.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/arabtex/Uxnsh.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/arabtex/Uxnsh.fd
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/arabtex/xnsh14.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmro7t.tfm
 INPUT ./main.toc
 INPUT main.toc
 INPUT main.toc
-INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 OUTPUT main.toc
 INPUT ./main.lot
 INPUT main.lot
@@ -1665,6 +1665,11 @@ INPUT ../img/CNN Average Pooling - Latex.PNG
 INPUT ../img/CNN Average Pooling - Latex.PNG
 INPUT ../img/CNN Average Pooling - Latex.PNG
 INPUT ../img/CNN Average Pooling - Latex.PNG
+INPUT ../img/SiLU - Latex.PNG
+INPUT ../img/SiLU - Latex.PNG
+INPUT ../img/SiLU - Latex.PNG
+INPUT ../img/SiLU - Latex.PNG
+INPUT ../img/SiLU - Latex.PNG
 INPUT ../img/DenseNet - Latex.PNG
 INPUT ../img/DenseNet - Latex.PNG
 INPUT ../img/DenseNet - Latex.PNG
@@ -1705,16 +1710,6 @@ INPUT ../img/PANet Modified - Latex.PNG
 INPUT ../img/PANet Modified - Latex.PNG
 INPUT ../img/PANet Modified - Latex.PNG
 INPUT ../img/PANet Modified - Latex.PNG
-INPUT ../img/ELAN - Latex.PNG
-INPUT ../img/ELAN - Latex.PNG
-INPUT ../img/ELAN - Latex.PNG
-INPUT ../img/ELAN - Latex.PNG
-INPUT ../img/ELAN - Latex.PNG
-INPUT ../img/E-ELAN - Latex.PNG
-INPUT ../img/E-ELAN - Latex.PNG
-INPUT ../img/E-ELAN - Latex.PNG
-INPUT ../img/E-ELAN - Latex.PNG
-INPUT ../img/E-ELAN - Latex.PNG
 INPUT ../img/Compound Scaling Concatenation-Based Model - Latex.PNG
 INPUT ../img/Compound Scaling Concatenation-Based Model - Latex.PNG
 INPUT ../img/Compound Scaling Concatenation-Based Model - Latex.PNG

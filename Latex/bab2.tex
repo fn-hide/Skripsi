@@ -216,7 +216,12 @@ Berdasarkan kemampuan CNN yang dapat mengolah data citra, neuron pada CNN terdir
 YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek secara \textit{real time}. Algoritma ini bekerja dengan membagi citra ke dalam beberapa kotak sehingga YOLO memprediksi batas kotak pada sebuah objek. Hasil prediksi tersebut kemudian diklasifikasikan ke dalam kelas tertentu dengan memilih batas kotak yang memiliki nilai paling tinggi. YOLO merupakan algoritma deteksi objek berdasarkan \textit{Fully Connected Neural Network} (FCNN). Secara umum, terdapat tiga komponen utama pada YOLO, yaitu \textit{backbone}, \textit{neck}, dan \textit{head}. \textit{Backbone} melakukan ekstraksi fitur yang sangat esensial pada sebuah citra kemudian diteruskan ke \textit{neck}. Bagian \textit{neck} mengumpulkan \textit{feature map} yang diekstraksi dari \textit{backbone} dan membuat \textit{feature pyramid}. Pada akhirnya, \textit{head} melakukan deteksi untuk terakhir kalinya.
 
     \subsection{\textit{Convolutional Layer}}
-    \textit{Convolutional Layer} merupakan layer utama dari CNN karena pada layer ini citra diolah dan dipelajari oleh CNN. \textit{Convolutional layer} menerapkan operasi konvolusi dengan tujuan mendapatkan fitur-fitur yang ada pada citra, seperti \textit{edge}, \textit{color}, \textit{shape}, dan fitur lainnya. Operasi konvolusi terjadi antara matriks dari data masukan, yaitu citra dan matriks kernel. Kernel merupakan matriks berisi nilai $-1$ atau $1$ dengan ukuran tertentu yang berguna untuk mendapatkan fitur dari citra sesuai dengan ukuran matriks kernel. Kernel memproses citra masukan dengan cara bergeser sebanyak \textit{stride} yang ditentukan. Hasil keluaran dari \textit{convolutional layer} berupa \textit{feature map} yang didapatkan dari sebuah citra masukan. Gambar \ref{fig:conv} menunjukkan representasi dari \textit{convolutional layer}.
+    \textit{Convolutional Layer} merupakan layer utama dari CNN karena pada layer ini citra diolah dan dipelajari oleh CNN. \textit{Convolutional layer} menerapkan operasi konvolusi dengan tujuan mendapatkan fitur-fitur yang ada pada citra, seperti \textit{edge}, \textit{color}, \textit{shape}, dan fitur lainnya. Operasi konvolusi terjadi antara matriks dari data masukan, yaitu citra dan matriks kernel. Kernel mengubah nilai pada citra masukan sesuai dengan nilai pada kernel. Kernel memproses citra masukan dengan cara bergeser sebanyak \textit{stride} yang ditentukan. Hasil keluaran dari \textit{convolutional layer} berupa \textit{feature map} yang didapatkan dari sebuah citra masukan. Perhitungan untuk mendapatkan \textit{feature map} seperti terlihat pada persamaan \ref{eq:conv-layer} dimana $z$ merupakan keluaran dari layer $l$, $h$ merupakan citra masukan, $W$ merupakan kernel, dan $b$ merupakan bias. Gambar \ref{fig:conv} menunjukkan representasi dari \textit{convolutional layer} \citep{OShea2015}.
+
+    \begin{align}
+        \label{eq:conv-layer}
+        z^l &= h^{l-1}\ast W^l + b^l
+    \end{align}
 
     \begin{figure}[H]
         \begin{center}
@@ -228,7 +233,14 @@ YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek seca
     \end{figure}
 
     \subsection{\textit{Pooling Layer}}
-    \textit{Pooling layer} merupakan layer yang memproses \textit{feature map} dari \textit{convolutional layer}. Layer ini berfungsi untuk mengurangi volume pada setiap tumpukan \textit{feature map} tanpa menghilangkan informasi yang dibutuhkan. Terdapat beberapa jenis \textit{pooling layer} seperti, \textit{max pooling} dan \textit{average pooling}. \textit{Max pooling} mengambil nilai tertinggi pada \textit{feature map} dengan mempertimbangkan ukuran tertentu. Sedangkan \textit{average pooling} mengambil nilai rata-rata pada \textit{feature map} dengan mempertimbangkan ukuran tertentu. Proses \textit{max pooling} dan \textit{average pooling} seperti terlihat pada Gambar \ref{fig:pooling}.
+    \textit{Pooling layer} merupakan layer yang memproses \textit{feature map} dari \textit{convolutional layer}. Layer ini berfungsi untuk mengurangi volume pada setiap tumpukan \textit{feature map} tanpa menghilangkan informasi yang dibutuhkan. Terdapat beberapa jenis \textit{pooling layer} seperti, \textit{max pooling} dan \textit{average pooling}. \textit{Max pooling} mengambil nilai tertinggi pada \textit{feature map} dengan mempertimbangkan ukuran tertentu. Sedangkan \textit{average pooling} mengambil nilai rata-rata pada \textit{feature map} dengan mempertimbangkan ukuran tertentu. Perhitungan \textit{max pooling} dan \textit{average pooling} seperti terlihat pada persamaan \ref{eq:max-pool} dan \ref{eq:avg-pool} dimana $i=0, \cdots, n;j=0, \cdots, n$. Hasil aktivasi \textit{layer} $l$ adalah $h^{l}_{xy}$ dengan $xy$ yang merepresentasikan baris dan kolom. Proses \textit{max pooling} dan \textit{average pooling} seperti terlihat pada Gambar \ref{fig:pooling}.
+
+    \begin{align}
+        \label{eq:max-pool}
+        h^{l}_{xy} &= max_{ij}(h^{l-1}_{(x+i)(y+j)})\\
+        \label{eq:avg-pool}
+        h^{l}_{xy} &= avg_{ij}(h^{l-1}_{(x+i)(y+j)})
+    \end{align}
 
     \begin{figure}[H]
         \centering
@@ -246,18 +258,45 @@ YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek seca
     \subsection{\textit{Fully-Connected Layer}}
     \textit{Fully-Connected Layer} merupakan layer yang akan melakukan klasifikasi terhadap keluaran dari \textit{convolutional layer} dan \textit{pooling layer}. Matriks dengan jumlah n dimensi pada keluaran sebelumnya, diubah menjadi matriks dengan satu dimensi pada \textit{fully-connected layer} sebelum pada akhirnya dilakukan klasifikasi. Perhitungan pada \textit{fully-connected layer} seperti terlihat pada Persamaan \ref{eq:fcl}.
     \begin{align}
-        y_j &= b_j + \sum_{i} w_{ij}x_i
+        y_j &= b_j + \sum^{n}_{i} w_{ij}x_i
         \label{eq:fcl}
     \end{align}
 
-    $y$ merupakan keluaran dari \textit{fully-connected layer}, $b$ merupakan bias, $w$ merupakan bobot pada jaringan dengan ukuran $i\times j$ dengan $i$ yang merepresentasikan jumlah fitur dan $j$ yang merepresentasikan jumlah kelas, dan $x$ merupakan hasil keluaran dari layer sebelumnya.
-	Pada dasarnya, \textit{fully-connected layer} selalu diisi dengan fungsi aktivasi \textit{softmax}. \textit{Softmax} merupakan fungsi aktivasi yang mengubah nilai angka atau log ke dalam probabilitas. Keluaran dari \textit{softmax} merupakan vektor dengan probabilitas pada setiap hasil yang mungkin. Secara matematis, \textit{softmax} dapat dituliskan seperti pada Persamaan \ref{eq:softmax}.
+    dimana $y$ merupakan keluaran dari \textit{fully-connected layer}, $b$ merupakan bias, $w$ merupakan bobot pada jaringan dengan ukuran $i\times j$ dengan $i$ yang merepresentasikan jumlah fitur dan $j$ yang merepresentasikan jumlah kelas, dan $x$ merupakan hasil keluaran dari layer sebelumnya \citep{Hafemann2017}.
+
+    \subsection{\textit{Batch Normalization} (BN)}
+    Pada umumnya, hampir setiap metode \textit{deep learning} mengimplementasikan BN. BN merupakan teknik yang dapat mempercepat proses pelatihan model dan membuat proses pelatihan lebih stabil. Teknik ini melakukan normalisasi vektor pada \textit{hidden layers} menggunakan rata-rata dan varian. BN dapat dilakukan sebelum atau sesudah menjalankan fungsi non-linier. Pada setiap \textit{hidden layer}, BN mengubah nilai pada hidden layer menggunakan persamaan \ref{eq:bn-1}-\ref{eq:bn-4}.
+
     \begin{align}
-        S(y)_i &= \frac{e^{y_i}}{\sum_{j=1}^{n} e^{y_j}} 
-        \label{eq:softmax}
+        \label{eq:bn-1}
+        \mu &= \frac{1}{n} \sum_i Z^{(i)}\\
+        \label{eq:bn-2}
+        \sigma^2 &= \frac{1}{n} \sum_i (Z^{(i)}-\mu)^2\\
+        \label{eq:bn-3}
+        Z^{(i)}_norm &= \frac{Z^{(i)}-\mu}{\sqrt{\sigma-\epsilon}}\\
+        \label{eq:bn-4}
+        \breve{Z} &= \gamma \ast Z^{(i)}_{norm}+\beta
     \end{align}
 
-    $S(y)_i$ merupakan nilai probabilitas $y_i$, $n$ merupakan jumlah kelas, $y_i$ merupakan vektor masukan pada fungsi aktivasi \textit{softmax}. Hasil dari fungsi aktivasi \textit{softmax} berupa nilai antara $0$ sampai $1$ sehingga membuat distribusi probabilitas yang valid.
+    Pertama, BN menghitung nilai rata-rata dan varian menggunakan persamaan \ref{eq:bn-1} dan \ref{eq:bn-2}. Kemudian dilakukan normalisasi menggunakan persamaan \ref{eq:bn-3} sehingga data keluaran berdistribusi normal dimana $\epsilon$ berupa konstanta untuk stabilitas numerik. Langkah terakhir menghitung keluaran $\breve{Z}$ dengan menerapkan transformasi linier terhadap $\gamma$ dan $\beta$ seperti persamaan \ref{eq:bn-4}.
+
+    \subsection{\textit{Sigmoid-weighted Linear Unit} (SiLU)}
+    SiLU merupakan salah satu fungsi aktivasi yang diusulkan untuk \textit{reinforcement learning}. Fungsi aktivasi SiLU dihitung dengan melakukan operasi perkalian antara fungsi sigmoid dengan data masukan. Rumus SiLU seperti terlihat pada persamaan \ref{eq:silu}. Grafik SiLU tidak menaik secara monoton seperti ReLU, akan tetapi sedikit melandai ke bawah dengan nilai minimum sekitar $-0.28$ untuk $z_k \approx -1.28$. Grafik SiLU seperti terlihat pada Gambar \ref{fig:silu}.
+
+    \begin{align}
+        \label{eq:silu}
+        a_k(z_k) &= z_k\sigma (z_k)\nonumber\\
+        &= z_k\frac{1}{1+e^{-(z_k)}}
+    \end{align}
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[width=8cm]{../img/SiLU - Latex.PNG}
+            \caption{Perbandingan grafik SiLU dan ReLU}
+            \label{fig:silu}
+            Sumber: \citep{Elfwing2018}
+        \end{center}
+    \end{figure}
 
     \subsection{CSPDarknet53}
     CSPDarknet53 merupakan salah satu jenis CNN dan \textit{backbone} dari sebuah deteksi objek yang menggunakan arsitektur Darknet53 dengan \textit{Cross Stage Partial Network} (CSPNet). CSPDarknet53 terdiri dari \textit{based convolution layer} dan jaringan CSP. CSPDarknet53 menggunakan CSPNet untuk melakukan partisi \textit{feature map} pada \textit{based layer} menjadi dua bagian kemudian menggabungkannya secara \textit{cross-stage hierarchy}. Arsitektur CSP seperti terlihat pada Gambar \ref{fig:cspnet}.
@@ -265,9 +304,9 @@ YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek seca
     \begin{figure}[H]
         \centering
         \begin{tabular}{cc}
-            \includegraphics[width=7cm]{../img/DenseNet - Latex.PNG}
+            \includegraphics[width=6.5cm]{../img/DenseNet - Latex.PNG}
             &
-            \includegraphics[width=7cm]{../img/CSP DenseNet - Latex.PNG}\\
+            \includegraphics[width=6.5cm]{../img/CSP DenseNet - Latex.PNG}\\
             (a) &(b)\\
         \end{tabular}
         \caption{Modifikasi arsitektur DenseNet menjadi CSP DenseNet (a) DenseNet; (b) CSP DenseNet}
@@ -344,21 +383,21 @@ YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek seca
 
     \end{enumerate}
 
-    \subsection{\textit{Extended Efficient Layer Aggregation Network} (E-ELAN)}
-    E-ELAN merupakan salah satu blok komputasi pada sebuah \textit{backbone} di YOLO-v7. E-ELAN pada YOLO-v7 menggunakan \textit{expand}, \textit{shuffle}, dan \textit{merge cardinality} untuk mendapatkan kemampuan belajar secara terus menerus tanpa merusak \textit{original gradient path}. Pada dasarnya, E-ELAN membuat jaringan lebih baik dalam mempelajari data. E-ELAN merupakan modifikasi dari ELAN. Arsitektur E-ELAN seperti terlihat pada Gambar \ref{fig:e-elan}.
+    % \subsection{\textit{Extended Efficient Layer Aggregation Network} (E-ELAN)}
+    % E-ELAN merupakan salah satu blok komputasi pada sebuah \textit{backbone} di YOLO-v7. E-ELAN pada YOLO-v7 menggunakan \textit{expand}, \textit{shuffle}, dan \textit{merge cardinality} untuk mendapatkan kemampuan belajar secara terus menerus tanpa merusak \textit{original gradient path}. Pada dasarnya, E-ELAN membuat jaringan lebih baik dalam mempelajari data. E-ELAN merupakan modifikasi dari ELAN. Arsitektur E-ELAN seperti terlihat pada Gambar \ref{fig:e-elan}.
 
-    \begin{figure}[H]
-        \centering
-        \begin{tabular}{cc}
-            \includegraphics[width=4cm]{../img/ELAN - Latex.PNG}
-            &
-            \includegraphics[width=4cm]{../img/E-ELAN - Latex.PNG}\\
-            (a) &(b)\\
-        \end{tabular}
-        \caption{(a) Arsitektur ELAN; (b) Modifikasi ELAN menjadi E-ELAN}
-        \label{fig:e-elan}
-        Sumber: \citep{Wang2022}
-    \end{figure}
+    % \begin{figure}[H]
+    %     \centering
+    %     \begin{tabular}{cc}
+    %         \includegraphics[width=4cm]{../img/ELAN - Latex.PNG}
+    %         &
+    %         \includegraphics[width=4cm]{../img/E-ELAN - Latex.PNG}\\
+    %         (a) &(b)\\
+    %     \end{tabular}
+    %     \caption{(a) Arsitektur ELAN; (b) Modifikasi ELAN menjadi E-ELAN}
+    %     \label{fig:e-elan}
+    %     Sumber: \citep{Wang2022}
+    % \end{figure}
 
     \subsection{\textit{Compound Scaling}}
     Setiap perangkat mempunyai keperluan yang berbeda-beda sehingga YOLO-v7 menyediakan fitur untuk mengubah ukuran model meskipun hal ini harus ditentukan di awal pelatihan model. Karena terdapat perangkat yang mengutamakan kecepatan atau akurasi. Dalam model scaling, terdapat beberapa parameter yang dipertimbangkan, yaitu \textit{resolution} (ukuran citra masukan), \textit{width} (jumlah saluran), \textit{depth} (jumlah layer), dan \textit{stage} (jumlah feature pyramid). Proses \textit{compound scaling} seperti terlihat pada Gambar \ref{fig:compound-scaling}.
@@ -474,6 +513,48 @@ mAP merupakan salah satu metode evaluasi model terutama pada model deteksi objek
     \label{eq:map}
     mAP &= \frac{1}{n}\sum_{i=1}^{n} AP_i
 \end{align}
+
+\section{Integrasi Keislaman}
+Kehidupan manusia di dunia tidak akan terlepas dari ujian. Bahkan, awal mula manusia di bumi karena ujian yang diberikan oleh Allah kepada Nabi Adam \textit{'alaihissalam}. Ujian dari Allah \textit{subhanallahu wa ta'ala} dapat berupa perkara yang disukai oleh manusia, seperti harta, tahta, dan wanita. Sedangkan perkara yang tidak disukai oleh manusia, seperti musibah, penyakit, dan kesengsaraan. Allah \textit{subhanallahu wa ta'ala} berfirman dalam surat al-Anbiyaa' ayat 35,
+
+\begin{flushright}
+    \<كُلُّ نَفْسٍ ذَاۤىِٕقَةُ الْمَوْتِۗ وَنَبْلُوْكُمْ بِالشَّرِّ وَالْخَيْرِ فِتْنَةً ۗوَاِلَيْنَا تُرْجَعُوْنَ (٣٥)>
+\end{flushright}
+
+Artinya: "Tiap-tiap yang berjiwa akan merasakan mati. Kami akan mengujimu dengan keburukan dan kebaikan sebagai cobaan (yang sebenar-benarnya). Dan hanya kepada Kami-lah kamu dikembalikan." (al-Anbiyaa': 35). Ibnu Katsir menjelaskan dalam tafsirnya terkait ujian dari Allah \textit{subhanallahu wa ta'ala} dapat berupa musibah dan nikmat. Hal ini bertujuan untuk mengetahui siapa yang bersyukur dan siapa yang ingkar terhadap nikmat Allah \textit{subhanallahu wa ta'ala} serta siapa yang bersabar dan siapa yang berputus asa terhadap musibah yang diberikan. Ali ibnu Abu Talhah meriwayatkan dari Ibnu Abbas terkait firman-Nya: "Kami akan menguji kalian." (al-Anbiyaa': 35), yaitu memberikan cobaan kepada kalian. "dengan keburukan dan kebaikan sebagai cobaan (yang sebenar-benarnya). (al-Anbiyaa': 35)", yaitu dengan kemakmuran dan kesengsaraan, dengan sakit dan sehat, dengan miskin dan kaya, dengan haram dan halal, dengan durhaka dan taat, serta dengan kesesatan dan petunjuk. Dalam ayat tersebut dapat dipelajari bahwa penyakit merupakan salah satu bentuk ujian dari Allah \textit{subhanallahu wa ta'ala} kepada hamba-Nya. Sehingga manusia dituntut untuk mengambil hikmah dibalik ujian yang diberikan Allah \textit{subhanallahu wa ta'ala} meskipun terdapat ujian yang tidak sesuai akal manusia.
+
+    \subsection{Hikmah Orang Sakit}
+    Seorang mukmin memiliki keberuntungan berdasarkan sabda Rasulullah \textit{shalallahu 'alaihi wa sallam}, "Sungguh menakjubkan perkara seorang mukmin, sesungguhnya semua urusannya merupakan kebaikan, dan hal ini tidak terjadi kecuali bagi orang mukmin. Jika dia mendapat kegembiraan, maka dia bersyukur dan itu merupakan kebaikan baginya, dan jika mendapat kesusahan, maka dia bersabar dan ini merupakan kebaikan baginya." (HR. Muslim). Ketika seorang mukmin mendapatkan nikmat dan bersyukur maka akan mendapatkan kebaikan dari Allah \textit{subhanallahu wa ta'ala}. Sedangkan ketika seorang mukmin mendapat kesusahan dan bersabar maka akan mendapatkan kebaikan pula dari Allah \textit{subhanallahu wa ta'ala}.
+
+    Penyakit merupakan salah satu jalan untuk mendapatkan ampunan dosa dari Allah \textit{subhanallahu wa ta'ala}. Namun, terdapat ketentuan untuk mendapatkan pengampunan dosa ketika sakit, seperti tidak menjalankan maksiat ketika sakit atau tetap dalam ketakwaan ketika sakit. Rasulullah \textit{shalallahu 'alaihi wa sallam} bersabda terkait seorang mukmin yang sakit, "Tidaklah menimpa seorang mukmin rasa sakit yang terus menerus, kepayahan, penyakit, dan juga kesedihan, bahkan sampai kesusahan yang menyusahkannya, melainkan akan dihapuskan dengannya dosa-dosanya." (HR. Muslim). Di sisi lain, penyakit juga merupakan peringatan dan hukuman dari apa yang telah diperbuat sebagaimana firman Allah \textit{subhanallahu wa ta'ala} dalam surat asy-Syura ayat 30,
+
+    \begin{flushright}
+        \<وَمَآ اَصَابَكُمْ مِّنْ مُّصِيْبَةٍ فَبِمَا كَسَبَتْ اَيْدِيْكُمْ وَيَعْفُوْا عَنْ كَثِيْرٍۗ (٣٠)>
+    \end{flushright}
+
+    Artinya: "Dan apa saja musibah yang menimpamu maka adalah disebabkan oleh perbuatan tanganmu sendiri, dan Allah memaafkan sebagian besar (dari kesalahan-kesalahanmu)." (asy-Syura: 30).
+
+    \subsection{Ikhtiar Orang Sakit}
+    Tiap-tiap orang yang sakit pasti menginginkan kesembuhan. Bagi orang sakit, usaha untuk sembuh merupakan keharusan karena dapat mengganggu ketakwaan kepada Allah \textit{subhanallahu wa ta'ala} jika sakit tidak segera dihilangkan. Syaikh Muhammad bin Shalih al-'Utsaimin \textit{rahimahullah} mengatakan bahwa ikhtiar untuk mendapatkan kesembuhan bagi orang sakit adalah suatu keharusan karena jika ditinggalkan dapat membahayakan tubuh. Hal ini mempertimbangkan fungsionalitas tubuh sebagai sarana beribadah kepada Allah \textit{subhanallahu wa ta'ala}. Misalnya ketika seseorang terkena penyakit kanker maka usaha untuk menghilangkan kanker tersebut harus dilakukan. Jika hal tersebut tidak dilakukan maka kanker akan menyebar ke jaringan tubuh lain dan menimbulkan penyakit baru. Oleh karena itu, menghilangkan kanker yang membahayakan merupakan suatu keharusan bagi seorang mukmin. Rasulullah \textit{shalallahu 'alaihi wa sallam} memerintahkan kepada umatnya untuk mencari kesembuhan dan tidak berputus asa dari atas suatu penyakit yang dideritanya. Dari Jabir bin 'Abdillah, Rasulullah \textit{shalallahu 'alaihi wa sallam} bersabda,
+
+    \begin{flushright}
+        \<لكل داء دواء فإذا أصيب دواء الداء برأ بإذن الله عز و جل>
+    \end{flushright}
+
+    Artinya: “Setiap penyakit itu pasti ada obatnya. Oleh karena itu, barang siapa yang tepat dalam melakukan pengobatan suatu penyakit, maka dengan izin Allah ‘azza wa  jalla dia akan sembuh.” (HR. Muslim, Ibn Hiban, dan Hakim). Dari Abu Hurairah \textit{radhiallahu 'anhu}, dia mengabarkan bahwa Rasulullah \textit{shalallahu 'alaihi wa sallam} bersabda,
+
+    \begin{flushright}
+        \<ما أنزل الله داء إلا أنزل له دواء>
+    \end{flushright}
+
+    “Tidaklah Allah menurunkan suatu penyakit, melainkan Dia turunkan obat untuknya.” (HR. Ibn Majah dan dishahihkan al-Albani).
+
+    Berdasarkan pemaparan di atas, kanker kulit merupakan salah satu bentuk penyakit yang harus disembuhkan karena jika diabaikan dapat membahayakan jaringan tubuh di sekitarnya. Salah satu usaha untuk mendapatkan kesembuhan dari kanker kulit adalah melakukan diagnosis kanker kulit. Penelitian ini melakukan diagnosis kanker kulit dengan metode YOLO-v7 untuk mengetahui jenis kanker kulit yang diderita sehingga dapat meminimalisir resiko yang terjadi akibat kanker kulit.
+
+
+
+
+
 
 
 

@@ -44,7 +44,7 @@ Tahapan dalam melakukan deteksi kanker kulit berdasarkan citra dermoskopi menggu
 
 Penelitian ini terdiri dari beberapa proses sebagai berikut:
 \begin{enumerate}
-    \item Tahap \textit{pre-processing} terdiri dari \textit{annotation} dan \textit{resize}. \textit{Annotation} merupakan pemberian kotak pembatas sebuah objek pada sebuah citra. Hal ini dilakukan satu per satu sesuai dengan label yang diberikan dari penyedia dataset, yaitu \textit{ISIC 2019 Challenge}. \textit{Resize} merupakan pengubahan ukuran piksel pada sebuah citra, sehingga penelitian ini melakukan \textit{resize} citra masukan menjadi ukuran $1024\times 1024$, $512\times 512$, dan $256\times 256$. Proses \textit{annotation} dan \textit{resize} seperti terlihat pada Gambar \ref{fig:preprocessing}.
+    \item Tahap \textit{pre-processing} terdiri dari \textit{annotation} dan \textit{resize}. \textit{Annotation} merupakan pemberian kotak pembatas sebuah objek pada sebuah citra. Hal ini dilakukan satu per satu sesuai dengan label yang diberikan dari penyedia dataset, yaitu \textit{ISIC 2019 Challenge}. \textit{Resize} merupakan pengubahan ukuran piksel pada sebuah citra, sehingga penelitian ini melakukan \textit{resize} citra masukan menjadi ukuran $512\times 512$. Proses \textit{annotation} dan \textit{resize} seperti terlihat pada Gambar \ref{fig:preprocessing}.
     \begin{figure}[H]
         \centering
         \begin{tabular}{ccc}
@@ -60,38 +60,8 @@ Penelitian ini terdiri dari beberapa proses sebagai berikut:
     \end{figure}
 
     \item \textit{Data splitting} merupakan tahap pembagian data. Penelitian ini membagi data menjadi dua, yaitu $90\%$ data untuk proses pelatihan dan $10\%$ data untuk proses pengujian.
-    \item Proses pembentukan model YOLO-v7 berdasarkan uji coba \textit{batch size} dan jenis model YOLO-v7. Uji coba \textit{batch size} yang dilakukan adalah sebesar $32$, $64$, dan $128$. Terdapat beberapa jenis YOLO-v7, yaitu YOLO-v7, YOLO-v7-X, YOLO-v7-W6, YOLO-v7-E6, YOLO-v7-D6, dan YOLO-v7-E6E.
+    \item Proses pembentukan model YOLO-v7 berdasarkan uji coba \textit{batch size} dan jenis model YOLO-v7. Uji coba \textit{batch size} yang dilakukan adalah sebesar $32$, $64$, dan $128$. Terdapat beberapa jenis YOLO-v7, yaitu YOLO-v7 dan YOLO-v7-Tiny.
+    % \item YOLO-v7-X, YOLO-v7-W6, YOLO-v7-E6, YOLO-v7-D6, dan YOLO-v7-E6E
     \item Proses pengujian model yaitu tahap model diuji menggunakan \textit{testing data} untuk mendapatkan hasil evaluasi.
     \item Proses evaluasi menggunakan mAP sehingga dilakukan perhitungan mAP berdasarkan \textit{confusion matrix} dan IoU yang didapatkan.
 \end{enumerate}
-
-% \begin{figure}[H] 
-% \begin{center} 
-% \includegraphics[scale=0.58]{Gambar/retina.png}
-% \caption{(a) Retina Normal (b) \textit{Mild} DR (c) \textit{Moderate} DR (d) \textit{Severe} DR } 
-% Sumber: \citep{aaa}
-% \label{gambar13}
-% \end{center} 
-% \end{figure}
-
-% \vspace{0cm}\noindent
-% \begin{table}[H]
-% \caption{Tingkat penyakit \textit{diabetic retinopathy}}
-% \centering
-% \begin{tabular}{|c|c|c|c|}
-% \hline
-% \textbf{Tingkat} & $\mu\alpha$ & \textbf{h} & \textbf{nv}\\
-% \hline
-% Normal & 0 & 0 & Tidak \\
-% \hline
-% \textit{Mild} DR & $>0$ dan $\leq 5$ & 0 & Tidak \\
-% \hline
-% \textit{Moderate} DR & $>5$ dan $< 15$ & $>0$ dan $<5$ & Tidak \\
-% \hline
-% \textit{Severe} DR & $\geq 15$ & $\geq 5$ & Ada \\
-% \hline
-% \end{tabular}
-% \label{tabel5}
-
-% Sumber: \citep{aaa}
-% \end{table}
