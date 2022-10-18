@@ -100,24 +100,16 @@ Gavrilov, D., Lazarenko, L., \& Zakirov, E. (2019).
 \newblock {\em Proceedings - 2019 International Conference on Artificial
   Intelligence: Applications and Innovations, IC-AIAI 2019}, (pp.\ 54--56).
 
-\bibitem[Hafemann et~al., 2017]{Hafemann2017}
-Hafemann, L.~G., Sabourin, R., \& Oliveira, L.~S. (2017).
-\newblock {Learning features for offline handwritten signature verification
-  using deep convolutional neural networks}.
-\newblock {\em Pattern Recognition}, 70, 163--176.
+\bibitem[Gribbon \& Bailey, 2004]{Gribbon2004}
+Gribbon, K.~T. \& Bailey, D.~G. (2004).
+\newblock {A novel approach to real-time bilinear interpolation}.
+\newblock {\em Proceedings, DELTA 2004 - Second IEEE International Workshop on
+  Electronic Design, Test and Applications}, 1, 126--131.
 
 \bibitem[Hall, 2019]{Hall2019}
 Hall, A. (2019).
 \newblock {Atlas of Male Genital Dermatology}.
 \newblock {\em Atlas of Male Genital Dermatology}, (pp.\ 157--159).
-
-\bibitem[He et~al., 2014]{He2014}
-He, K., Zhang, X., Ren, S., \& Sun, J. (2014).
-\newblock {Spatial pyramid pooling in deep convolutional networks for visual
-  recognition}.
-\newblock {\em Lecture Notes in Computer Science (including subseries Lecture
-  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 8691
-  LNCS(PART 3), 346--361.
 
 \bibitem[Janda et~al., 2022]{Janda2022}
 Janda, M., Olsen, C.~M., Mar, V.~J., \& Cust, A.~E. (2022).
@@ -137,11 +129,11 @@ Li, Y., Lin, B., Liang, S., Tao, J., Zhang, L., Wang, J., \& Zheng, J. (2022).
   tumors in the SEER database}.
 \newblock {\em Journal of Vascular Surgery}.
 
-\bibitem[Liu et~al., 2018]{Liu2018}
-Liu, S., Qi, L., Qin, H., Shi, J., \& Jia, J. (2018).
-\newblock {Path Aggregation Network for Instance Segmentation}.
-\newblock {\em Proceedings of the IEEE Computer Society Conference on Computer
-  Vision and Pattern Recognition}, (pp.\ 8759--8768).
+\bibitem[Ma \& Karki, 2020]{Ma2020}
+Ma, V. \& Karki, M.~V. (2020).
+\newblock {Skin Cancer Detection using Machine Learning Techniques}.
+\newblock {\em Proceedings of CONECCT 2020 - 6th IEEE International Conference
+  on Electronics, Computing and Communication Technologies}, (pp.\ 5--9).
 
 \bibitem[Morsy, 2018]{Morsy2018}
 Morsy, H.~A. (2018).
@@ -294,18 +286,16 @@ Wang, C.-Y., Bochkovskiy, A., \& Liao, H.-Y.~M. (2022).
   real-time object detectors}.
 \newblock (pp.\ 1--15).
 
-\bibitem[Wang et~al., 2020]{Wang2020}
-Wang, C.~Y., {Mark Liao}, H.~Y., Wu, Y.~H., Chen, P.~Y., Hsieh, J.~W., \& Yeh,
-  I.~H. (2020).
-\newblock {CSPNet: A New Backbone that can Enhance Learning Capability of CNN}.
-\newblock {\em IEEE Computer Society Conference on Computer Vision and Pattern
-  Recognition Workshops}, 2020-June, 1571--1580.
-
 \bibitem[Wu et~al., 2021a]{Wu2021b}
 Wu, P., Gao, W., Su, M., Nice, E.~C., Zhang, W., Lin, J., \& Xie, N. (2021a).
 \newblock {Adaptive Mechanisms of Tumor Therapy Resistance Driven by Tumor
   Microenvironment}.
 \newblock {\em Frontiers in Cell and Developmental Biology}, 9(March), 1--23.
+
+\bibitem[Wu et~al., 2022]{Wu2022}
+Wu, Y., Chen, B., Zeng, A., Pan, D., Wang, R., \& Zhao, S. (2022).
+\newblock {Skin Cancer Classification With Deep Learning: A Systematic Review}.
+\newblock {\em Frontiers in Oncology}, 12(July), 1--20.
 
 \bibitem[Wu et~al., 2021b]{Wu2021}
 Wu, Y., Su, L., Yuan, M., Chen, T., Ye, J., Jiang, Y., Song, J., \& Yang, H.
@@ -313,6 +303,11 @@ Wu, Y., Su, L., Yuan, M., Chen, T., Ye, J., Jiang, Y., Song, J., \& Yang, H.
 \newblock {In Vivo X‐ray Triggered Catalysis of H 2 Generation for Cancer
   Synergistic Gas Radiotherapy}.
 \newblock {\em Angewandte Chemie}, 133(23), 12978--12985.
+
+\bibitem[Xu et~al., 2015]{Xu2015}
+Xu, B., Wang, N., Chen, T., \& Li, M. (2015).
+\newblock {Empirical Evaluation of Rectified Activations in Convolutional
+  Network}.
 
 \bibitem[Yani et~al., 2019]{Yani2019}
 Yani, M., Irawan, B., \& Setiningsih, C. (2019).

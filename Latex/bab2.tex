@@ -127,7 +127,7 @@ $f_{ij}$ merupakan nilai fungsi pada $x=x_i$ dan $y=y_i$ sehingga bisa didefinis
 
     \begin{figure}[H]
         \begin{center}
-            \includegraphics[width=8cm]{../img/Color - Latex.png}
+            \includegraphics[width=8cm]{../img/Citra Warna - Latex.png}
             \caption{Citra warna beserta nilai pikselnya}
             \label{fig:color}
             Sumber: \citep{Kusumanto2011}
@@ -139,7 +139,7 @@ $f_{ij}$ merupakan nilai fungsi pada $x=x_i$ dan $y=y_i$ sehingga bisa didefinis
 
     \begin{figure}[H]
         \begin{center}
-            \includegraphics[width=8cm]{../img/Grayscale - Latex.png}
+            \includegraphics[width=8cm]{../img/Citra Grayscale - Latex.png}
             \caption{Citra \textit{grayscale} beserta nilai pikselnya}
             \label{fig:grayscale}
             Sumber: \citep{Kusumanto2011}
@@ -151,7 +151,7 @@ $f_{ij}$ merupakan nilai fungsi pada $x=x_i$ dan $y=y_i$ sehingga bisa didefinis
 
     \begin{figure}[H]
         \begin{center}
-            \includegraphics[width=8cm]{../img/Binary - Latex.png}
+            \includegraphics[width=8cm]{../img/Citra Biner - Latex.png}
             \caption{Citra biner beserta nilai pikselnya}
             \label{fig:binary}
             Sumber: \citep{Kusumanto2011}
@@ -171,14 +171,22 @@ $f_{ij}$ merupakan nilai fungsi pada $x=x_i$ dan $y=y_i$ sehingga bisa didefinis
     \end{figure}
 
 \section{\textit{Resize}}
-Dalam citra digital, \textit{resize} atau penskalaan gambar merupakan proses rekontruksi citra untuk mengubah ukuran sebuah citra \citep{Morsy2018}. Pengubahan ukuran citra biasanya terjadi untuk menyamakan ukuran citra dan mengurangi waktu komputasi \citep{AhmedThaajwer2020a,Umamaheswari2018}. Contoh penskalaan gambar seperti terlihat pada Gambar \ref{fig:resize}.
+\textit{Resize} atau penskalaan gambar merupakan proses rekontruksi citra untuk mengubah ukuran sebuah citra \citep{Morsy2018}. Pengubahan ukuran citra biasanya terjadi untuk menyesuaikan ukuran citra dan mengurangi waktu komputasi \citep{AhmedThaajwer2020a,Umamaheswari2018}. Penelitian ini menggunakan Interpolasi Bilinier untuk melakukan \textit{resize}. Perhitungan untuk melakukan \textit{resize} seperti terlihat pada \ref{eq:resize} dimana $w_x = \frac{x-x_1}{x_2-x_1}$ dan $w_y = \frac{y-y_1}{y_2-y_1}$. Pada persamaan \ref{eq:resize} $x$ merupakan lebar, $y$ merupakan tinggi, $(y_1, x_1)$, $(y_1, x_2)$, $(y_2, x_1)$, $(y_2, x_2)$ merupakan koordinat nilai piksel, $A$, $B$, $C$, $D$ merupakan nilai piksel, dan $Z$ merupakan nilai interpolasi antara dua nilai interpolasi $X$ dan $Y$ \citep{Gribbon2004}. Contoh penskalaan gambar seperti terlihat pada Gambar \ref{fig:resize}.
+
+\begin{align}
+    X &= A(1-w_x)+BW_x\nonumber\\
+    Y &= C(1-w_x)+DW_x\nonumber\\
+    Z &= X(1-w_y)+YW_y\nonumber\\
+    \label{eq:resize}
+    &= A(1-w_x)(1-w_y) + Bw_x(1-w_y) + C(1-w_x)w_y + Dw_{x}w_{y}
+\end{align}
 
 \begin{figure}[H]
     \centering
     \begin{tabular}{cc}
-        \includegraphics[width=4cm]{../img/Resize - Latex.JPG}
+        \includegraphics[width=4cm]{../img/Skin Cancer MEL - Latex.jpg}
         &
-        \includegraphics[width=2cm]{../img/Resize - Latex.JPG}\\
+        \includegraphics[width=2cm]{../img/Skin Cancer MEL - Latex.jpg}\\
         (a) &(b)\\
     \end{tabular}
     \caption{(a) Citra sebelum diubah berukuran $500\times 500$ piksel (b) Citra setelah diubah berukuran $200\times 200$ piksel}
@@ -191,7 +199,7 @@ Deteksi objek merupakan salah satu proses penting dalam \textit{computer vision}
 
 \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=8cm]{../img/Object Detection - Latex.png}
+        \includegraphics[width=7cm]{../img/Object Detection - Latex.png}
         \caption{YOLO dapat mendeteksi objek manusia, anjing, kuda}
         \label{fig:obj-det}
         Sumber: \citep{Redmon2016a}
@@ -213,7 +221,15 @@ Berdasarkan kemampuan CNN yang dapat mengolah data citra, neuron pada CNN terdir
 \end{figure}
 
 \section{\textit{You Only Look Once version 7} (YOLO-v7)}
-YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek secara \textit{real time}. Algoritma ini bekerja dengan membagi citra ke dalam beberapa kotak sehingga YOLO memprediksi batas kotak pada sebuah objek. Hasil prediksi tersebut kemudian diklasifikasikan ke dalam kelas tertentu dengan memilih batas kotak yang memiliki nilai paling tinggi. YOLO merupakan algoritma deteksi objek berdasarkan \textit{Fully Connected Neural Network} (FCNN). Secara umum, terdapat tiga komponen utama pada YOLO, yaitu \textit{backbone}, \textit{neck}, dan \textit{head}. \textit{Backbone} melakukan ekstraksi fitur yang sangat esensial pada sebuah citra kemudian diteruskan ke \textit{neck}. Bagian \textit{neck} mengumpulkan \textit{feature map} yang diekstraksi dari \textit{backbone} dan membuat \textit{feature pyramid}. Pada akhirnya, \textit{head} melakukan deteksi untuk terakhir kalinya.
+YOLO merupakan algoritma deteksi objek berdasarkan \textit{Fully Connected Neural Network} (FCNN). Algoritma ini dapat digunakan untuk mendeteksi objek secara \textit{real time}. Algoritma ini bekerja dengan membagi citra ke dalam beberapa kisi. Setiap kisi pada YOLO memiliki kemampuan untuk memprediksi objek dan \textit{bounding box}. \textit{Bounding box} merupakan kotak pembatas yang menandakan di dalamnya terdapat objek tertentu. Objek tersebut kemudian diklasifikasikan ke dalam kelas tertentu dengan memilih batas kotak yang memiliki nilai IoU paling tinggi. Secara umum, terdapat tiga komponen utama pada YOLO, yaitu \textit{backbone}, \textit{neck}, dan \textit{head}. \textit{Backbone} melakukan \textit{feature learning} kemudian diteruskan ke \textit{neck}. Bagian \textit{neck} mengumpulkan \textit{feature map} yang dipelajari dari \textit{backbone}. Pada akhirnya, \textit{head} memprediksi \textit{bounding box} dan probabilitas kelas yang ada di dalam \textit{bounding box}. YOLO merupakan metode yang populer dalam bidang \textit{computer vision} dan memunculkan banyak versi. Penelitian ini menggunakan YOLO-v7 dengan arsitektur seperti terlihat pada gambar \ref{fig:yolov7-archi}.
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=13cm]{../img/YOLO-v7-Architecture.png}
+        \caption{Arsitektur YOLO-v7}
+        \label{fig:yolov7-archi}
+        Sumber: \citep{Wang2022}
+    \end{center}
+\end{figure}
 
     \subsection{\textit{Convolutional Layer}}
     \textit{Convolutional Layer} merupakan layer utama dari CNN karena pada layer ini citra diolah dan dipelajari oleh CNN. \textit{Convolutional layer} menerapkan operasi konvolusi dengan tujuan mendapatkan fitur-fitur yang ada pada citra, seperti \textit{edge}, \textit{color}, \textit{shape}, dan fitur lainnya. Operasi konvolusi terjadi antara matriks dari data masukan, yaitu citra dan matriks kernel. Kernel mengubah nilai pada citra masukan sesuai dengan nilai pada kernel. Kernel memproses citra masukan dengan cara bergeser sebanyak \textit{stride} yang ditentukan. Hasil keluaran dari \textit{convolutional layer} berupa \textit{feature map} yang didapatkan dari sebuah citra masukan. Perhitungan untuk mendapatkan \textit{feature map} seperti terlihat pada persamaan \ref{eq:conv-layer} dimana $z$ merupakan keluaran dari layer $l$, $h$ merupakan citra masukan, $W$ merupakan kernel, dan $b$ merupakan bias. Gambar \ref{fig:conv} menunjukkan representasi dari \textit{convolutional layer} \citep{OShea2015}.
@@ -233,36 +249,20 @@ YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek seca
     \end{figure}
 
     \subsection{\textit{Pooling Layer}}
-    \textit{Pooling layer} merupakan layer yang memproses \textit{feature map} dari \textit{convolutional layer}. Layer ini berfungsi untuk mengurangi volume pada setiap tumpukan \textit{feature map} tanpa menghilangkan informasi yang dibutuhkan. Terdapat beberapa jenis \textit{pooling layer} seperti, \textit{max pooling} dan \textit{average pooling}. \textit{Max pooling} mengambil nilai tertinggi pada \textit{feature map} dengan mempertimbangkan ukuran tertentu. Sedangkan \textit{average pooling} mengambil nilai rata-rata pada \textit{feature map} dengan mempertimbangkan ukuran tertentu. Perhitungan \textit{max pooling} dan \textit{average pooling} seperti terlihat pada persamaan \ref{eq:max-pool} dan \ref{eq:avg-pool} dimana $i=0, \cdots, n;j=0, \cdots, n$. Hasil aktivasi \textit{layer} $l$ adalah $h^{l}_{xy}$ dengan $xy$ yang merepresentasikan baris dan kolom. Proses \textit{max pooling} dan \textit{average pooling} seperti terlihat pada Gambar \ref{fig:pooling}.
+    \textit{Pooling layer} merupakan layer yang memproses \textit{feature map} dari \textit{convolutional layer}. Layer ini berfungsi untuk mengurangi volume pada setiap tumpukan \textit{feature map} tanpa menghilangkan informasi yang dibutuhkan. Terdapat beberapa jenis \textit{pooling layer} seperti, \textit{max pooling} dan \textit{average pooling}. YOLO-v7 menggunakan \textit{max pooling} dalam arsitekturnya. \textit{Max pooling} mengambil nilai tertinggi pada \textit{feature map} berdasarkan ukuran kernel. Perhitungan \textit{max pooling} seperti terlihat pada persamaan \ref{eq:max-pool} dimana $i=0, \cdots, n;j=0, \cdots, n$. Hasil aktivasi \textit{layer} $l$ adalah $h^{l}_{xy}$ dengan $xy$ yang merepresentasikan baris dan kolom. Proses \textit{max pooling} seperti terlihat pada Gambar \ref{fig:max-pool}.
 
     \begin{align}
         \label{eq:max-pool}
-        h^{l}_{xy} &= max_{ij}(h^{l-1}_{(x+i)(y+j)})\\
-        \label{eq:avg-pool}
-        h^{l}_{xy} &= avg_{ij}(h^{l-1}_{(x+i)(y+j)})
+        h^{l}_{xy} &= max_{ij}(h^{l-1}_{(x+i)(y+j)})
     \end{align}
 
     \begin{figure}[H]
         \centering
-        \begin{tabular}{cc}
-            \includegraphics[width=3cm]{../img/CNN Max Pooling - Latex.PNG}
-            &
-            \includegraphics[width=3cm]{../img/CNN Average Pooling - Latex.PNG}\\
-            (a) &(b)\\
-        \end{tabular}
-        \caption{Cara kerja \textit{pooling layer} (a) \textit{Max pooling}; (b) \textit{Average pooling}}
-        \label{fig:pooling}
+        \includegraphics[width=10cm]{../img/Max Pooling - Latex.png}
+        \caption{Cara kerja \textit{max pooling} yang digunakan pada YOLO-v7}
+        \label{fig:max-pool}
         Sumber: \citep{Yani2019}
     \end{figure}
-
-    \subsection{\textit{Fully-Connected Layer}}
-    \textit{Fully-Connected Layer} merupakan layer yang akan melakukan klasifikasi terhadap keluaran dari \textit{convolutional layer} dan \textit{pooling layer}. Matriks dengan jumlah n dimensi pada keluaran sebelumnya, diubah menjadi matriks dengan satu dimensi pada \textit{fully-connected layer} sebelum pada akhirnya dilakukan klasifikasi. Perhitungan pada \textit{fully-connected layer} seperti terlihat pada Persamaan \ref{eq:fcl}.
-    \begin{align}
-        y_j &= b_j + \sum^{n}_{i} w_{ij}x_i
-        \label{eq:fcl}
-    \end{align}
-
-    dimana $y$ merupakan keluaran dari \textit{fully-connected layer}, $b$ merupakan bias, $w$ merupakan bobot pada jaringan dengan ukuran $i\times j$ dengan $i$ yang merepresentasikan jumlah fitur dan $j$ yang merepresentasikan jumlah kelas, dan $x$ merupakan hasil keluaran dari layer sebelumnya \citep{Hafemann2017}.
 
     \subsection{\textit{Batch Normalization} (BN)}
     Pada umumnya, hampir setiap metode \textit{deep learning} mengimplementasikan BN. BN merupakan teknik yang dapat mempercepat proses pelatihan model dan membuat proses pelatihan lebih stabil. Teknik ini melakukan normalisasi vektor pada \textit{hidden layers} menggunakan rata-rata dan varian. BN dapat dilakukan sebelum atau sesudah menjalankan fungsi non-linier. Pada setiap \textit{hidden layer}, BN mengubah nilai pada hidden layer menggunakan persamaan \ref{eq:bn-1}-\ref{eq:bn-4}.
@@ -273,12 +273,29 @@ YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek seca
         \label{eq:bn-2}
         \sigma^2 &= \frac{1}{n} \sum_i (Z^{(i)}-\mu)^2\\
         \label{eq:bn-3}
-        Z^{(i)}_norm &= \frac{Z^{(i)}-\mu}{\sqrt{\sigma-\epsilon}}\\
+        Z^{(i)}_{norm} &= \frac{Z^{(i)}-\mu}{\sqrt{\sigma-\epsilon}}\\
         \label{eq:bn-4}
         \breve{Z} &= \gamma \ast Z^{(i)}_{norm}+\beta
     \end{align}
 
     Pertama, BN menghitung nilai rata-rata dan varian menggunakan persamaan \ref{eq:bn-1} dan \ref{eq:bn-2}. Kemudian dilakukan normalisasi menggunakan persamaan \ref{eq:bn-3} sehingga data keluaran berdistribusi normal dimana $\epsilon$ berupa konstanta untuk stabilitas numerik. Langkah terakhir menghitung keluaran $\breve{Z}$ dengan menerapkan transformasi linier terhadap $\gamma$ dan $\beta$ seperti persamaan \ref{eq:bn-4}.
+
+    \subsection{\textit{Leaky Rectified Linear Unit} (Leaky ReLU)}
+    ReLU merupakan fungsi aktivasi yang sering digunakan pada masalah \textit{computer vision} saat ini. ReLU memiliki tingkat konvergensi yang lebih baik daripada fungsi aktivasi sigmoid dan tanh. Hasil keluaran ReLU memiliki ambang batas $0$ sehingga jaringan lebih cepat karena memiliki perhitungan yang efisien. Akan tetapi, ReLU memiliki masalah \textit{Dying ReLU} dimana ReLU tidak berfungsi untuk semua data masukan karena bernilai kurang dari nol. Berawal dari hal ini, Leaky ReLU muncul dengan mengubah gradien ReLU sedikit ke kiri sehingga Leaky ReLU dapat menghasilkan beberapa nilai jika data masukan kurang dari nol. Rumus Leaky ReLU seperti terlihat pada persamaan \ref{eq:l-relu}. Grafik Leaky ReLU seperti terlihat pada gambar \ref{fig:l-relu} \citep{Xu2015}.
+
+    \begin{align}
+        \label{eq:l-relu}
+        f(x) &= max(0.1x, x)
+    \end{align}
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[width=8cm]{../img/Leaky ReLU - Latex.png}
+            \caption{Grafik Leaky ReLU}
+            \label{fig:l-relu}
+            Sumber: \citep{Xu2015}
+        \end{center}
+    \end{figure}
 
     \subsection{\textit{Sigmoid-weighted Linear Unit} (SiLU)}
     SiLU merupakan salah satu fungsi aktivasi yang diusulkan untuk \textit{reinforcement learning}. Fungsi aktivasi SiLU dihitung dengan melakukan operasi perkalian antara fungsi sigmoid dengan data masukan. Rumus SiLU seperti terlihat pada persamaan \ref{eq:silu}. Grafik SiLU tidak menaik secara monoton seperti ReLU, akan tetapi sedikit melandai ke bawah dengan nilai minimum sekitar $-0.28$ untuk $z_k \approx -1.28$. Grafik SiLU seperti terlihat pada Gambar \ref{fig:silu}.
@@ -298,90 +315,32 @@ YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek seca
         \end{center}
     \end{figure}
 
-    \subsection{CSPDarknet53}
-    CSPDarknet53 merupakan salah satu jenis CNN dan \textit{backbone} dari sebuah deteksi objek yang menggunakan arsitektur Darknet53 dengan \textit{Cross Stage Partial Network} (CSPNet). CSPDarknet53 terdiri dari \textit{based convolution layer} dan jaringan CSP. CSPDarknet53 menggunakan CSPNet untuk melakukan partisi \textit{feature map} pada \textit{based layer} menjadi dua bagian kemudian menggabungkannya secara \textit{cross-stage hierarchy}. Arsitektur CSP seperti terlihat pada Gambar \ref{fig:cspnet}.
-
+    \subsection{\textit{Efficient Layer Aggregation Networks} (ELAN)}
+    ELAN merupakan jaringan yang melakukan proses agregasi fitur dan transfer fitur. Pada YOLO-v7, ELAN berada pada bagian \textit{backbone} sehingga ELAN bertugas untuk melakukan \textit{feature learning}. Modul ini memiliki struktur jaringan dan proses komputasi pemanfaatan parameter yang efisien sehingga jaringan dapat mempelajari fitur yang lebih beragam. ELAN memiliki dua cabang. Cabang pertama melakukan konvolusi $1\times 1$ untuk mengurangi \textit{depth}. Cabang kedua melakukan konvolusi $1\times 1$ kemudian melalui empat modul konvolusi $3\times 3$ yang berguna untuk \textit{feature learning}. Pada akhirnya, keempat fitur digabungkan untuk mendapatkan fitur akhir. Terdapat dua jenis ELAN, yaitu ELAN dan ELAN-W dimana perbedaan keduanya terdapat pada output yang diteruskan pada cabang kedua. Struktur jaringan ELAN dan ELAN-W seperti terlihat pada gambar \ref{fig:elan}.
+    
     \begin{figure}[H]
         \centering
-        \begin{tabular}{cc}
-            \includegraphics[width=6.5cm]{../img/DenseNet - Latex.PNG}
-            &
-            \includegraphics[width=6.5cm]{../img/CSP DenseNet - Latex.PNG}\\
-            (a) &(b)\\
+        \begin{tabular}{c}
+            \includegraphics[width=13cm]{../img/ELAN.png}\\
+            (a)\\
+            \includegraphics[width=13cm]{../img/ELAN-W.png}\\
+            (b)\\
         \end{tabular}
-        \caption{Modifikasi arsitektur DenseNet menjadi CSP DenseNet (a) DenseNet; (b) CSP DenseNet}
-        \label{fig:cspnet}
-        Sumber: \citep{Wang2020}
+        \caption{Struktur jaringan ELAN (a) ELAN; (b) ELAN-W}
+        \label{fig:elan}
+        Sumber: \citep{Wang2022}
     \end{figure}
 
-    Seperti terlihat pada Gambar \ref{fig:cspnet} (a), arsitektur DenseNet tidak ada pembagian \textit{feature map} pada \textit{based layer}. Sedangkan hasil modifikasi DenseNet menjadi CSP DenseNet membagi \textit{feature map} pada \textit{based layer} menjadi dua bagian seperti terlihat pada Gambar \ref{fig:cspnet} (b). Bagian pertama akan diteruskan ke dalam \textit{dense block} dan sebuah \textit{trainsition layer}. Sedangkan bagian lainnya akan dikombinasikan dengan \textit{transmitted feature map} untuk masuk ke tahap selanjutnya. Sehingga CSPNet dapat mengurangi waktu komputasi secara signifikan, meningkatkan waktu inferensi model, dan meningkatkan akurasi.
+    \subsection{\textit{Upsample Layer}}
+    \textit{Upsample layer} merupakan \textit{layer} yang dapat meningkatkan ukuran \textit{feature map}. \textit{Layer} ini mengembalikan ukuran seperti yang digunakan pada \textit{layer} sebelumnya. Rumus untuk mengimplementasikan \textit{upsample layer} seperti terlihat pada persamaan \ref{eq:upsample} dimana $R$ dan $C$ merupakan tinggi dan lebar data asli sedangkan $R'$ dan $C'$ merupakan tinggi dan lebar data setelah \textit{upsampling}.
 
-    \subsection{\textit{Spatial Pyramid Pooling} (SPP)}
-    Pada arsitektur YOLOv1, YOLOv2, dan YOLOv3 \textit{feature map} diproses dengan cara memasuki \textit{max pooling layer} atau \textit{average pooling layer} kemudian diteruskan ke dalam \textit{fully-connected layers}. Sehingga YOLOv4 memodifikasi \textit{pooling layer} menjadi SPP agar YOLO menjadi lebih fleksibel untuk menerima input. SPP merupakan \textit{pooling layer} yang menyelesaikan masalah \textit{fixed-size} pada sebuah jaringan sehingga jaringan yang dibuat tidak perlu mengubah ukuran citra masukan pada tahap \textit{pre-processing} untuk menyamakan ukuran setiap citra masukan. Pada umumnya, SPP ditambahkan pada bagian akhir dari \textit{convolution layer}. Lapisan SPP menyatukan fitur dan menyamakan ukuran kemudian dimasukkan ke dalam \textit{fully-connected layers}. Dapat dikatakan bahwa SPP merupakan penyatuan informasi pada deep layer antara \textit{convolution layer} dan \textit{fully-connected layers} untuk menghindari proses pengubahan pada tahap \textit{pre-processing} \citep{He2014}. Proses SPP seperti terlihat pada Gambar \ref{fig:spatial-pyramid-pooling}.
+    \begin{align}
+        \label{eq:upsample}
+        S_r &= \frac{R-1}{R'}\nonumber\\
+        S_c &= \frac{C-1}{C'}
+    \end{align}
 
-    \begin{figure}[H]
-        \begin{center}
-            \includegraphics[width=8cm]{../img/Spatial Pyramid Pooling - Latex.png}
-            \caption{Struktur SPP pada sebuah jaringan}
-            \label{fig:spatial-pyramid-pooling}
-            Sumber: \citep{He2014}
-        \end{center}
-    \end{figure}
-
-    SPP mempertimbangkan informasi spasial dengan mengumpulkan respon dari filter pada setiap \textit{spatial bins}. Seperti terlihat pada Gambar \ref{fig:spatial-pyramid-pooling}, terdapat tiga level \textit{pooling} yang dilakukan. Keluaran \textit{feature map} memiliki $256$ filter dengan ukuran yang bergantung pada ukuran data masukan. Pada \textit{pooling} pertama, terdapat satu bin yang menutupi seluruh citra \textit{feature map}. Hasil dari \textit{pooling} ini berupa keluaran dengan ukuran $256$. Hal ini serupa dengan operasi \textit{global pooling}. \textit{Feature map} pada \textit{pooling} kedua memiliki $4$ bin sehingga menghasilkan keluaran dengan ukuran $4\times 256$. \textit{Pooling} ketiga memiliki $16$ bin dan menghasilkan keluaran dengan ukuran $16\times 256$. Hasil dari ketiga proses \textit{pooling} diratakan dan digabungkan pada sebuah vektor satu dimensi sehingga menghasilkan keluaran dengan ukuran tetap terlepas dari ukuran data masukan \citep{He2014}.
-
-    \subsection{PANet}
-    Pada arsitektur YOLO, PANet mulai digunakan pada YOLOv4 pada bagian \textit{neck} karena dapat meningkatkan kinerja model untuk proses deteksi objek. PANet merupakan jaringan yang dapat meningkatkan deteksi objek dengan menyediakan infomasi spasial secara akurat sehingga membantu lokalisasi piksel dan pembentukan \textit{mask} \citep{Liu2018}. Berikut ini merupakan beberapa fitur dari PANet:
-    \begin{enumerate}
-        \item \textit{Shorcut Connection}
-        Semakin dalam sebuah jaringan, maka fitur yang didapatkan semakin kompleks dan resolusi spasial semakin berkurang. Sehingga \textit{pixel-level masks} tidak dapat diidentifikasi secara akurat. PANet melakukan augmentasi pada bagian \textit{top-down} dengan menambahkan bagian \textit{bottom-up} ke dalam bagian \textit{top-down} pada \textit{Feature Pyramid Network} (FPN) sehingga hal ini membentuk jalan pintas dari \textit{layer} bawah ke \textit{layer} atas. Proses \textit{shortcut connection} seperti terlihat pada Gambar \ref{fig:short-conn}.
-        \begin{figure}[H]
-            \begin{center}
-                \includegraphics[width=8cm]{../img/PANet Shortcut Connection - Latex.png}
-                \caption{Proses \textit{shortcut connection} pada PANet}
-                \label{fig:short-conn}
-                Sumber: \citep{Liu2018}
-            \end{center}
-        \end{figure}
-
-        \item \textit{Adaptive Feature Pooling}
-        Pada umumnya, jaringan menggunakan \textit{ROI Align Pooling} untuk memprediksi \textit{mask}. Akan tetapi, PANet menggunakan fitur dari semua \textit{layer} untuk memprediksi \textit{mask}. Sehingga jaringan dapat menentukan fitur yang paling berguna. \textit{Adaptive Feature Pooling} melakukan operasi \textit{ROI Align} pada setiap \textit{feature map} untuk mengekstrak fitur untuk objek. Hal ini menggunakan \textit{element-wise max fusion} untuk mendapatkan fitur baru. Proses \textit{Adaptive Feature Pooling} seperti terlihat pada Gambar \ref{fig:adaptive-feature-pooling}.
-        \begin{figure}[H]
-            \begin{center}
-                \includegraphics[width=4cm]{../img/PANet Adaptive Feature Pooling - Latex.png}
-                \caption{Proses \textit{adaptive feature pooling} pada jaringan PANet}
-                \label{fig:adaptive-feature-pooling}
-                Sumber: \citep{Liu2018}
-            \end{center}
-        \end{figure}
-
-        \item \textit{Fully-Connected Fusion}
-        FCN menyediakan informasi spasial dan mengurangi jumlah parameter pada sebuah jaringan. Sedangkan, \textit{Fully-Connected Layers} dapat beradaptasi dengan informasi spasial. PANet menggunakan informasi dari keduanya untuk mendapatkan akurasi yang lebih tinggi dalam prediksi \textit{mask}. Proses \textit{Fully-Connected Fusion} seperti terlihat pada Gambar \ref{fig:fully-connected-fusion}.
-        \begin{figure}[H]
-            \begin{center}
-                \includegraphics[width=8cm]{../img/PANet Fully Connected Fusion - Latex.png}
-                \caption{Proses \textit{fully-connected fusion} pada jaringan PANet}
-                \label{fig:fully-connected-fusion}
-                Sumber: \citep{Liu2018}
-            \end{center}
-        \end{figure}
-
-        Secara umum, PANet melakukan operasi adisi pada kedua \textit{layer} untuk memprediksi mask menggunakan \textit{Adaptive Feature Pooling}. Namun, YOLOv4 melakukan modifikasi pada PANet dengan mengubah operasi adisi menjadi operasi konkatenasi sehingga dapat meningkatkan akurasi. Arsitektur PANet yang telah dimodifikasi pada YOLOv4 seperti terlihat pada Gambar \ref{fig:panet}.
-
-        \begin{figure}[H]
-            \centering
-            \begin{tabular}{cc}
-                \includegraphics[width=4cm]{../img/PANet Original - Latex.PNG}
-                &
-                \includegraphics[width=4cm]{../img/PANet Modified - Latex.PNG}\\
-                (a) &(b)\\
-            \end{tabular}
-            \caption{(a) Jaringan PANet Asli (b) Jaringan PANet modifikasi pada YOLO-v4}
-            \label{fig:panet}
-            Sumber: \citep{Bochkovskiy2020}
-        \end{figure}
-
-    \end{enumerate}
+    % TODO: Turunan dari activation function masukkan ke dalam BAB II
 
     % \subsection{\textit{Extended Efficient Layer Aggregation Network} (E-ELAN)}
     % E-ELAN merupakan salah satu blok komputasi pada sebuah \textit{backbone} di YOLO-v7. E-ELAN pada YOLO-v7 menggunakan \textit{expand}, \textit{shuffle}, dan \textit{merge cardinality} untuk mendapatkan kemampuan belajar secara terus menerus tanpa merusak \textit{original gradient path}. Pada dasarnya, E-ELAN membuat jaringan lebih baik dalam mempelajari data. E-ELAN merupakan modifikasi dari ELAN. Arsitektur E-ELAN seperti terlihat pada Gambar \ref{fig:e-elan}.
@@ -398,24 +357,6 @@ YOLO merupakan sebuah algoritma yang dapat digunakan untuk mendeteksi objek seca
     %     \label{fig:e-elan}
     %     Sumber: \citep{Wang2022}
     % \end{figure}
-
-    \subsection{\textit{Compound Scaling}}
-    Setiap perangkat mempunyai keperluan yang berbeda-beda sehingga YOLO-v7 menyediakan fitur untuk mengubah ukuran model meskipun hal ini harus ditentukan di awal pelatihan model. Karena terdapat perangkat yang mengutamakan kecepatan atau akurasi. Dalam model scaling, terdapat beberapa parameter yang dipertimbangkan, yaitu \textit{resolution} (ukuran citra masukan), \textit{width} (jumlah saluran), \textit{depth} (jumlah layer), dan \textit{stage} (jumlah feature pyramid). Proses \textit{compound scaling} seperti terlihat pada Gambar \ref{fig:compound-scaling}.
-    
-    \begin{figure}[H]
-        \centering
-        \begin{tabular}{ccc}
-            \includegraphics[width=3cm]{../img/Compound Scaling Concatenation-Based Model - Latex.PNG}
-            &
-            \includegraphics[width=3cm]{../img/Compound Scaling Scaled Up - Latex.PNG}
-            &
-            \includegraphics[width=6cm]{../img/Compound Scaling Up Depth and Width - Latex.PNG}\\
-            (a) &(b) &(c)\\
-        \end{tabular}
-        \caption{Penskalaan model terhadap model \textit{concatenation-based} (a) Model \textit{concatention-based}; (b) \textit{Scaling-up} pada model \textit{concatenation-based}; (c) \textit{Compound scaling} pada \textit{concatenation-based} model}
-        \label{fig:compound-scaling}
-        Sumber: \citep{Wang2022}
-    \end{figure}
 
 \section{\textit{Confusion Matrix}}
 \textit{Confusion matrix} merupakan salah satu metrik yang dapat menggambarkan performa dari sebuah algoritma klasifikasi. Secara matematis, \textit{confusion matrix} berupa matrix $C_{ij}$ yang berisi nilai integer yang tidak negatif dengan $i=1\cdots n,j=1\cdots n$ dimana $n$ merupakan jumlah kelas pada permasalahan klasifikasi. Elemen $C_{ij}$ merupakan hasil klasifikasi selama proses pengujian model. Jika $i=j$ maka kelas $i$ terklasifikasi dengan benar pada kelas $j$. Sehingga dapat dikatakan elemen pada diagonal utama matriks merupakan semua kelas yang terklasifikasi dengan benar. Sedangkan elemen tidak nol lainnya menandakan kesalahan klasifikasi \citep{Susmaga2004}. Setiap elemen pada \textit{confusion matrix} termasuk ke dalam beberapa kategori berikut \citep{Shultz2017}:
@@ -455,11 +396,11 @@ IoU merupakan indikasi untuk mengetahui seberapa tepat prediksi kotak pembatas k
 \begin{figure}[H]
     \centering
     \begin{tabular}{ccc}
-        \includegraphics[width=3cm]{../img/IoU Bounding Box - Latex.png}
+        \includegraphics[width=3cm]{../img/IoU Original - Latex.png}
         &
-        \includegraphics[width=3cm]{../img/IoU Overlapped Area - Latex.png}
+        \includegraphics[width=3cm]{../img/IoU Overlapped - Latex.png}
         &
-        \includegraphics[width=3cm]{../img/IoU Union Area - Latex.png}\\
+        \includegraphics[width=3cm]{../img/IoU Union - Latex.png}\\
         (a) &(b) &(c)\\
     \end{tabular}
     \caption{Menunjukkan kondisi kotak pembatas (a) IoU; (b) \textit{Overlapped area}; (c) \textit{Union area}}
@@ -515,21 +456,33 @@ mAP merupakan salah satu metode evaluasi model terutama pada model deteksi objek
 \end{align}
 
 \section{Integrasi Keislaman}
-Kehidupan manusia di dunia tidak akan terlepas dari ujian. Bahkan, awal mula manusia di bumi karena ujian yang diberikan oleh Allah kepada Nabi Adam \textit{'alaihissalam}. Ujian dari Allah \textit{subhanallahu wa ta'ala} dapat berupa perkara yang disukai oleh manusia, seperti harta, tahta, dan wanita. Sedangkan perkara yang tidak disukai oleh manusia, seperti musibah, penyakit, dan kesengsaraan. Allah \textit{subhanallahu wa ta'ala} berfirman dalam surat al-Anbiyaa' ayat 35,
+Kehidupan manusia di dunia tidak akan terlepas dari ujian. Bahkan, awal mula manusia di bumi karena ujian yang diberikan oleh Allah kepada Nabi Adam \textit{'alaihissalam}. Ujian dari Allah \textit{subhanallahu wa ta'ala} dapat berupa perkara yang disukai oleh manusia, seperti harta, tahta, dan wanita. Sedangkan perkara yang tidak disukai oleh manusia, seperti musibah, penyakit, dan kesengsaraan. Musibah dapat berupa bencana seperti musim paceklik yang akan menimpa suatu kaum pada masa Nabi Yusuf \textit{'alaihissalam} sebagaimana dalam firman-Nya:
 
 \begin{flushright}
-    \<كُلُّ نَفْسٍ ذَاۤىِٕقَةُ الْمَوْتِۗ وَنَبْلُوْكُمْ بِالشَّرِّ وَالْخَيْرِ فِتْنَةً ۗوَاِلَيْنَا تُرْجَعُوْنَ (٣٥)>
+    \begin{RLtext}
+        قَالَ تَزْرَعُوْنَ سَبْعَ سِنِيْنَ دَاَبًاۚ فَمَا حَصَدْتُّمْ فَذَرُوْهُ فِيْ سُنْۢبُلِهٖٓ اِلَّا قَلِيْلًا مِّمَّا تَأْكُلُوْنَ (٧٤) ثُمَّ يَأْتِيْ مِنْۢ بَعْدِ ذٰلِكَ سَبْعٌ شِدَادٌ يَّأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ اِلَّا قَلِيْلًا مِّمَّا تُحْصِنُوْنَ (٨٤)
+    \end{RLtext}
 \end{flushright}
 
-Artinya: "Tiap-tiap yang berjiwa akan merasakan mati. Kami akan mengujimu dengan keburukan dan kebaikan sebagai cobaan (yang sebenar-benarnya). Dan hanya kepada Kami-lah kamu dikembalikan." (al-Anbiyaa': 35). Ibnu Katsir menjelaskan dalam tafsirnya terkait ujian dari Allah \textit{subhanallahu wa ta'ala} dapat berupa musibah dan nikmat. Hal ini bertujuan untuk mengetahui siapa yang bersyukur dan siapa yang ingkar terhadap nikmat Allah \textit{subhanallahu wa ta'ala} serta siapa yang bersabar dan siapa yang berputus asa terhadap musibah yang diberikan. Ali ibnu Abu Talhah meriwayatkan dari Ibnu Abbas terkait firman-Nya: "Kami akan menguji kalian." (al-Anbiyaa': 35), yaitu memberikan cobaan kepada kalian. "dengan keburukan dan kebaikan sebagai cobaan (yang sebenar-benarnya). (al-Anbiyaa': 35)", yaitu dengan kemakmuran dan kesengsaraan, dengan sakit dan sehat, dengan miskin dan kaya, dengan haram dan halal, dengan durhaka dan taat, serta dengan kesesatan dan petunjuk. Dalam ayat tersebut dapat dipelajari bahwa penyakit merupakan salah satu bentuk ujian dari Allah \textit{subhanallahu wa ta'ala} kepada hamba-Nya. Sehingga manusia dituntut untuk mengambil hikmah dibalik ujian yang diberikan Allah \textit{subhanallahu wa ta'ala} meskipun terdapat ujian yang tidak sesuai akal manusia.
+Artinya: "(Yusuf) berkata, 'Bercocoktanamlah kamu tujuh tahun berturut-turut! Kemudian apa yang kamu tuai, biarkanlah di tangkainya, kecuali sedikit untuk kamu makan. Kemudian, sesudah itu akan datang tujuh (tahun) yang sangat sulit (paceklik) yang menghabiskan apa yang kamu simpan untuk menghadapinya, kecuali sedikit dari apa (bibit gandum) yang kamu simpan." (Yusuf: 47-48). Nabi Yusuf \textit{'alaihissalam} memberitakan bahwa selama tujuh tahun musim paceklik itu tidak akan ada tumbuhan yang dapat hidup dan hasil panen akan gagal. Oleh sebab itu, Nabi Yusuf \textit{'alaihissalam} berkata kepada mereka, "... yang menghabiskan apa yang kalian simpan untuk menghidupinya (tahun sulit), kecuali sedikit dari (bibit gandum) yang kalian simpan". Imam Ibnu Katsir menafsirkan ayat ini dengan menjelaskan bahwa seseorang harus melakukan persiapan sebelum bencana terjadi sebagaimana penyakit yang akan menimpa. Jika muncul suatu kecurigaan atau muncul suatu pertanda dari penyakit dianjurkan untuk melakukan upaya pencegahan.
+
+% TODO: Tuliskan ayat mengenai mitigasi
 
     \subsection{Hikmah Orang Sakit}
-    Seorang mukmin memiliki keberuntungan berdasarkan sabda Rasulullah \textit{shalallahu 'alaihi wa sallam}, "Sungguh menakjubkan perkara seorang mukmin, sesungguhnya semua urusannya merupakan kebaikan, dan hal ini tidak terjadi kecuali bagi orang mukmin. Jika dia mendapat kegembiraan, maka dia bersyukur dan itu merupakan kebaikan baginya, dan jika mendapat kesusahan, maka dia bersabar dan ini merupakan kebaikan baginya." (HR. Muslim). Ketika seorang mukmin mendapatkan nikmat dan bersyukur maka akan mendapatkan kebaikan dari Allah \textit{subhanallahu wa ta'ala}. Sedangkan ketika seorang mukmin mendapat kesusahan dan bersabar maka akan mendapatkan kebaikan pula dari Allah \textit{subhanallahu wa ta'ala}.
+    Seorang mukmin tidak akan pernah terlepas dari tiga keadaan, yaitu jika mendapat nikmat maka ia bersyukur, jika mendapat susah maka ia bersabar, dan jika membuat dosa maka ia bertaubat. Hal ini merupakan kebahagiaan bagi seorang mukmin sebagaimana sabda Rasulullah \textit{shalallahu 'alaihi wa sallam}, 
+    
+    \begin{flushright}
+        \begin{RLtext}
+            عَجَبًا ِلأَمْرِ الْمُؤْمِنِ إنَّ أَمْرَهُ كُلَّهُ لَهُ خَيْرٌ وَلَيْسَ ذَلِكَ ِلأَحَدٍ إِلاَّ لْمُؤْمِنِ، إِنْ أَصَابَتْهُ سَرَّاءُ شَكَرَ فَكَانَ خَيْرًا لَهُ، وَإِنْ أَصَابَتْهُ ضَرَّاءُ صَبَرَ فَكَانَ خَيْراً لَهُ
+        \end{RLtext}
+    \end{flushright}
+
+    Artinya: "Sungguh menakjubkan perkara seorang mukmin, sesungguhnya semua urusannya merupakan kebaikan, dan hal ini tidak terjadi kecuali bagi orang mukmin. Jika dia mendapat kegembiraan, maka dia bersyukur dan itu merupakan kebaikan baginya, dan jika mendapat kesusahan, maka dia bersabar dan ini merupakan kebaikan baginya." (HR. Muslim: 2999). Ketika seorang mukmin mendapatkan nikmat dan bersyukur maka akan mendapatkan kebaikan dari Allah \textit{subhanallahu wa ta'ala}. Sedangkan ketika seorang mukmin mendapat kesusahan dan bersabar maka akan mendapatkan kebaikan pula dari Allah \textit{subhanallahu wa ta'ala}.
 
     Penyakit merupakan salah satu jalan untuk mendapatkan ampunan dosa dari Allah \textit{subhanallahu wa ta'ala}. Namun, terdapat ketentuan untuk mendapatkan pengampunan dosa ketika sakit, seperti tidak menjalankan maksiat ketika sakit atau tetap dalam ketakwaan ketika sakit. Rasulullah \textit{shalallahu 'alaihi wa sallam} bersabda terkait seorang mukmin yang sakit, "Tidaklah menimpa seorang mukmin rasa sakit yang terus menerus, kepayahan, penyakit, dan juga kesedihan, bahkan sampai kesusahan yang menyusahkannya, melainkan akan dihapuskan dengannya dosa-dosanya." (HR. Muslim). Di sisi lain, penyakit juga merupakan peringatan dan hukuman dari apa yang telah diperbuat sebagaimana firman Allah \textit{subhanallahu wa ta'ala} dalam surat asy-Syura ayat 30,
 
     \begin{flushright}
-        \<وَمَآ اَصَابَكُمْ مِّنْ مُّصِيْبَةٍ فَبِمَا كَسَبَتْ اَيْدِيْكُمْ وَيَعْفُوْا عَنْ كَثِيْرٍۗ (٣٠)>
+        \<وَمَآ اَصَابَكُمْ مِّنْ مُّصِيْبَةٍ فَبِمَا كَسَبَتْ اَيْدِيْكُمْ وَيَعْفُوْا عَنْ كَثِيْرٍۗ (٠٣)>
     \end{flushright}
 
     Artinya: "Dan apa saja musibah yang menimpamu maka adalah disebabkan oleh perbuatan tanganmu sendiri, dan Allah memaafkan sebagian besar (dari kesalahan-kesalahanmu)." (asy-Syura: 30).
@@ -538,13 +491,13 @@ Artinya: "Tiap-tiap yang berjiwa akan merasakan mati. Kami akan mengujimu dengan
     Tiap-tiap orang yang sakit pasti menginginkan kesembuhan. Bagi orang sakit, usaha untuk sembuh merupakan keharusan karena dapat mengganggu ketakwaan kepada Allah \textit{subhanallahu wa ta'ala} jika sakit tidak segera dihilangkan. Syaikh Muhammad bin Shalih al-'Utsaimin \textit{rahimahullah} mengatakan bahwa ikhtiar untuk mendapatkan kesembuhan bagi orang sakit adalah suatu keharusan karena jika ditinggalkan dapat membahayakan tubuh. Hal ini mempertimbangkan fungsionalitas tubuh sebagai sarana beribadah kepada Allah \textit{subhanallahu wa ta'ala}. Misalnya ketika seseorang terkena penyakit kanker maka usaha untuk menghilangkan kanker tersebut harus dilakukan. Jika hal tersebut tidak dilakukan maka kanker akan menyebar ke jaringan tubuh lain dan menimbulkan penyakit baru. Oleh karena itu, menghilangkan kanker yang membahayakan merupakan suatu keharusan bagi seorang mukmin. Rasulullah \textit{shalallahu 'alaihi wa sallam} memerintahkan kepada umatnya untuk mencari kesembuhan dan tidak berputus asa dari atas suatu penyakit yang dideritanya. Dari Jabir bin 'Abdillah, Rasulullah \textit{shalallahu 'alaihi wa sallam} bersabda,
 
     \begin{flushright}
-        \<لكل داء دواء فإذا أصيب دواء الداء برأ بإذن الله عز و جل>
+        \<لِكُلِّ دَاءٍ دَوَاءٌ فَإِذَا أُصِيبَ دَوَاءُ الدَّاءِ بَرَأَ بِإِذْنِ اللَّهِ عَزَّ وَجَلَّ>
     \end{flushright}
 
     Artinya: “Setiap penyakit itu pasti ada obatnya. Oleh karena itu, barang siapa yang tepat dalam melakukan pengobatan suatu penyakit, maka dengan izin Allah ‘azza wa  jalla dia akan sembuh.” (HR. Muslim, Ibn Hiban, dan Hakim). Dari Abu Hurairah \textit{radhiallahu 'anhu}, dia mengabarkan bahwa Rasulullah \textit{shalallahu 'alaihi wa sallam} bersabda,
 
     \begin{flushright}
-        \<ما أنزل الله داء إلا أنزل له دواء>
+        \<ما أنْزَلَ اللَّهُ داءً إلَّا أنْزَلَ له شِفاءً>
     \end{flushright}
 
     “Tidaklah Allah menurunkan suatu penyakit, melainkan Dia turunkan obat untuknya.” (HR. Ibn Majah dan dishahihkan al-Albani).

@@ -1525,12 +1525,12 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/arabtex/Uxnsh.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/arabtex/Uxnsh.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/arabtex/Uxnsh.fd
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/arabtex/xnsh14.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmro7t.tfm
 INPUT ./main.toc
 INPUT main.toc
 INPUT main.toc
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 OUTPUT main.toc
 INPUT ./main.lot
 INPUT main.lot
@@ -1600,35 +1600,34 @@ INPUT ../img/Skin Cancer VASC - Latex.jpg
 INPUT ../img/Skin Cancer VASC - Latex.jpg
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT ../img/Color - Latex.png
-INPUT ../img/Color - Latex.png
-INPUT ../img/Color - Latex.png
-INPUT ../img/Color - Latex.png
-INPUT ../img/Color - Latex.png
-INPUT ../img/Grayscale - Latex.png
-INPUT ../img/Grayscale - Latex.png
-INPUT ../img/Grayscale - Latex.png
-INPUT ../img/Grayscale - Latex.png
-INPUT ../img/Grayscale - Latex.png
-INPUT ../img/Binary - Latex.png
-INPUT ../img/Binary - Latex.png
-INPUT ../img/Binary - Latex.png
-INPUT ../img/Binary - Latex.png
-INPUT ../img/Binary - Latex.png
+INPUT ../img/Citra Warna - Latex.png
+INPUT ../img/Citra Warna - Latex.png
+INPUT ../img/Citra Warna - Latex.png
+INPUT ../img/Citra Warna - Latex.png
+INPUT ../img/Citra Warna - Latex.png
+INPUT ../img/Citra Grayscale - Latex.png
+INPUT ../img/Citra Grayscale - Latex.png
+INPUT ../img/Citra Grayscale - Latex.png
+INPUT ../img/Citra Grayscale - Latex.png
+INPUT ../img/Citra Grayscale - Latex.png
+INPUT ../img/Citra Biner - Latex.png
+INPUT ../img/Citra Biner - Latex.png
+INPUT ../img/Citra Biner - Latex.png
+INPUT ../img/Citra Biner - Latex.png
+INPUT ../img/Citra Biner - Latex.png
 INPUT ../img/Dermoscopy - Latex.jpg
 INPUT ../img/Dermoscopy - Latex.jpg
 INPUT ../img/Dermoscopy - Latex.jpg
 INPUT ../img/Dermoscopy - Latex.jpg
 INPUT ../img/Dermoscopy - Latex.jpg
-INPUT ../img/Resize - Latex.JPG
-INPUT ../img/Resize - Latex.JPG
-INPUT ../img/Resize - Latex.JPG
-INPUT ../img/Resize - Latex.JPG
-INPUT ../img/Resize - Latex.JPG
-INPUT ../img/Resize - Latex.JPG
-INPUT ../img/Resize - Latex.JPG
-INPUT ../img/Resize - Latex.JPG
-INPUT ../img/Resize - Latex.JPG
+INPUT ../img/Skin Cancer MEL - Latex.jpg
+INPUT ../img/Skin Cancer MEL - Latex.jpg
+INPUT ../img/Skin Cancer MEL - Latex.jpg
+INPUT ../img/Skin Cancer MEL - Latex.jpg
+INPUT ../img/Skin Cancer MEL - Latex.jpg
+INPUT ../img/Skin Cancer MEL - Latex.jpg
+INPUT ../img/Skin Cancer MEL - Latex.jpg
+INPUT ../img/Skin Cancer MEL - Latex.jpg
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
@@ -1650,111 +1649,71 @@ INPUT ../img/CNN Basic - Latex.PNG
 INPUT ../img/CNN Basic - Latex.PNG
 INPUT ../img/CNN Basic - Latex.PNG
 INPUT ../img/CNN Basic - Latex.PNG
+INPUT ../img/YOLO-v7-Architecture.png
+INPUT ../img/YOLO-v7-Architecture.png
+INPUT ../img/YOLO-v7-Architecture.png
+INPUT ../img/YOLO-v7-Architecture.png
+INPUT ../img/YOLO-v7-Architecture.png
 INPUT ../img/CNN Convolutional Layer - Latex.PNG
 INPUT ../img/CNN Convolutional Layer - Latex.PNG
 INPUT ../img/CNN Convolutional Layer - Latex.PNG
 INPUT ../img/CNN Convolutional Layer - Latex.PNG
 INPUT ../img/CNN Convolutional Layer - Latex.PNG
-INPUT ../img/CNN Max Pooling - Latex.PNG
-INPUT ../img/CNN Max Pooling - Latex.PNG
-INPUT ../img/CNN Max Pooling - Latex.PNG
-INPUT ../img/CNN Max Pooling - Latex.PNG
-INPUT ../img/CNN Max Pooling - Latex.PNG
-INPUT ../img/CNN Average Pooling - Latex.PNG
-INPUT ../img/CNN Average Pooling - Latex.PNG
-INPUT ../img/CNN Average Pooling - Latex.PNG
-INPUT ../img/CNN Average Pooling - Latex.PNG
-INPUT ../img/CNN Average Pooling - Latex.PNG
+INPUT ../img/Max Pooling - Latex.png
+INPUT ../img/Max Pooling - Latex.png
+INPUT ../img/Max Pooling - Latex.png
+INPUT ../img/Max Pooling - Latex.png
+INPUT ../img/Max Pooling - Latex.png
+INPUT ../img/Leaky ReLU - Latex.png
+INPUT ../img/Leaky ReLU - Latex.png
+INPUT ../img/Leaky ReLU - Latex.png
+INPUT ../img/Leaky ReLU - Latex.png
+INPUT ../img/Leaky ReLU - Latex.png
 INPUT ../img/SiLU - Latex.PNG
 INPUT ../img/SiLU - Latex.PNG
 INPUT ../img/SiLU - Latex.PNG
 INPUT ../img/SiLU - Latex.PNG
 INPUT ../img/SiLU - Latex.PNG
-INPUT ../img/DenseNet - Latex.PNG
-INPUT ../img/DenseNet - Latex.PNG
-INPUT ../img/DenseNet - Latex.PNG
-INPUT ../img/DenseNet - Latex.PNG
-INPUT ../img/DenseNet - Latex.PNG
-INPUT ../img/CSP DenseNet - Latex.PNG
-INPUT ../img/CSP DenseNet - Latex.PNG
-INPUT ../img/CSP DenseNet - Latex.PNG
-INPUT ../img/CSP DenseNet - Latex.PNG
-INPUT ../img/CSP DenseNet - Latex.PNG
-INPUT ../img/Spatial Pyramid Pooling - Latex.PNG
-INPUT ../img/Spatial Pyramid Pooling - Latex.PNG
-INPUT ../img/Spatial Pyramid Pooling - Latex.PNG
-INPUT ../img/Spatial Pyramid Pooling - Latex.PNG
-INPUT ../img/Spatial Pyramid Pooling - Latex.PNG
-INPUT ../img/PANet Shortcut Connection - Latex.png
-INPUT ../img/PANet Shortcut Connection - Latex.png
-INPUT ../img/PANet Shortcut Connection - Latex.png
-INPUT ../img/PANet Shortcut Connection - Latex.png
-INPUT ../img/PANet Shortcut Connection - Latex.png
-INPUT ../img/PANet Adaptive Feature Pooling - Latex.png
-INPUT ../img/PANet Adaptive Feature Pooling - Latex.png
-INPUT ../img/PANet Adaptive Feature Pooling - Latex.png
-INPUT ../img/PANet Adaptive Feature Pooling - Latex.png
-INPUT ../img/PANet Adaptive Feature Pooling - Latex.png
-INPUT ../img/PANet Fully Connected Fusion - Latex.PNG
-INPUT ../img/PANet Fully Connected Fusion - Latex.PNG
-INPUT ../img/PANet Fully Connected Fusion - Latex.PNG
-INPUT ../img/PANet Fully Connected Fusion - Latex.PNG
-INPUT ../img/PANet Fully Connected Fusion - Latex.PNG
-INPUT ../img/PANet Original - Latex.PNG
-INPUT ../img/PANet Original - Latex.PNG
-INPUT ../img/PANet Original - Latex.PNG
-INPUT ../img/PANet Original - Latex.PNG
-INPUT ../img/PANet Original - Latex.PNG
-INPUT ../img/PANet Modified - Latex.PNG
-INPUT ../img/PANet Modified - Latex.PNG
-INPUT ../img/PANet Modified - Latex.PNG
-INPUT ../img/PANet Modified - Latex.PNG
-INPUT ../img/PANet Modified - Latex.PNG
-INPUT ../img/Compound Scaling Concatenation-Based Model - Latex.PNG
-INPUT ../img/Compound Scaling Concatenation-Based Model - Latex.PNG
-INPUT ../img/Compound Scaling Concatenation-Based Model - Latex.PNG
-INPUT ../img/Compound Scaling Concatenation-Based Model - Latex.PNG
-INPUT ../img/Compound Scaling Concatenation-Based Model - Latex.PNG
-INPUT ../img/Compound Scaling Scaled Up - Latex.PNG
-INPUT ../img/Compound Scaling Scaled Up - Latex.PNG
-INPUT ../img/Compound Scaling Scaled Up - Latex.PNG
-INPUT ../img/Compound Scaling Scaled Up - Latex.PNG
-INPUT ../img/Compound Scaling Scaled Up - Latex.PNG
-INPUT ../img/Compound Scaling Up Depth and Width - Latex.PNG
-INPUT ../img/Compound Scaling Up Depth and Width - Latex.PNG
-INPUT ../img/Compound Scaling Up Depth and Width - Latex.PNG
-INPUT ../img/Compound Scaling Up Depth and Width - Latex.PNG
-INPUT ../img/Compound Scaling Up Depth and Width - Latex.PNG
-INPUT ../img/IoU Bounding Box - Latex.png
-INPUT ../img/IoU Bounding Box - Latex.png
-INPUT ../img/IoU Bounding Box - Latex.png
-INPUT ../img/IoU Bounding Box - Latex.png
-INPUT ../img/IoU Bounding Box - Latex.png
-INPUT ../img/IoU Overlapped Area - Latex.png
-INPUT ../img/IoU Overlapped Area - Latex.png
-INPUT ../img/IoU Overlapped Area - Latex.png
-INPUT ../img/IoU Overlapped Area - Latex.png
-INPUT ../img/IoU Overlapped Area - Latex.png
-INPUT ../img/IoU Union Area - Latex.png
-INPUT ../img/IoU Union Area - Latex.png
-INPUT ../img/IoU Union Area - Latex.png
-INPUT ../img/IoU Union Area - Latex.png
-INPUT ../img/IoU Union Area - Latex.png
-INPUT ../img/IoU Poor - Latex.PNG
-INPUT ../img/IoU Poor - Latex.PNG
-INPUT ../img/IoU Poor - Latex.PNG
-INPUT ../img/IoU Poor - Latex.PNG
-INPUT ../img/IoU Poor - Latex.PNG
-INPUT ../img/IoU Good - Latex.PNG
-INPUT ../img/IoU Good - Latex.PNG
-INPUT ../img/IoU Good - Latex.PNG
-INPUT ../img/IoU Good - Latex.PNG
-INPUT ../img/IoU Good - Latex.PNG
-INPUT ../img/IoU Excellent - Latex.PNG
-INPUT ../img/IoU Excellent - Latex.PNG
-INPUT ../img/IoU Excellent - Latex.PNG
-INPUT ../img/IoU Excellent - Latex.PNG
-INPUT ../img/IoU Excellent - Latex.PNG
+INPUT ../img/ELAN.png
+INPUT ../img/ELAN.png
+INPUT ../img/ELAN.png
+INPUT ../img/ELAN.png
+INPUT ../img/ELAN.png
+INPUT ../img/ELAN-W.png
+INPUT ../img/ELAN-W.png
+INPUT ../img/ELAN-W.png
+INPUT ../img/ELAN-W.png
+INPUT ../img/ELAN-W.png
+INPUT ../img/IoU Original - Latex.png
+INPUT ../img/IoU Original - Latex.png
+INPUT ../img/IoU Original - Latex.png
+INPUT ../img/IoU Original - Latex.png
+INPUT ../img/IoU Original - Latex.png
+INPUT ../img/IoU Overlapped - Latex.png
+INPUT ../img/IoU Overlapped - Latex.png
+INPUT ../img/IoU Overlapped - Latex.png
+INPUT ../img/IoU Overlapped - Latex.png
+INPUT ../img/IoU Overlapped - Latex.png
+INPUT ../img/IoU Union - Latex.png
+INPUT ../img/IoU Union - Latex.png
+INPUT ../img/IoU Union - Latex.png
+INPUT ../img/IoU Union - Latex.png
+INPUT ../img/IoU Union - Latex.png
+INPUT ../img/IoU Poor - Latex.png
+INPUT ../img/IoU Poor - Latex.png
+INPUT ../img/IoU Poor - Latex.png
+INPUT ../img/IoU Poor - Latex.png
+INPUT ../img/IoU Poor - Latex.png
+INPUT ../img/Iou Good - Latex.png
+INPUT ../img/Iou Good - Latex.png
+INPUT ../img/Iou Good - Latex.png
+INPUT ../img/Iou Good - Latex.png
+INPUT ../img/Iou Good - Latex.png
+INPUT ../img/IoU Excellent - Latex.png
+INPUT ../img/IoU Excellent - Latex.png
+INPUT ../img/IoU Excellent - Latex.png
+INPUT ../img/IoU Excellent - Latex.png
+INPUT ../img/IoU Excellent - Latex.png
 INPUT ./bab3.tex
 INPUT bab3.tex
 INPUT ./bab3.tex
@@ -1839,6 +1798,7 @@ INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb

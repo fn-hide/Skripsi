@@ -19,46 +19,47 @@ Warning--empty journal in Saherish2020a
 Warning--empty publisher in Shultz2017
 Warning--there's a number but no volume in Umamaheswari2018
 Warning--empty journal in Wang2022
+Warning--empty journal in Xu2015
 Warning--empty journal in Zou2019
 You've used 54 entries,
             2229 wiz_defined-function locations,
-            861 strings with 15451 characters,
-and the built_in function-call counts, 23876 in all, are:
-= -- 2318
-> -- 1172
-< -- 30
-+ -- 406
-- -- 405
-* -- 2144
-:= -- 4143
-add.period$ -- 159
+            855 strings with 15239 characters,
+and the built_in function-call counts, 23511 in all, are:
+= -- 2278
+> -- 1152
+< -- 32
++ -- 398
+- -- 397
+* -- 2107
+:= -- 4093
+add.period$ -- 158
 call.type$ -- 54
-change.case$ -- 469
+change.case$ -- 465
 chr.to.int$ -- 53
-cite$ -- 65
-duplicate$ -- 830
-empty$ -- 1520
-format.name$ -- 485
-if$ -- 4603
+cite$ -- 66
+duplicate$ -- 823
+empty$ -- 1497
+format.name$ -- 481
+if$ -- 4526
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 56
-newline$ -- 270
+newline$ -- 269
 num.names$ -- 164
-pop$ -- 404
+pop$ -- 402
 preamble$ -- 1
-purify$ -- 471
+purify$ -- 467
 quote$ -- 0
-skip$ -- 661
+skip$ -- 654
 stack$ -- 0
-substring$ -- 1633
-swap$ -- 125
+substring$ -- 1569
+swap$ -- 118
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 320
-warning$ -- 11
-while$ -- 203
+warning$ -- 12
+while$ -- 201
 width$ -- 0
-write$ -- 688
-(There were 11 warnings)
+write$ -- 685
+(There were 12 warnings)
