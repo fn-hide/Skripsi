@@ -3,29 +3,29 @@
 \babel@toc {bahasa}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Kanker kulit \textit {melanoma}\relax }}{13}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Kanker kulit \textit {actinic keratosis}\relax }}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Kanker kulit \textit {melanocytic nevus}\relax }}{15}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Kanker kulit \textit {basal cell carcinoma}\relax }}{16}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Kanker kulit \textit {squamous cell carcinoma}\relax }}{16}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Kanker kulit \textit {dermatofibroma}\relax }}{17}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Kanker kulit \textit {benign keratosis lesion}\relax }}{18}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Kanker kulit \textit {vascular lesion}\relax }}{19}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Citra warna beserta nilai pikselnya\relax }}{21}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Citra \textit {grayscale} beserta nilai pikselnya\relax }}{21}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Citra biner beserta nilai pikselnya\relax }}{22}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Citra \textit {dermoscopy} yang mengandung kanker kulit \textit {melanoma}\relax }}{23}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces (a) Citra sebelum diubah berukuran $500\times 500$ piksel (b) Citra setelah diubah berukuran $200\times 200$ piksel\relax }}{24}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces YOLO dapat mendeteksi objek manusia, anjing, kuda\relax }}{25}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Arsitektur dasar dari CNN\relax }}{26}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Arsitektur YOLO-v7\relax }}{27}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Cara kerja kernel pada \textit {convolutional layer}\relax }}{28}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Cara kerja \textit {max pooling} yang digunakan pada YOLO-v7\relax }}{29}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Grafik Leaky ReLU\relax }}{31}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Perbandingan grafik SiLU dan ReLU\relax }}{32}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Struktur jaringan ELAN (a) ELAN; (b) ELAN-W\relax }}{33}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Menunjukkan kondisi kotak pembatas (a) IoU; (b) \textit {Overlapped area}; (c) \textit {Union area}\relax }}{35}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Menunjukkan kondisi nilai IoU (a) Nilai IoU kurang baik; (b) Nilai IoU baik; (c) Nilai IoU sangat baik\relax }}{36}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Kanker kulit MEL\relax }}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Kanker kulit AK\relax }}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Kanker kulit NV\relax }}{16}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Kanker kulit BCC\relax }}{17}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Kanker kulit SCC\relax }}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Kanker kulit DF\relax }}{18}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Kanker kulit BKL\relax }}{19}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Kanker kulit VASC\relax }}{20}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Citra warna beserta nilai pikselnya\relax }}{22}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Citra \textit {grayscale} beserta nilai pikselnya\relax }}{22}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Citra biner beserta nilai pikselnya\relax }}{23}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Citra \textit {dermoscopy} yang mengandung kanker kulit \textit {melanoma}\relax }}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces (a) Citra sebelum diubah berukuran $500\times 500$ piksel (b) Citra setelah diubah berukuran $200\times 200$ piksel\relax }}{25}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces YOLO dapat mendeteksi objek manusia, anjing, kuda\relax }}{26}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Arsitektur dasar dari CNN\relax }}{27}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Arsitektur YOLO-v7\relax }}{28}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Cara kerja kernel pada \textit {convolutional layer}\relax }}{29}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Cara kerja \textit {max pooling} yang digunakan pada YOLO-v7\relax }}{30}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Grafik Leaky ReLU\relax }}{32}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Perbandingan grafik SiLU dan ReLU\relax }}{33}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Struktur jaringan ELAN (a) ELAN; (b) ELAN-W\relax }}{34}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Menunjukkan kondisi kotak pembatas (a) IoU; (b) \textit {Overlapped area}; (c) \textit {Union area}\relax }}{36}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Menunjukkan kondisi nilai IoU (a) Nilai IoU kurang baik; (b) Nilai IoU baik; (c) Nilai IoU sangat baik\relax }}{37}{figure.caption.39}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Dataset citra dermoskopi kanker kulit (a) AK; (b) BCC; (c) BKL; (d) DF; (e) MEL; (f) NV; (g) SCC; (h) VASC;\relax }}{43}{figure.caption.40}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Diagram alir pada penelitian ini\relax }}{44}{figure.caption.41}%
