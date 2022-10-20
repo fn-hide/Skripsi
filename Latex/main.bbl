@@ -1,13 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[Joc, 2020]{Jocher2020}
- (2020).
-\newblock {ultralytics/yolov5: YOLOv5 ? in PyTorch > ONNX > CoreML > TFLite}.
-
-\bibitem[Nel, 2020]{Nelson2020}
- (2020).
-\newblock {YOLOv5 is Here: State-of-the-Art Object Detection at 140 FPS}.
-
 \bibitem[Adyanti et~al., 2017]{Adyanti2017}
 Adyanti, D.~A., Asyhar, A.~H., Novitasari, D. C.~R., Lubab, A., \&
   Hafiyusholeh, M. (2017).
@@ -21,21 +13,11 @@ Alasadi, A.~H. \& Alsafy, B. (2015).
 \newblock {Early Detection and Classification of Melanoma Skin Cancer}.
 \newblock {\em I.J. Information Technology and Computer Science}, 12, 67--74.
 
-\bibitem[Azevedo et~al., 2020]{Azevedo2020}
-Azevedo, T., de~Jong, R., Mattina, M., \& Maji, P. (2020).
-\newblock {Stochastic-YOLO: Efficient Probabilistic Object Detection under
-  Dataset Shifts}.
-
 \bibitem[Baranwal et~al., 2021]{Baranwal2021}
 Baranwal, N., Doravari, P., \& Kachhoria, R. (2021).
 \newblock {Classification of Histopathology Images of Lung Cancer Using
   Convolutional Neural Network (CNN)}.
 \newblock 2, 1--25.
-
-\bibitem[Benjumea et~al., 2021]{Benjumea2021}
-Benjumea, A., Teeti, I., Cuzzolin, F., \& Bradley, A. (2021).
-\newblock {YOLO-Z: Improving small object detection in YOLOv5 for autonomous
-  vehicles}.
 
 \bibitem[Bhimavarapu \& Battineni, 2022]{Bhimavarapu2022}
 Bhimavarapu, U. \& Battineni, G. (2022).
@@ -118,11 +100,6 @@ Gavrilov, D., Lazarenko, L., \& Zakirov, E. (2019).
 \newblock {\em Proceedings - 2019 International Conference on Artificial
   Intelligence: Applications and Innovations, IC-AIAI 2019}, (pp.\ 54--56).
 
-\bibitem[Ge et~al., 2021]{Ge2021}
-Ge, Z., Liu, S., Wang, F., Li, Z., \& Sun, J. (2021).
-\newblock {YOLOX: Exceeding YOLO Series in 2021}.
-\newblock (pp.\ 1--7).
-
 \bibitem[Gribbon \& Bailey, 2004]{Gribbon2004}
 Gribbon, K.~T. \& Bailey, D.~G. (2004).
 \newblock {A novel approach to real-time bilinear interpolation}.
@@ -133,14 +110,6 @@ Gribbon, K.~T. \& Bailey, D.~G. (2004).
 Hall, A. (2019).
 \newblock {Atlas of Male Genital Dermatology}.
 \newblock {\em Atlas of Male Genital Dermatology}, (pp.\ 157--159).
-
-\bibitem[Hasya et~al., 2021]{Hasya2021}
-Hasya, H.~F., Nuha, H.~H., \& Abdurohman, M. (2021).
-\newblock {Real Time-based Skin Cancer Detection System using Convolutional
-  Neural Network and YOLO}.
-\newblock {\em Proceedings - 2021 4th International Conference on Computer and
-  Informatics Engineering: IT-Based Digital Industrial Innovation for the
-  Welfare of Society, IC2IE 2021}, (pp.\ 152--157).
 
 \bibitem[Janda et~al., 2022]{Janda2022}
 Janda, M., Olsen, C.~M., Mar, V.~J., \& Cust, A.~E. (2022).
@@ -166,12 +135,6 @@ Li, Y., Lin, B., Liang, S., Tao, J., Zhang, L., Wang, J., \& Zheng, J. (2022b).
 \newblock {Epidemiology and survival of patients with malignant carotid body
   tumors in the SEER database}.
 \newblock {\em Journal of Vascular Surgery}.
-
-\bibitem[Liu et~al., 2020]{Liu2020}
-Liu, H., Song, P., \& Ding, R. (2020).
-\newblock {Towards Domain Generalization in Underwater Object Detection}.
-\newblock {\em Proceedings - International Conference on Image Processing,
-  ICIP}, 2020-October, 1971--1975.
 
 \bibitem[Long et~al., 2020]{Long2020}
 Long, X., Deng, K., Wang, G., Zhang, Y., Dang, Q., Gao, Y., Shen, H., Ren, J.,
@@ -202,13 +165,6 @@ Nersisson, R., Iyer, T.~J., Noel, A. N.~J., \& Rajangam, V. (2021).
   and Traditional Feature Model}.
 \newblock {\em Arabian Journal for Science and Engineering}, 46(10),
   9797--9808.
-
-\bibitem[Nie et~al., 2019]{Nie2019a}
-Nie, Y., Sommella, P., O'Nils, M., Liguori, C., \& Lundgren, J. (2019).
-\newblock {Automatic detection of melanoma with yolo deep convolutional neural
-  networks}.
-\newblock {\em 2019 7th E-Health and Bioengineering Conference, EHB 2019},
-  (pp.\ 9--12).
 
 \bibitem[Nugroho et~al., 2019]{Nugroho2019}
 Nugroho, A.~A., Slamet, I., \& Sugiyanto (2019).
@@ -292,12 +248,6 @@ Septiaji, K.~D. \& Firdausy, K. (2018).
 \newblock {\em Jurnal Ilmiah Teknik Elektro Komputer dan Informatika}, 4(1),
   20.
 
-\bibitem[Shaifee et~al., 2017]{Shaifee2017}
-Shaifee, M.~J., Chywl, B., Li, F., \& Wong, A. (2017).
-\newblock {Fast YOLO: A Fast You Only Look Once System for Real-time Embedded
-  Object Detection in Video}.
-\newblock {\em Journal of Computational Vision and Imaging Systems}, 3(1).
-
 \bibitem[Shedden-Mora et~al., 2020]{Shedden-Mora2020}
 Shedden-Mora, M.~C., Pan, Y., Heisig, S.~R., von Blanckenburg, P., Rief, W.,
   Witzel, I., Albert, U.~S., \& Nestoriuc, Y. (2020).
@@ -343,24 +293,11 @@ Waks, A.~G. \& Winer, E.~P. (2019).
 \newblock {\em JAMA - Journal of the American Medical Association}, 321(3),
   288--300.
 
-\bibitem[Wang et~al., 2021]{ScaledYOLOv4Wang2021}
-Wang, C.-Y., Bochkovskiy, A., \& Liao, H.-Y.~M. (2021).
-\newblock {\em {Scaled-YOLOv4: Scaling Cross Stage Partial Network}}.
-\newblock Technical report.
-
 \bibitem[Wang et~al., 2022]{Wang2022}
 Wang, C.-Y., Bochkovskiy, A., \& Liao, H.-Y.~M. (2022).
 \newblock {YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for
   real-time object detectors}.
 \newblock (pp.\ 1--15).
-
-\bibitem[Wolf et~al., 2020]{Wolf2020a}
-Wolf, T., Debut, L., Sanh, V., Chaumond, J., Delangue, C., Moi, A., Cistac, P.,
-  Rault, T., Funtowicz, M., Davison, J., Shleifer, S., Platen, P.~V., Ma, C.,
-  Jernite, Y., Plu, J., Xu, C., Scao, T.~L., Gugger, S., Drame, M., Lhoest, Q.,
-  \& Rush, A.~M. (2020).
-\newblock {Transformers : State-of-the-Art Natural Language Processing}.
-\newblock (pp.\ 38--45).
 
 \bibitem[Wu et~al., 2021a]{Wu2021b}
 Wu, P., Gao, W., Su, M., Nice, E.~C., Zhang, W., Lin, J., \& Xie, N. (2021a).
@@ -385,30 +322,11 @@ Xu, B., Wang, N., Chen, T., \& Li, M. (2015).
 \newblock {Empirical Evaluation of Rectified Activations in Convolutional
   Network}.
 
-\bibitem[Xu et~al., 2022]{Xu2022}
-Xu, S., Wang, X., Lv, W., Chang, Q., Cui, C., Deng, K., Wang, G., Dang, Q.,
-  Wei, S., Du, Y., \& Lai, B. (2022).
-\newblock {PP-YOLOE: An evolved version of YOLO}.
-\newblock (pp.\ 1--7).
-
 \bibitem[Yani et~al., 2019]{Yani2019}
 Yani, M., Irawan, B., \& Setiningsih, C. (2019).
 \newblock {Application of Transfer Learning Using Convolutional Neural Network
   Method for Early Detection of Terry's Nail}.
 \newblock {\em Journal of Physics: Conference Series}, 1201(1).
-
-\bibitem[Zhang et~al., 2021]{Zhang2021b}
-Zhang, Y.-M., Lee, C.-C., Hsieh, J.-W., \& Fan, K.-C. (2021).
-\newblock {CSL-YOLO: A New Lightweight Object Detection System for Edge
-  Computing}.
-\newblock (pp.\ 1--12).
-
-\bibitem[Zhu et~al., 2021]{Zhu2021a}
-Zhu, H., Yao, Q., Xiao, L., \& Zhou, S.~K. (2021).
-\newblock {You only Learn Once: Universal Anatomical Landmark Detection}.
-\newblock {\em Lecture Notes in Computer Science (including subseries Lecture
-  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 12905
-  LNCS, 85--95.
 
 \bibitem[Zou et~al., 2019]{Zou2019}
 Zou, Z., Shi, Z., Guo, Y., \& Ye, J. (2019).

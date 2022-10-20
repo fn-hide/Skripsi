@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1666243156 "main.aux" "main.bbl" "main" 1666243178
-  "Skripsi.bib" 1666232166 168069 edcfd907a67831be6caf5b34c1cf67d1 ""
+["bibtex main"] 1666290093 "main.aux" "main.bbl" "main" 1666290117
+  "Skripsi.bib" 1666261092 144783 efa83a8be042d253e96ebb0dbb68ef22 ""
   "c:/texlive/2021/texmf-dist/bibtex/bst/apalike2/apalike2.bst" 1642374651 26644 77647ad43a99e9d8b2661f2ca815cba7 ""
-  "main.aux" 1666243176 24595 efd91f05b92846523d82c1784608e177 "pdflatex"
+  "main.aux" 1666290115 23921 134cf8088cf3f9de25fa22b91391c289 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1666243157 "e:/Skripsi/Latex/main.tex" "main.pdf" "main" 1666243178
+["pdflatex"] 1666290094 "e:/Skripsi/Latex/main.tex" "main.pdf" "main" 1666290117
   "../img/Annotation - Latex.png" 1663311633 1303232 325c5d254b9494f4452fe01ae30d2865 ""
   "../img/CNN Basic - Latex.PNG" 1663397762 22355 30ac77b884041df0778089f5e82bdeea ""
   "../img/CNN Convolutional Layer - Latex.PNG" 1663404564 19511 9e3a2e940c0ee1474596c03040ed6243 ""
@@ -45,8 +45,8 @@
   "../img/Skin Cancer VASC - Latex.jpg" 1595198194 136546 82202b808eb452c192ab6ff50966788c ""
   "../img/YOLO-v7-Architecture.png" 1666065036 184945 b08d15517746d0e9b6689137bf48332d ""
   "bab1.tex" 1666243131 18179 5b2cfb57eea4571db641d437f362b6fb ""
-  "bab2.tex" 1666243129 45034 e330293574c271311063bf7b0d031001 ""
-  "bab3.tex" 1666234036 4748 c5585660db77f0f2cf2006afa5ecda5e ""
+  "bab2.tex" 1666290070 45113 a30515b49e1ac5ed29a2d2f1d44cf9c7 ""
+  "bab3.tex" 1666290069 4715 a44d90e79e3a544d521d909ccd62bce5 ""
   "bab4.tex" 1663892604 175 439a00cf8fee2bd2f63caa90c07b6d26 ""
   "bab5.tex" 1663892595 62 f843ecb28b8d9ed9bf6ba557fc5e9c55 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1642382681 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -301,13 +301,13 @@
   "c:/texlive/2021/texmf.cnf" 1642403858 713 e69b156964470283e0530f5060668171 ""
   "e:/Skripsi/Latex/main.tex" 1665293312 9704 8ce1724d947bf87a03647aa7592239df ""
   "logouinsa.png" 1564037836 61952 698773f75688d2299a303e50e04f234a ""
-  "main.aux" 1666243176 24595 efd91f05b92846523d82c1784608e177 "pdflatex"
-  "main.bbl" 1666243157 17842 f76883caf71e974019253a75a14f2a3e "bibtex main"
-  "main.lof" 1666243176 3730 c802b0f2919d1d127af8a304838e7505 "pdflatex"
-  "main.lot" 1666243176 301 f9d69d3c6e1f1c56d252c7a8d25ae37d "pdflatex"
-  "main.out" 1666243176 9162 cc73059a8da5328a2772e7b657f45f71 "pdflatex"
+  "main.aux" 1666290115 23921 134cf8088cf3f9de25fa22b91391c289 "pdflatex"
+  "main.bbl" 1666290094 14429 c110361c2c237ecc4bac4fe8d639acf3 "bibtex main"
+  "main.lof" 1666290115 3741 3a1bad06b66b9f979196c77603987e78 "pdflatex"
+  "main.lot" 1666290115 301 e1e0790592ddcc4f7ad0818ddc021c75 "pdflatex"
+  "main.out" 1666290115 9134 52f4a5a9733bf715c4bc01f0adbb5189 "pdflatex"
   "main.tex" 1665293312 9704 8ce1724d947bf87a03647aa7592239df ""
-  "main.toc" 1666243176 5023 0f1044e22fc40e812aef578220a3ec48 "pdflatex"
+  "main.toc" 1666290115 5038 5926295a4b9283e58024a1afd8d9dab9 "pdflatex"
   "mathuinsa.cls" 1663998612 18914 82a22597128782fa8f01e0f5eb917c2f ""
   (generated)
   "main.aux"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.17)  20 OCT 2022 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.17)  21 OCT 2022 01:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -969,81 +969,125 @@ BAB I.
 [1
 
 
-] [2] [3] [4] [5] [6] [7] [8] [9] [10]) (./bab2.tex [11]
+] [2] [3] [4]
+
+Package natbib Warning: Citation `Nie2019a' on page 5 undefined on input line 26.
+
+
+Package natbib Warning: Citation `Hasya2021' on page 5 undefined on input line 26.
+
+[5]
+
+Package natbib Warning: Citation `Jocher2020' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `Nelson2020' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `Ge2021' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `Zhu2021a' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `Wolf2020a' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `Benjumea2021' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `Xu2022' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `ScaledYOLOv4Wang2021' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `Shaifee2017' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `Azevedo2020' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `Zhang2021b' on page 6 undefined on input line 28.
+
+
+Package natbib Warning: Citation `Liu2020' on page 6 undefined on input line 28.
+
+[6] [7] [8] [9]) (./bab2.tex [10]
 BAB II.
-[12
+[11
 
 ]
-<../img/Skin Cancer MEL - Latex.jpg, id=661, 1027.84pt x 1027.84pt>
+<../img/Skin Cancer MEL - Latex.jpg, id=614, 1027.84pt x 1027.84pt>
 File: ../img/Skin Cancer MEL - Latex.jpg Graphic file (type jpg)
 <use ../img/Skin Cancer MEL - Latex.jpg>
 Package pdftex.def Info: ../img/Skin Cancer MEL - Latex.jpg  used on input line 17.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
- [13]
-<../img/Skin Cancer AK - Latex.jpg, id=680, 1027.84pt x 1027.84pt>
+ [12]
+<../img/Skin Cancer AK - Latex.jpg, id=633, 1027.84pt x 1027.84pt>
 File: ../img/Skin Cancer AK - Latex.jpg Graphic file (type jpg)
 <use ../img/Skin Cancer AK - Latex.jpg>
 Package pdftex.def Info: ../img/Skin Cancer AK - Latex.jpg  used on input line 28.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
- [14 <../img/Skin Cancer MEL - Latex.jpg>]
-<../img/Skin Cancer NV - Latex.jpg, id=700, 1027.84pt x 1027.84pt>
+ [13 <../img/Skin Cancer MEL - Latex.jpg>]
+<../img/Skin Cancer NV - Latex.jpg, id=652, 1027.84pt x 1027.84pt>
 File: ../img/Skin Cancer NV - Latex.jpg Graphic file (type jpg)
 <use ../img/Skin Cancer NV - Latex.jpg>
 Package pdftex.def Info: ../img/Skin Cancer NV - Latex.jpg  used on input line 39.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
- [15 <../img/Skin Cancer AK - Latex.jpg>]
-<../img/Skin Cancer BCC - Latex.jpg, id=715, 1027.84pt x 1027.84pt>
+ [14 <../img/Skin Cancer AK - Latex.jpg>]
+<../img/Skin Cancer BCC - Latex.jpg, id=668, 1027.84pt x 1027.84pt>
 File: ../img/Skin Cancer BCC - Latex.jpg Graphic file (type jpg)
 <use ../img/Skin Cancer BCC - Latex.jpg>
 Package pdftex.def Info: ../img/Skin Cancer BCC - Latex.jpg  used on input line 50.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
- [16 <../img/Skin Cancer NV - Latex.jpg>]
-<../img/Skin Cancer SCC - Latex.jpg, id=731, 1027.84pt x 1027.84pt>
+ [15 <../img/Skin Cancer NV - Latex.jpg>]
+<../img/Skin Cancer SCC - Latex.jpg, id=684, 1027.84pt x 1027.84pt>
 File: ../img/Skin Cancer SCC - Latex.jpg Graphic file (type jpg)
 <use ../img/Skin Cancer SCC - Latex.jpg>
 Package pdftex.def Info: ../img/Skin Cancer SCC - Latex.jpg  used on input line 61.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
-<../img/Skin Cancer DF - Latex.jpg, id=741, 1027.84pt x 1027.84pt>
+<../img/Skin Cancer DF - Latex.jpg, id=694, 1027.84pt x 1027.84pt>
 File: ../img/Skin Cancer DF - Latex.jpg Graphic file (type jpg)
 <use ../img/Skin Cancer DF - Latex.jpg>
 Package pdftex.def Info: ../img/Skin Cancer DF - Latex.jpg  used on input line 72.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
- [17 <../img/Skin Cancer BCC - Latex.jpg> <../img/Skin Cancer SCC - Latex.jpg>]
-<../img/Skin Cancer BKL - Latex.jpg, id=756, 1027.84pt x 1027.84pt>
+ [16 <../img/Skin Cancer BCC - Latex.jpg> <../img/Skin Cancer SCC - Latex.jpg>]
+<../img/Skin Cancer BKL - Latex.jpg, id=708, 1027.84pt x 1027.84pt>
 File: ../img/Skin Cancer BKL - Latex.jpg Graphic file (type jpg)
 <use ../img/Skin Cancer BKL - Latex.jpg>
 Package pdftex.def Info: ../img/Skin Cancer BKL - Latex.jpg  used on input line 83.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
- [18 <../img/Skin Cancer DF - Latex.jpg>]
-<../img/Skin Cancer VASC - Latex.jpg, id=773, 1027.84pt x 1027.84pt>
+ [17 <../img/Skin Cancer DF - Latex.jpg>]
+<../img/Skin Cancer VASC - Latex.jpg, id=726, 1027.84pt x 1027.84pt>
 File: ../img/Skin Cancer VASC - Latex.jpg Graphic file (type jpg)
 <use ../img/Skin Cancer VASC - Latex.jpg>
 Package pdftex.def Info: ../img/Skin Cancer VASC - Latex.jpg  used on input line 94.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
- [19 <../img/Skin Cancer BKL - Latex.jpg>] [20 <../img/Skin Cancer VASC - Latex.jpg>]
-<../img/Citra Warna - Latex.png, id=807, 1217.21417pt x 735.41417pt>
+ [18 <../img/Skin Cancer BKL - Latex.jpg>] [19 <../img/Skin Cancer VASC - Latex.jpg>]
+<../img/Citra Warna - Latex.png, id=758, 1217.21417pt x 735.41417pt>
 File: ../img/Citra Warna - Latex.png Graphic file (type png)
 <use ../img/Citra Warna - Latex.png>
 Package pdftex.def Info: ../img/Citra Warna - Latex.png  used on input line 129.
 (pdftex.def)             Requested size: 227.62204pt x 137.5195pt.
- [21]
-<../img/Citra Grayscale - Latex.png, id=821, 1216.87958pt x 735.41417pt>
+ [20]
+<../img/Citra Grayscale - Latex.png, id=774, 1216.87958pt x 735.41417pt>
 File: ../img/Citra Grayscale - Latex.png Graphic file (type png)
 <use ../img/Citra Grayscale - Latex.png>
 Package pdftex.def Info: ../img/Citra Grayscale - Latex.png  used on input line 141.
 (pdftex.def)             Requested size: 227.62204pt x 137.55316pt.
- [22 <../img/Citra Warna - Latex.png> <../img/Citra Grayscale - Latex.png>]
-<../img/Citra Biner - Latex.png, id=835, 1217.21417pt x 735.41417pt>
+ [21 <../img/Citra Warna - Latex.png> <../img/Citra Grayscale - Latex.png>]
+<../img/Citra Biner - Latex.png, id=787, 1217.21417pt x 735.41417pt>
 File: ../img/Citra Biner - Latex.png Graphic file (type png)
 <use ../img/Citra Biner - Latex.png>
 Package pdftex.def Info: ../img/Citra Biner - Latex.png  used on input line 153.
 (pdftex.def)             Requested size: 227.62204pt x 137.5195pt.
-<../img/Dermoscopy - Latex.jpg, id=841, 1027.84pt x 1027.84pt>
+<../img/Dermoscopy - Latex.jpg, id=793, 1027.84pt x 1027.84pt>
 File: ../img/Dermoscopy - Latex.jpg Graphic file (type jpg)
 <use ../img/Dermoscopy - Latex.jpg>
 Package pdftex.def Info: ../img/Dermoscopy - Latex.jpg  used on input line 166.
 (pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
- [23 <../img/Citra Biner - Latex.png>] [24 <../img/Dermoscopy - Latex.jpg>]
+ [22 <../img/Citra Biner - Latex.png>] [23 <../img/Dermoscopy - Latex.jpg>]
 File: ../img/Skin Cancer MEL - Latex.jpg Graphic file (type jpg)
 <use ../img/Skin Cancer MEL - Latex.jpg>
 Package pdftex.def Info: ../img/Skin Cancer MEL - Latex.jpg  used on input line 187.
@@ -1052,145 +1096,146 @@ File: ../img/Skin Cancer MEL - Latex.jpg Graphic file (type jpg)
 <use ../img/Skin Cancer MEL - Latex.jpg>
 Package pdftex.def Info: ../img/Skin Cancer MEL - Latex.jpg  used on input line 189.
 (pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
-<../img/Object Detection - Latex.png, id=879, 224.33812pt x 145.29282pt>
+<../img/Object Detection - Latex.png, id=830, 224.33812pt x 145.29282pt>
 File: ../img/Object Detection - Latex.png Graphic file (type png)
 <use ../img/Object Detection - Latex.png>
 Package pdftex.def Info: ../img/Object Detection - Latex.png  used on input line 202.
 (pdftex.def)             Requested size: 199.16928pt x 128.99759pt.
- [25] [26 <../img/Object Detection - Latex.PNG>]
-<../img/CNN Basic - Latex.png, id=895, 464.4853pt x 252.19218pt>
+ [24]
+<../img/CNN Basic - Latex.png, id=841, 464.4853pt x 252.19218pt>
 File: ../img/CNN Basic - Latex.png Graphic file (type png)
 <use ../img/CNN Basic - Latex.png>
 Package pdftex.def Info: ../img/CNN Basic - Latex.png  used on input line 216.
 (pdftex.def)             Requested size: 341.43306pt x 185.38403pt.
-<../img/YOLO-v7-Architecture.png, id=899, 2007.5pt x 1552.80125pt>
+ [25 <../img/Object Detection - Latex.PNG>]
+<../img/YOLO-v7-Architecture.png, id=850, 2007.5pt x 1552.80125pt>
 File: ../img/YOLO-v7-Architecture.png Graphic file (type png)
 <use ../img/YOLO-v7-Architecture.png>
 Package pdftex.def Info: ../img/YOLO-v7-Architecture.png  used on input line 227.
 (pdftex.def)             Requested size: 369.88582pt x 286.10274pt.
- [27 <../img/CNN Basic - Latex.PNG>] [28 <../img/YOLO-v7-Architecture.png>]
-<../img/CNN Convolutional Layer - Latex.png, id=917, 545.03625pt x 182.93344pt>
+ [26 <../img/CNN Basic - Latex.PNG>] [27 <../img/YOLO-v7-Architecture.png>]
+<../img/CNN Convolutional Layer - Latex.png, id=870, 545.03625pt x 182.93344pt>
 File: ../img/CNN Convolutional Layer - Latex.png Graphic file (type png)
 <use ../img/CNN Convolutional Layer - Latex.png>
 Package pdftex.def Info: ../img/CNN Convolutional Layer - Latex.png  used on input line 244.
 (pdftex.def)             Requested size: 341.43306pt x 114.59549pt.
- [29 <../img/CNN Convolutional Layer - Latex.PNG>]
-<../img/Max Pooling - Latex.png, id=929, 523.9575pt x 161.85469pt>
+ [28 <../img/CNN Convolutional Layer - Latex.PNG>]
+<../img/Max Pooling - Latex.png, id=881, 523.9575pt x 161.85469pt>
 File: ../img/Max Pooling - Latex.png Graphic file (type png)
 <use ../img/Max Pooling - Latex.png>
 Package pdftex.def Info: ../img/Max Pooling - Latex.png  used on input line 261.
 (pdftex.def)             Requested size: 284.52756pt x 87.89415pt.
- [30 <../img/Max Pooling - Latex.png>] [31]
-<../img/Leaky ReLU - Latex.png, id=958, 722.7pt x 386.44376pt>
+ [29 <../img/Max Pooling - Latex.png>] [30]
+<../img/Leaky ReLU - Latex.png, id=910, 722.7pt x 386.44376pt>
 File: ../img/Leaky ReLU - Latex.png Graphic file (type png)
 <use ../img/Leaky ReLU - Latex.png>
 Package pdftex.def Info: ../img/Leaky ReLU - Latex.png  used on input line 302.
 (pdftex.def)             Requested size: 227.62204pt x 121.71274pt.
- [32 <../img/Leaky ReLU - Latex.png>]
-<../img/SiLU - Latex.PNG, id=973, 471.26062pt x 350.05782pt>
+ [31 <../img/Leaky ReLU - Latex.png>]
+<../img/SiLU - Latex.PNG, id=923, 471.26062pt x 350.05782pt>
 File: ../img/SiLU - Latex.PNG Graphic file (type png)
 <use ../img/SiLU - Latex.PNG>
 Package pdftex.def Info: ../img/SiLU - Latex.PNG  used on input line 320.
 (pdftex.def)             Requested size: 227.62204pt x 169.08344pt.
- [33 <../img/SiLU - Latex.PNG>]
-<../img/ELAN.png, id=984, 2405.73781pt x 293.59688pt>
+ [32 <../img/SiLU - Latex.PNG>]
+<../img/ELAN.png, id=935, 2405.73781pt x 293.59688pt>
 File: ../img/ELAN.png Graphic file (type png)
 <use ../img/ELAN.png>
 Package pdftex.def Info: ../img/ELAN.png  used on input line 333.
 (pdftex.def)             Requested size: 369.88582pt x 45.13968pt.
-<../img/ELAN-W.png, id=985, 2405.73781pt x 293.59688pt>
+<../img/ELAN-W.png, id=936, 2405.73781pt x 293.59688pt>
 File: ../img/ELAN-W.png Graphic file (type png)
 <use ../img/ELAN-W.png>
 Package pdftex.def Info: ../img/ELAN-W.png  used on input line 335.
 (pdftex.def)             Requested size: 369.88582pt x 45.13968pt.
- [34 <../img/ELAN.png> <../img/ELAN-W.png>]
-<../img/IoU Original - Latex.png, id=1008, 584.85167pt x 569.46083pt>
+ [33 <../img/ELAN.png> <../img/ELAN-W.png>]
+<../img/IoU Original - Latex.png, id=960, 584.85167pt x 569.46083pt>
 File: ../img/IoU Original - Latex.png Graphic file (type png)
 <use ../img/IoU Original - Latex.png>
 Package pdftex.def Info: ../img/IoU Original - Latex.png  used on input line 383.
 (pdftex.def)             Requested size: 85.35826pt x 83.11278pt.
-<../img/IoU Overlapped - Latex.png, id=1009, 584.85167pt x 569.46083pt>
+<../img/IoU Overlapped - Latex.png, id=961, 584.85167pt x 569.46083pt>
 File: ../img/IoU Overlapped - Latex.png Graphic file (type png)
 <use ../img/IoU Overlapped - Latex.png>
 Package pdftex.def Info: ../img/IoU Overlapped - Latex.png  used on input line 385.
 (pdftex.def)             Requested size: 85.35826pt x 83.11278pt.
-<../img/IoU Union - Latex.png, id=1010, 585.18625pt x 569.46083pt>
+<../img/IoU Union - Latex.png, id=962, 585.18625pt x 569.46083pt>
 File: ../img/IoU Union - Latex.png Graphic file (type png)
 <use ../img/IoU Union - Latex.png>
 Package pdftex.def Info: ../img/IoU Union - Latex.png  used on input line 387.
 (pdftex.def)             Requested size: 85.35826pt x 83.06064pt.
- [35] [36 <../img/IoU Original - Latex.png> <../img/IoU Overlapped - Latex.png> <../img/IoU Union - Latex.png>]
-<../img/IoU Poor - Latex.PNG, id=1040, 584.85167pt x 569.46083pt>
+ [34] [35 <../img/IoU Original - Latex.png> <../img/IoU Overlapped - Latex.png> <../img/IoU Union - Latex.png>]
+<../img/IoU Poor - Latex.PNG, id=992, 584.85167pt x 569.46083pt>
 File: ../img/IoU Poor - Latex.PNG Graphic file (type png)
 <use ../img/IoU Poor - Latex.PNG>
 Package pdftex.def Info: ../img/IoU Poor - Latex.PNG  used on input line 417.
 (pdftex.def)             Requested size: 56.9055pt x 55.40273pt.
-<../img/IoU Good - Latex.PNG, id=1041, 584.85167pt x 569.46083pt>
+<../img/IoU Good - Latex.PNG, id=993, 584.85167pt x 569.46083pt>
 File: ../img/IoU Good - Latex.PNG Graphic file (type png)
 <use ../img/IoU Good - Latex.PNG>
 Package pdftex.def Info: ../img/IoU Good - Latex.PNG  used on input line 419.
 (pdftex.def)             Requested size: 56.9055pt x 55.40273pt.
-<../img/IoU Excellent - Latex.PNG, id=1042, 585.18625pt x 569.46083pt>
+<../img/IoU Excellent - Latex.PNG, id=994, 585.18625pt x 569.46083pt>
 File: ../img/IoU Excellent - Latex.PNG Graphic file (type png)
 <use ../img/IoU Excellent - Latex.PNG>
 Package pdftex.def Info: ../img/IoU Excellent - Latex.PNG  used on input line 421.
 (pdftex.def)             Requested size: 56.9055pt x 55.36797pt.
- [37 <../img/IoU Poor - Latex.png> <../img/Iou Good - Latex.png> <../img/IoU Excellent - Latex.png>] [38] [39] [40]) (./bab3.tex [41]
+ [36 <../img/IoU Poor - Latex.png> <../img/Iou Good - Latex.png> <../img/IoU Excellent - Latex.png>] [37] [38] [39]) (./bab3.tex [40]
 BAB III.
-<../img/Dataset - AK.png, id=1087, 72.27pt x 72.27pt>
+<../img/Dataset - AK.png, id=1033, 72.27pt x 72.27pt>
 File: ../img/Dataset - AK.png Graphic file (type png)
 <use ../img/Dataset - AK.png>
 Package pdftex.def Info: ../img/Dataset - AK.png  used on input line 12.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - BCC.png, id=1088, 72.27pt x 72.27pt>
+<../img/Dataset - BCC.png, id=1034, 72.27pt x 72.27pt>
 File: ../img/Dataset - BCC.png Graphic file (type png)
 <use ../img/Dataset - BCC.png>
 Package pdftex.def Info: ../img/Dataset - BCC.png  used on input line 14.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - BKL.png, id=1089, 72.27pt x 72.27pt>
+<../img/Dataset - BKL.png, id=1035, 72.27pt x 72.27pt>
 File: ../img/Dataset - BKL.png Graphic file (type png)
 <use ../img/Dataset - BKL.png>
 Package pdftex.def Info: ../img/Dataset - BKL.png  used on input line 16.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - DF.png, id=1090, 72.27pt x 72.27pt>
+<../img/Dataset - DF.png, id=1036, 72.27pt x 72.27pt>
 File: ../img/Dataset - DF.png Graphic file (type png)
 <use ../img/Dataset - DF.png>
 Package pdftex.def Info: ../img/Dataset - DF.png  used on input line 18.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - MEL.png, id=1091, 72.27pt x 72.27pt>
+<../img/Dataset - MEL.png, id=1037, 72.27pt x 72.27pt>
 File: ../img/Dataset - MEL.png Graphic file (type png)
 <use ../img/Dataset - MEL.png>
 Package pdftex.def Info: ../img/Dataset - MEL.png  used on input line 21.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - NV.png, id=1092, 72.27pt x 72.27pt>
+<../img/Dataset - NV.png, id=1038, 72.27pt x 72.27pt>
 File: ../img/Dataset - NV.png Graphic file (type png)
 <use ../img/Dataset - NV.png>
 Package pdftex.def Info: ../img/Dataset - NV.png  used on input line 23.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - SCC.png, id=1093, 72.27pt x 72.27pt>
+<../img/Dataset - SCC.png, id=1039, 72.27pt x 72.27pt>
 File: ../img/Dataset - SCC.png Graphic file (type png)
 <use ../img/Dataset - SCC.png>
 Package pdftex.def Info: ../img/Dataset - SCC.png  used on input line 25.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-<../img/Dataset - VASC.png, id=1094, 72.27pt x 72.27pt>
+<../img/Dataset - VASC.png, id=1040, 72.27pt x 72.27pt>
 File: ../img/Dataset - VASC.png Graphic file (type png)
 <use ../img/Dataset - VASC.png>
 Package pdftex.def Info: ../img/Dataset - VASC.png  used on input line 27.
 (pdftex.def)             Requested size: 56.9055pt x 56.90518pt.
-[42
+[41
 
 ]
-<../img/Flowchart.png, id=1100, 3668.70625pt x 2966.08125pt>
+<../img/Flowchart.png, id=1046, 3668.70625pt x 2966.08125pt>
 File: ../img/Flowchart.png Graphic file (type png)
 <use ../img/Flowchart.png>
 Package pdftex.def Info: ../img/Flowchart.png  used on input line 39.
 (pdftex.def)             Requested size: 369.88582pt x 299.02422pt.
- [43 <../img/Dataset - AK.png> <../img/Dataset - BCC.png> <../img/Dataset - BKL.png> <../img/Dataset - DF.png> <../img/Dataset - MEL.png> <../img/Dataset - NV.png> <../img/Dataset - SCC.png> <../img/Dataset - VASC.png>]
+ [42 <../img/Dataset - AK.png> <../img/Dataset - BCC.png> <../img/Dataset - BKL.png> <../img/Dataset - DF.png> <../img/Dataset - MEL.png> <../img/Dataset - NV.png> <../img/Dataset - SCC.png> <../img/Dataset - VASC.png>]
 File: ../img/Dermoscopy - Latex.jpg Graphic file (type jpg)
 <use ../img/Dermoscopy - Latex.jpg>
 Package pdftex.def Info: ../img/Dermoscopy - Latex.jpg  used on input line 51.
 (pdftex.def)             Requested size: 56.9055pt x 56.89993pt.
-<../img/Annotation - Latex.png, id=1107, 416.22166pt x 419.5675pt>
+<../img/Annotation - Latex.png, id=1053, 416.22166pt x 419.5675pt>
 File: ../img/Annotation - Latex.png Graphic file (type png)
 <use ../img/Annotation - Latex.png>
 Package pdftex.def Info: ../img/Annotation - Latex.png  used on input line 53.
@@ -1199,17 +1244,21 @@ File: ../img/Annotation - Latex.png Graphic file (type png)
 <use ../img/Annotation - Latex.png>
 Package pdftex.def Info: ../img/Annotation - Latex.png  used on input line 55.
 (pdftex.def)             Requested size: 42.67912pt x 43.02194pt.
- [44 <../img/Flowchart.png>]) (./bab4.tex [45 <../img/Annotation - Latex.png>]
+ [43 <../img/Flowchart.png>]) (./bab4.tex [44 <../img/Annotation - Latex.png>]
 BAB IV.
-) (./bab5.tex [46
+) (./bab5.tex [45
 
 ]
 BAB V.
-) (./main.bbl [47
+) (./main.bbl [46
 
-] [48
+] [47
 
-] [49] [50] [51] [52] [53] [54] [55]) [56] (./main.aux)
+] [48] [49] [50] [51] [52] [53])
+
+Package natbib Warning: There were undefined citations.
+
+[54] (./main.aux)
 
  *File List*
 mathuinsa.cls    
@@ -1410,25 +1459,25 @@ logouinsa.png    Graphic file (type png)
  ***********
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CC73059A8DA5328A2772E7B657F45F71;9162.
+(rerunfilecheck)             Checksum: 52F4A5A9733BF715C4BC01F0ADBB5189;9134.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 39 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31325 strings out of 478286
- 565225 string characters out of 5850726
- 940794 words of memory out of 5000000
- 48570 multiletter control sequences out of 15000+600000
+ 31267 strings out of 478286
+ 564257 string characters out of 5850726
+ 940374 words of memory out of 5000000
+ 48528 multiletter control sequences out of 15000+600000
  490518 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,17n,94p,3133b,2685s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,17n,94p,3142b,2667s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/arabtex/xnsh14.pfb>
-Output written on main.pdf (73 pages, 19488047 bytes).
+Output written on main.pdf (71 pages, 19484038 bytes).
 PDF statistics:
- 1306 PDF objects out of 1440 (max. 8388607)
- 1130 compressed objects within 12 object streams
- 287 named destinations out of 1000 (max. 500000)
+ 1244 PDF objects out of 1440 (max. 8388607)
+ 1071 compressed objects within 11 object streams
+ 271 named destinations out of 1000 (max. 500000)
  675 words of extra memory for PDF output out of 10000 (max. 10000000)
 

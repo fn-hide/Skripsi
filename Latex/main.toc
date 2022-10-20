@@ -20,43 +20,43 @@
 \contentsline {section}{\numberline {1.4.}Manfaat Penelitian}{8}{section.1.4}%
 \contentsline {section}{\numberline {1.5.}Batasan Masalah}{9}{section.1.5}%
 \contentsline {section}{\numberline {1.6.}Sistematika Penulisan}{10}{section.1.6}%
-\contentsline {chapter}{\numberline {II}TINJAUAN PUSTAKA}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1.}Kanker}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2.}Kanker Kulit}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1.}\textit {Melanoma} (MEL)}{14}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2.}\textit {Actinic Keratosis} (AK)}{15}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3.}\textit {Melanocytic Nevus} (NV)}{15}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4.}\textit {Basal Cell Carcinoma} (BCC)}{16}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5.}\textit {Squamous Cell Carcinoma} (SCC)}{17}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6.}\textit {Dermatofibroma} (DF)}{18}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7.}\textit {Benign Keratosis Lesion} (BKL)}{18}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8.}\textit {Vascular Lesion} (VASC)}{19}{subsection.2.2.8}%
-\contentsline {section}{\numberline {2.3.}Citra Digital}{20}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1.}Citra Warna}{21}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2.}Citra Skala Abu-Abu}{22}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3.}Citra Biner}{23}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4.}Citra Dermoskopi}{23}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4.}\textit {Resize}}{24}{section.2.4}%
-\contentsline {section}{\numberline {2.5.}Deteksi Objek}{25}{section.2.5}%
-\contentsline {section}{\numberline {2.6.}\textit {Convolutional Neural Networks} (CNN)}{26}{section.2.6}%
-\contentsline {section}{\numberline {2.7.}\textit {You Only Look Once version 7} (YOLO-v7)}{27}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1.}\textit {Convolutional Layer}}{28}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2.}\textit {Pooling Layer}}{29}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3.}\textit {Upsample Layer}}{30}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4.}\textit {Batch Normalization} (BN)}{30}{subsection.2.7.4}%
-\contentsline {subsection}{\numberline {2.7.5.}\textit {Leaky Rectified Linear Unit} (Leaky ReLU)}{31}{subsection.2.7.5}%
-\contentsline {subsection}{\numberline {2.7.6.}\textit {Sigmoid-weighted Linear Unit} (SiLU)}{32}{subsection.2.7.6}%
-\contentsline {subsection}{\numberline {2.7.7.}\textit {Efficient Layer Aggregation Networks} (ELAN)}{33}{subsection.2.7.7}%
-\contentsline {section}{\numberline {2.8.}\textit {Confusion Matrix}}{34}{section.2.8}%
-\contentsline {section}{\numberline {2.9.}\textit {Intersection over Union} (IoU)}{35}{section.2.9}%
-\contentsline {section}{\numberline {2.10.}\textit {mean Average Precision} (mAP)}{37}{section.2.10}%
-\contentsline {section}{\numberline {2.11.}Integrasi Keislaman}{38}{section.2.11}%
-\contentsline {subsection}{\numberline {2.11.1.}Hikmah Orang Sakit}{39}{subsection.2.11.1}%
-\contentsline {subsection}{\numberline {2.11.2.}Ikhtiar Orang Sakit}{40}{subsection.2.11.2}%
-\contentsline {chapter}{\numberline {III}METODE PENELITIAN}{42}{chapter.3}%
-\contentsline {section}{\numberline {3.1.}Jenis Penelitian}{42}{section.3.1}%
-\contentsline {section}{\numberline {3.2.}Jenis dan Sumber Data}{42}{section.3.2}%
-\contentsline {section}{\numberline {3.3.}Kerangka Penelitian}{43}{section.3.3}%
-\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{46}{chapter.4}%
-\contentsline {chapter}{\numberline {V}PENUTUP}{47}{chapter.5}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{47}{chapter.5}%
+\contentsline {chapter}{\numberline {II}TINJAUAN PUSTAKA}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1.}Kanker}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2.}Kanker Kulit}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1.}\textit {Melanoma} (MEL)}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2.}\textit {Actinic Keratosis} (AK)}{14}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3.}\textit {Melanocytic Nevus} (NV)}{14}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4.}\textit {Basal Cell Carcinoma} (BCC)}{15}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5.}\textit {Squamous Cell Carcinoma} (SCC)}{16}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6.}\textit {Dermatofibroma} (DF)}{17}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7.}\textit {Benign Keratosis Lesion} (BKL)}{17}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8.}\textit {Vascular Lesion} (VASC)}{18}{subsection.2.2.8}%
+\contentsline {section}{\numberline {2.3.}Citra Digital}{19}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1.}Citra RGB}{20}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2.}Citra \textit {Grayscale}}{21}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3.}Citra \textit {Binary}}{22}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4.}Citra Dermoskopi}{22}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4.}\textit {Resize}}{23}{section.2.4}%
+\contentsline {section}{\numberline {2.5.}Deteksi Objek}{24}{section.2.5}%
+\contentsline {section}{\numberline {2.6.}\textit {Convolutional Neural Networks} (CNN)}{25}{section.2.6}%
+\contentsline {section}{\numberline {2.7.}\textit {You Only Look Once version 7} (YOLO-v7)}{26}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1.}\textit {Convolutional Layer}}{27}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2.}\textit {Pooling Layer}}{28}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3.}\textit {Upsample Layer}}{29}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4.}\textit {Batch Normalization} (BN)}{29}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5.}\textit {Leaky Rectified Linear Unit} (Leaky ReLU)}{30}{subsection.2.7.5}%
+\contentsline {subsection}{\numberline {2.7.6.}\textit {Sigmoid-weighted Linear Unit} (SiLU)}{31}{subsection.2.7.6}%
+\contentsline {subsection}{\numberline {2.7.7.}\textit {Efficient Layer Aggregation Networks} (ELAN)}{32}{subsection.2.7.7}%
+\contentsline {section}{\numberline {2.8.}\textit {Confusion Matrix}}{33}{section.2.8}%
+\contentsline {section}{\numberline {2.9.}\textit {Intersection over Union} (IoU)}{34}{section.2.9}%
+\contentsline {section}{\numberline {2.10.}\textit {mean Average Precision} (mAP)}{36}{section.2.10}%
+\contentsline {section}{\numberline {2.11.}Integrasi Keislaman}{37}{section.2.11}%
+\contentsline {subsection}{\numberline {2.11.1.}Hikmah Orang Sakit}{38}{subsection.2.11.1}%
+\contentsline {subsection}{\numberline {2.11.2.}Ikhtiar Orang Sakit}{39}{subsection.2.11.2}%
+\contentsline {chapter}{\numberline {III}METODE PENELITIAN}{41}{chapter.3}%
+\contentsline {section}{\numberline {3.1.}Jenis Penelitian}{41}{section.3.1}%
+\contentsline {section}{\numberline {3.2.}Jenis dan Sumber Data}{41}{section.3.2}%
+\contentsline {section}{\numberline {3.3.}Kerangka Penelitian}{42}{section.3.3}%
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{45}{chapter.4}%
+\contentsline {chapter}{\numberline {V}PENUTUP}{46}{chapter.5}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{46}{chapter.5}%

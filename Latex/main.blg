@@ -9,15 +9,24 @@ Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
 Reallocated out_buf (elt_size=1) to 40000 items from 20000.
 Reallocated name_tok (elt_size=4) to 40000 items from 20000.
 Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
-Warning--to sort, need author or key in Jocher2020
-Warning--to sort, need author or key in Nelson2020
-Warning--empty journal in Azevedo2020
+Warning--I didn't find a database entry for "Nie2019a"
+Warning--I didn't find a database entry for "Hasya2021"
+Warning--I didn't find a database entry for "Jocher2020"
+Warning--I didn't find a database entry for "Nelson2020"
+Warning--I didn't find a database entry for "Ge2021"
+Warning--I didn't find a database entry for "Zhu2021a"
+Warning--I didn't find a database entry for "Wolf2020a"
+Warning--I didn't find a database entry for "Benjumea2021"
+Warning--I didn't find a database entry for "Xu2022"
+Warning--I didn't find a database entry for "ScaledYOLOv4Wang2021"
+Warning--I didn't find a database entry for "Shaifee2017"
+Warning--I didn't find a database entry for "Azevedo2020"
+Warning--I didn't find a database entry for "Zhang2021b"
+Warning--I didn't find a database entry for "Liu2020"
 Warning--empty journal in Baranwal2021
-Warning--empty journal in Benjumea2021
 Warning--empty publisher in Blackledge2005
 Warning--empty journal in Bochkovskiy2020
 Warning--empty journal in Combalia2019
-Warning--empty journal in Ge2021
 Warning--empty journal in Li2022
 Warning--empty journal in Long2020
 Warning--empty journal in OShea2015
@@ -25,52 +34,48 @@ Warning--empty journal in Redmon2018
 Warning--empty journal in Saherish2020a
 Warning--empty publisher in Shultz2017
 Warning--there's a number but no volume in Umamaheswari2018
-Warning--empty institution in ScaledYOLOv4Wang2021
 Warning--empty journal in Wang2022
-Warning--empty journal in Wolf2020a
 Warning--empty journal in Xu2015
-Warning--empty journal in Xu2022
-Warning--empty journal in Zhang2021b
 Warning--empty journal in Zou2019
-You've used 70 entries,
+You've used 56 entries,
             2229 wiz_defined-function locations,
-            929 strings with 18826 characters,
-and the built_in function-call counts, 31334 in all, are:
-= -- 2980
-> -- 1694
-< -- 38
-+ -- 599
-- -- 597
-* -- 2836
-:= -- 5477
-add.period$ -- 200
-call.type$ -- 70
-change.case$ -- 645
-chr.to.int$ -- 68
-cite$ -- 95
-duplicate$ -- 1068
-empty$ -- 1895
-format.name$ -- 695
-if$ -- 5991
+            891 strings with 16160 characters,
+and the built_in function-call counts, 24884 in all, are:
+= -- 2382
+> -- 1303
+< -- 32
++ -- 457
+- -- 455
+* -- 2255
+:= -- 4355
+add.period$ -- 162
+call.type$ -- 56
+change.case$ -- 504
+chr.to.int$ -- 54
+cite$ -- 70
+duplicate$ -- 849
+empty$ -- 1537
+format.name$ -- 541
+if$ -- 4761
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 69
-newline$ -- 343
-num.names$ -- 206
-pop$ -- 592
+missing$ -- 58
+newline$ -- 277
+num.names$ -- 170
+pop$ -- 445
 preamble$ -- 1
-purify$ -- 647
+purify$ -- 506
 quote$ -- 0
-skip$ -- 851
+skip$ -- 673
 stack$ -- 0
-substring$ -- 1939
-swap$ -- 160
-text.length$ -- 17
+substring$ -- 1593
+swap$ -- 118
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 416
-warning$ -- 23
-while$ -- 251
+type$ -- 332
+warning$ -- 14
+while$ -- 205
 width$ -- 0
-write$ -- 868
-(There were 23 warnings)
+write$ -- 705
+(There were 28 warnings)
