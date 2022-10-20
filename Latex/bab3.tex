@@ -60,8 +60,7 @@ Penelitian ini terdiri dari beberapa proses sebagai berikut:
     \end{figure}
 
     \item \textit{Data splitting} merupakan tahap pembagian data. Penelitian ini membagi data menjadi tiga, yaitu $70\%$ data untuk proses pelatihan, $20\%$ data untuk proses validasi, dan $10\%$ data untuk proses pengujian.
-    \item Proses pembentukan model YOLO-v7 berdasarkan uji coba \textit{batch size}, YOLO-v7, dan YOLO-v7 Tiny. Nilai \textit{batch size} yang digunakan adalah $32$, $64$, dan $128$.
-    % \item YOLO-v7-X, YOLO-v7-W6, YOLO-v7-E6, YOLO-v7-D6, dan YOLO-v7-E6E
+    \item Proses pembentukan model YOLO-v7 dan YOLO-v7 Tiny berdasarkan uji coba \textit{hyperparameter tuning}. \textit{Hyperparameter} yang dipakai adalah \textit{batch size} dengan nilai $32$, $64$, dan $128$. Proses pembentukan model menggunakan persamaan \ref{eq:conv-layer}\ref{eq:silu}.
     \item Proses pengujian model yaitu tahap untuk mengetahui tingkat keberhasilan model menggunakan \textit{testing data} untuk mendapatkan hasil evaluasi.
-    \item Proses evaluasi menggunakan mAP sehingga dilakukan perhitungan mAP berdasarkan \textit{confusion matrix} dan IoU yang didapatkan.
+    \item Proses evaluasi menggunakan mAP sehingga dilakukan perhitungan mAP berdasarkan persamaan \ref{eq:xa1}-\ref{eq:map} untuk mendapatkan \textit{confusion matrix} dan nilai mAP.
 \end{enumerate}
