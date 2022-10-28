@@ -1,11 +1,11 @@
 \documentclass[]{mathuinsa}
 
 \titleind{
-    SISTEM DIAGNOSIS KANKER KULIT BERDASARKAN CITRA DERMOSKOPI MENGGUNAKAN METODE YOLO-V7
+    SISTEM DIAGNOSIS KANKER KULIT BERDASARKAN CITRA DERMOSKOPI MENGGUNAKAN METODE YOLO (\textit{You Only Look Once})
     }
 
 \titleeng{
-    SKIN CANCER DIAGNOSIS SYSTEM BASED ON DERMOSCOPY IMAGES USING YOLO-V7 METHOD
+    SKIN CANCER DIAGNOSIS SYSTEM BASED ON DERMOSCOPY IMAGES USING YOLO (You Only Look Once) METHOD
     }
 
 \fullname{HUDA FEBRIANTO NURROHMAN}
@@ -78,7 +78,7 @@
 
     % awal masukan prakata
     \preface
-    Segala puji dan syukur penulis panjatkan kepada Allah SWT., yang telah memberikan nikmat karunia dan hidayah-Nya sehingga skripsi dengan judul “SISTEM DIAGNOSIS KANKER KULIT BERDASARKAN CITRA DERMOSKOPI MENGGUNAKAN METODE YOLO-V7”, dapat selesai dengan baik. Berdasarkan hal tersebut, penulis mengucapkan terima kasih yang tak terhingga kepada:
+    Segala puji dan syukur penulis panjatkan kepada Allah SWT., yang telah memberikan nikmat karunia dan hidayah-Nya sehingga skripsi dengan judul “SISTEM DIAGNOSIS KANKER KULIT BERDASARKAN CITRA DERMOSKOPI MENGGUNAKAN METODE YOLO (\textit{You Only Look Once})”, dapat selesai dengan baik. Berdasarkan hal tersebut, penulis mengucapkan terima kasih yang tak terhingga kepada:
 
     \begin{enumerate}
         \item Bapak Prof. Akh. Muzakki, M.Ag, Grad.Dip.SEA., M.Phil, Ph.D., selaku rektor Universitas Islam Negeri Sunan Ampel Surabaya.
@@ -127,7 +127,7 @@
     % indonesian abstract version \ abstrak versi indonesia
     %-----------------------------------------------------------------
     \begin{abstractind}
-        Kanker kulit merupakan pertumbuhan sel tidak normal pada kulit yang seringkali disebabkan oleh paparan sinar UV. Kanker kulit yang tidak mendapatkan penanganan dengan benar dapat menyebar ke dalam jaringan lain dan dapat mengakibatkan kematian. Oleh sebab itu, penelitian ini melakukan deteksi kanker kulit menggunakan \textit{You Only Look Once version 7} (YOLO-v7) berdasarkan citra dermoskopi kanker kulit yang memiliki delapan kelas, yaitu \textit{melanoma}, \textit{actinic keratosis}, \textit{melanocytic nevus}, \textit{basal cell carcinoma}, \textit{squamous cell carcinoma}, \textit{dermatofibroma}, \textit{benign keratosis lesion}, dan \textit{vascular lesion}. Penelitian ini menggunakan 1600 data citra kanker kulit dengan jumlah data yang sama pada tiap kelas kanker kulit. Proses yang dilakukan adalah pra-pemrosesan menggunakan \textit{resize} dan anotasi serta tahap pelatihan menggunakan YOLO-v7. Penelitian ini melakukan uji coba \textit{batch size} dan dua versi YOLO-v7, yaitu YOLO-v7 dan YOLO-v7-Tiny.\\
+        Kanker kulit merupakan pertumbuhan sel tidak normal pada kulit yang seringkali disebabkan oleh paparan sinar UV. Kanker kulit yang tidak mendapatkan penanganan dengan benar dapat menyebar ke dalam jaringan lain dan dapat mengakibatkan kematian. Oleh sebab itu, penelitian ini melakukan deteksi kanker kulit menggunakan \textit{You Only Look Once version 7} (YOLOv7) berdasarkan citra dermoskopi kanker kulit yang memiliki delapan kelas, yaitu \textit{melanoma}, \textit{actinic keratosis}, \textit{melanocytic nevus}, \textit{basal cell carcinoma}, \textit{squamous cell carcinoma}, \textit{dermatofibroma}, \textit{benign keratosis lesion}, dan \textit{vascular lesion}. Penelitian ini menggunakan 1600 data citra kanker kulit dengan jumlah data yang sama pada tiap kelas kanker kulit. Proses yang dilakukan adalah pra-pemrosesan menggunakan \textit{resize} dan anotasi serta tahap pelatihan menggunakan YOLOv7. Penelitian ini melakukan uji coba \textit{batch size} dan dua versi YOLOv7, yaitu YOLOv7 dan YOLOv7-Tiny.\\
         \noindent
         \textbf{Kata kunci}: Citra dermoskopi, Kanker kulit, Deteksi objek, CNN, YOLO
     \end{abstractind}
@@ -137,7 +137,7 @@
     % english abstract version \ abstrak versi inggris
     %-----------------------------------------------------------------
     \begin{abstracteng}
-        Skin cancer is an abnormal growth of cells on the skin which is often caused by exposure to UV rays. Skin cancer that is not treated properly can spread to other tissues and can lead to death. Therefore, this study detects skin cancer using You Only Look Once version 7 (YOLO-v7) based on skin cancer dermoscopy images which have eight classes, namely \textit{melanoma}, \textit{actinic keratosis}, \textit{melanocytic nevus}, \textit{basal cell carcinoma}, \textit{squamous cell carcinoma}, \textit{dermatofibroma}, \textit{benign keratosis lesion}, and \textit{vascular lesion}. This study uses 1600 skin cancer image data with the same amount of data in each skin cancer class. The process carried out is pre-processing using resize and annotation and training stages using YOLO-v7. This study tested batch size and two versions of YOLO-v7, namely YOLO-v7 and YOLO-v7-Tiny.\\
+        Skin cancer is an abnormal growth of cells on the skin which is often caused by exposure to UV rays. Skin cancer that is not treated properly can spread to other tissues and can lead to death. Therefore, this study detects skin cancer using You Only Look Once version 7 (YOLOv7) based on skin cancer dermoscopy images which have eight classes, namely \textit{melanoma}, \textit{actinic keratosis}, \textit{melanocytic nevus}, \textit{basal cell carcinoma}, \textit{squamous cell carcinoma}, \textit{dermatofibroma}, \textit{benign keratosis lesion}, and \textit{vascular lesion}. This study uses 1600 skin cancer image data with the same amount of data in each skin cancer class. The process carried out is pre-processing using resize and annotation and training stages using YOLOv7. This study tested batch size and two versions of YOLOv7, namely YOLOv7 and YOLOv7-Tiny.\\
         \noindent
         \textbf{Kata kunci}: Dermoscopy images, Skin cancer, Object detection, CNN, YOLO
     \end{abstracteng}
